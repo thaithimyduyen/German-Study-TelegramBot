@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+from telegram import ParseMode
+
 
 class TelegramBotViewer:
     def __init__(self, bot):
@@ -10,6 +12,7 @@ class TelegramBotViewer:
             reply_to_message_id=update.effective_message.message_id,
             chat_id=update.effective_message.chat_id,
             text=text,
+            parse_mode=ParseMode.MARKDOWN
         )
 
     def send_message(self, update, context, text):
