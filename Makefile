@@ -1,4 +1,4 @@
-all: token.txt run
+all: token.txt install run
 token.txt:
 	cp token.example.txt token.txt
 run:

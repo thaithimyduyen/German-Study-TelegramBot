@@ -9,7 +9,7 @@ from telegram import (
     ParseMode
 )
 
-from entities import GermanArticle
+from app.entities import GermanArticle
 
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',

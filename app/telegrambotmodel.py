@@ -15,11 +15,8 @@ class TelegramBotModel:
         view,
         bot,
         storage,
-        legal_users=["hedhyw", "makuzyenluca"],
-
     ):
         self._view = view
-        self._legal_users = legal_users
         self._bot = bot
         self._storage = storage
 
@@ -55,10 +52,6 @@ class TelegramBotModel:
         context.user_data[KEY_USER_DATA_CARDS] = cards
 
     def start(self, update, context):
-        if update.effective_user.username not in self._legal_users:
-            self._view.send_message(update, "Enter password")
-            return
-
         context.user_data.pop(KEY_USER_DATA_CARDS, None)
 
         self.create_gender_card(
