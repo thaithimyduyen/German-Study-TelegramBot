@@ -29,7 +29,11 @@ class TelegramBotModel:
             return
         word_articles = self._storage.get_articles(user_id)
         if len(word_articles) == 0:
-            self._view.send_message_reply(update, context, "No words, /Start")
+            self._view.send_message_reply(
+                update=update,
+                context=context,
+                text="No words\nAdd words in format: `der Mann - Man`"
+            )
             return
         word_translation = random.choice(list(word_articles))
         word, translation = word_translation
@@ -52,7 +56,8 @@ class TelegramBotModel:
         context.user_data[KEY_USER_DATA_CARDS] = cards
 
     def start(self, update, context):
-        context.user_data.pop(KEY_USER_DATA_CARDS, None)
+        for _, card in context.user_data.get(KEY_USER_DATA_CARDS, {}).items():
+            card.set_old()
 
         self.create_gender_card(
             update, context, update.effective_message.from_user.id)
@@ -84,4 +89,7 @@ class TelegramBotCardEventListener:
 
     def on_correct_answer_clicked(self, update, context):
         self._model.create_gender_card(
-            update, context, update.callback_query.from_user.id)
+            update=update,
+            context=context,
+            user_id=update.callback_query.from_user.id,
+        )

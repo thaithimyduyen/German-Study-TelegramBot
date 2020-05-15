@@ -26,8 +26,12 @@ class GenderCard:
             article=article,
             listener=listener,
             translation=translation,
+
         )
         self.controller = GenderCardController(self.model)
+
+    def set_old(self):
+        self.model.is_old = True
 
 
 class Answers(enum.Enum):
@@ -46,6 +50,8 @@ class GenderCardModel:
         self._right_answer = False
         self._listener = listener
         self._articles = {}
+
+        self.is_old = False
 
     def start(self, update, context):
         return self._view.send_card(
@@ -66,7 +72,11 @@ class GenderCardModel:
                                self._visible_tanslation)
 
         if self._right_answer:
-            self._listener.on_correct_answer_clicked(update, context)
+            if not self.is_old:
+                self._listener.on_correct_answer_clicked(
+                    update=update,
+                    context=context,
+                )
 
     def show_transaltion(self, update, context):
         if self._visible_tanslation is not None:
@@ -104,7 +114,7 @@ class GenderCardView:
 
         translation_text = translation
         if translation is None:
-            translation_text = "Показать перевод"
+            translation_text = "Show translation"
 
         keyboard = [[
             InlineKeyboardButton(
