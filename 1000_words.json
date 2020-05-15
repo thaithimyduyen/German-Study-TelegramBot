@@ -1,0 +1,7077 @@
+{
+    "0": {
+        "Zimmer": {
+            "article": "das",
+            "translation": "Room"
+        },
+        "Stuhl": {
+            "article": "der",
+            "translation": "Stool"
+        },
+        "Tisch": {
+            "article": "der",
+            "translation": "Table"
+        },
+        "Bett": {
+            "article": "das",
+            "translation": "Bed"
+        },
+        "Fenster": {
+            "article": "das",
+            "translation": "Window"
+        },
+        "Haus": {
+            "article": "das",
+            "translation": "House"
+        },
+        "Sofa": {
+            "article": "das",
+            "translation": "Sofa"
+        },
+        "Lampe": {
+            "article": "die",
+            "translation": "Lamp"
+        },
+        "T\u00fcr": {
+            "article": "die",
+            "translation": "Door"
+        },
+        "Uhr": {
+            "article": "die",
+            "translation": "Clock"
+        },
+        "Wohnung": {
+            "article": "die",
+            "translation": "Apartment"
+        },
+        "Wohnzimmer": {
+            "article": "das",
+            "translation": "Lounge"
+        },
+        "K\u00fcche": {
+            "article": "die",
+            "translation": "Kitchen"
+        },
+        "Bad": {
+            "article": "das",
+            "translation": "Bath"
+        },
+        "Herd": {
+            "article": "der",
+            "translation": "Stove"
+        },
+        "K\u00fchlschrank": {
+            "article": "der",
+            "translation": "Refrigerator"
+        },
+        "Dusche": {
+            "article": "die",
+            "translation": "Shower"
+        },
+        "Toilette": {
+            "article": "die",
+            "translation": "Toilet"
+        },
+        "Monat": {
+            "article": "der",
+            "translation": "Month"
+        },
+        "Kuchen": {
+            "article": "der",
+            "translation": "Pie"
+        },
+        "Salat": {
+            "article": "der",
+            "translation": "Salad"
+        },
+        "Teller": {
+            "article": "der",
+            "translation": "Plate"
+        },
+        "Wein": {
+            "article": "der",
+            "translation": "Wine"
+        },
+        "Glas": {
+            "article": "das",
+            "translation": "Glass"
+        },
+        "Butter": {
+            "article": "die",
+            "translation": "Butter"
+        },
+        "Kartoffel": {
+            "article": "die",
+            "translation": "Potato"
+        },
+        "Suppe": {
+            "article": "die",
+            "translation": "Soup"
+        },
+        "Tasse": {
+            "article": "die",
+            "translation": "Cup"
+        },
+        "L\u00f6ffel": {
+            "article": "der",
+            "translation": "Spoon"
+        },
+        "Messer": {
+            "article": "das",
+            "translation": "Knife"
+        },
+        "Gabel": {
+            "article": "die",
+            "translation": "Fork"
+        },
+        "Getr\u00e4nk": {
+            "article": "das",
+            "translation": "Drink"
+        },
+        "Rechnung": {
+            "article": "die",
+            "translation": "Bill"
+        },
+        "Handschuh": {
+            "article": "der",
+            "translation": "Glove"
+        },
+        "Mantel": {
+            "article": "der",
+            "translation": "Cloak"
+        },
+        "Rock": {
+            "article": "der",
+            "translation": "Skirt"
+        },
+        "Schal": {
+            "article": "der",
+            "translation": "Scarf"
+        },
+        "Schuh": {
+            "article": "der",
+            "translation": "Shoe"
+        },
+        "Hemd": {
+            "article": "das",
+            "translation": "Shirt"
+        },
+        "Kleid": {
+            "article": "das",
+            "translation": "Gown"
+        },
+        "Bluse": {
+            "article": "die",
+            "translation": "Blouse"
+        },
+        "Hose": {
+            "article": "die",
+            "translation": "Pant"
+        },
+        "Jacke": {
+            "article": "die",
+            "translation": "Jacket"
+        },
+        "Kleidung": {
+            "article": "die",
+            "translation": "Cloth"
+        },
+        "Socke": {
+            "article": "die",
+            "translation": "Sock"
+        },
+        "Gr\u00f6\u00dfe": {
+            "article": "die",
+            "translation": "Size"
+        },
+        "Farbe": {
+            "article": "die",
+            "translation": "Paint"
+        },
+        "Anzug": {
+            "article": "der",
+            "translation": "Suit"
+        },
+        "Arm": {
+            "article": "der",
+            "translation": "Arm"
+        },
+        "Bauch": {
+            "article": "der",
+            "translation": "Belly"
+        },
+        "Finger": {
+            "article": "die",
+            "translation": "Fingertip"
+        },
+        "Fu\u00df": {
+            "article": "der",
+            "translation": "Foot"
+        },
+        "Hals": {
+            "article": "der",
+            "translation": "Throat"
+        },
+        "Mund": {
+            "article": "der",
+            "translation": "Mouth"
+        },
+        "Zahn": {
+            "article": "der",
+            "translation": "Tooth"
+        },
+        "Auge": {
+            "article": "das",
+            "translation": "Eye"
+        },
+        "Bein": {
+            "article": "das",
+            "translation": "Leg"
+        },
+        "Ohr": {
+            "article": "das",
+            "translation": "Ear"
+        },
+        "Brust": {
+            "article": "die",
+            "translation": "Breast"
+        },
+        "Hand": {
+            "article": "die",
+            "translation": "Hand"
+        },
+        "Haut": {
+            "article": "die",
+            "translation": "Skin"
+        },
+        "Lippe": {
+            "article": "die",
+            "translation": "Lip"
+        },
+        "Nase": {
+            "article": "die",
+            "translation": "Nose"
+        },
+        "Charakter": {
+            "article": "der",
+            "translation": "Character"
+        },
+        "Bruder": {
+            "article": "der",
+            "translation": "Brother"
+        },
+        "Gro\u00dfvater": {
+            "article": "der",
+            "translation": "Grandfather"
+        },
+        "Junge": {
+            "article": "der",
+            "translation": "Boy"
+        },
+        "Mensch": {
+            "article": "der",
+            "translation": "Human"
+        },
+        "Onkel": {
+            "article": "der",
+            "translation": "Uncle"
+        },
+        "Sohn": {
+            "article": "der",
+            "translation": "Son"
+        },
+        "Vater": {
+            "article": "der",
+            "translation": "Dad"
+        },
+        "Familie": {
+            "article": "die",
+            "translation": "Family"
+        },
+        "Frau": {
+            "article": "die",
+            "translation": "Woman"
+        },
+        "Gro\u00dfmutter": {
+            "article": "die",
+            "translation": "Grandmother"
+        },
+        "Mutter": {
+            "article": "die",
+            "translation": "Nut"
+        },
+        "Schwester": {
+            "article": "die",
+            "translation": "Sister"
+        },
+        "Tante": {
+            "article": "die",
+            "translation": "Aunt"
+        },
+        "Tochter": {
+            "article": "die",
+            "translation": "Daughter"
+        },
+        "Kind": {
+            "article": "das",
+            "translation": "Babe"
+        },
+        "M\u00e4dchen": {
+            "article": "das",
+            "translation": "Girl"
+        },
+        "Bleistift": {
+            "article": "der",
+            "translation": "Pencil"
+        },
+        "Fehler": {
+            "article": "der",
+            "translation": "Error"
+        },
+        "Satz": {
+            "article": "der",
+            "translation": "Phrase"
+        },
+        "Unterricht": {
+            "article": "der",
+            "translation": "Lesson"
+        },
+        "Beispiel": {
+            "article": "das",
+            "translation": "Example"
+        },
+        "Thema": {
+            "article": "das",
+            "translation": "Topic"
+        },
+        "Wort": {
+            "article": "das",
+            "translation": "Word"
+        },
+        "Antwort": {
+            "article": "die",
+            "translation": "Reply"
+        },
+        "Aufgabe": {
+            "article": "die",
+            "translation": "Task"
+        },
+        "Frage": {
+            "article": "die",
+            "translation": "Question"
+        },
+        "Note": {
+            "article": "die",
+            "translation": "Mark"
+        },
+        "Pr\u00fcfung": {
+            "article": "die",
+            "translation": "Check"
+        },
+        "Seite": {
+            "article": "die",
+            "translation": "Page"
+        },
+        "Sprache": {
+            "article": "die",
+            "translation": "Language"
+        },
+        "Zeit": {
+            "article": "die",
+            "translation": "Time"
+        },
+        "Mann": {
+            "article": "der",
+            "translation": "Male"
+        },
+        "Tag": {
+            "article": "der",
+            "translation": "Day"
+        },
+        "Weg": {
+            "article": "der",
+            "translation": "Way"
+        },
+        "Ding": {
+            "article": "das",
+            "translation": "Thing"
+        },
+        "Kopf": {
+            "article": "der",
+            "translation": "Head"
+        },
+        "Jahr": {
+            "article": "das",
+            "translation": "Year"
+        },
+        "Gesicht": {
+            "article": "das",
+            "translation": "Face"
+        },
+        "Volk": {
+            "article": "das",
+            "translation": "People"
+        },
+        "Nacht": {
+            "article": "die",
+            "translation": "Night"
+        },
+        "Leben": {
+            "article": "das",
+            "translation": "Life"
+        },
+        "R\u00fccken": {
+            "article": "der",
+            "translation": "Back"
+        },
+        "Stimme": {
+            "article": "die",
+            "translation": "Voice"
+        },
+        "Ort": {
+            "article": "der",
+            "translation": "Location"
+        },
+        "Auto": {
+            "article": "das",
+            "translation": "Car"
+        },
+        "Moment": {
+            "article": "der",
+            "translation": "Moment"
+        },
+        "Haar": {
+            "article": "das",
+            "translation": "Hair"
+        },
+        "Wasser": {
+            "article": "das",
+            "translation": "Water"
+        },
+        "Licht": {
+            "article": "das",
+            "translation": "Light"
+        },
+        "Welt": {
+            "article": "die",
+            "translation": "World"
+        },
+        "Name": {
+            "article": "der",
+            "translation": "Name"
+        },
+        "Freund": {
+            "article": "der",
+            "translation": "Boyfriend"
+        },
+        "K\u00f6rper": {
+            "article": "der",
+            "translation": "Body"
+        },
+        "Morgen": {
+            "article": "der",
+            "translation": "Morning"
+        },
+        "Mauer": {
+            "article": "die",
+            "translation": "Wall"
+        },
+        "Stra\u00dfe": {
+            "article": "die",
+            "translation": "Avenue"
+        },
+        "Schule": {
+            "article": "die",
+            "translation": "School"
+        },
+        "Luft": {
+            "article": "die",
+            "translation": "Air"
+        },
+        "Boden": {
+            "article": "der",
+            "translation": "Bottom"
+        },
+        "Stunde": {
+            "article": "die",
+            "translation": "Hour"
+        },
+        "Ende": {
+            "article": "das",
+            "translation": "End"
+        },
+        "Kerl": {
+            "article": "der",
+            "translation": "Fellow"
+        },
+        "Art": {
+            "article": "die",
+            "translation": "Sort"
+        },
+        "Minute": {
+            "article": "die",
+            "translation": "Minute"
+        },
+        "Geschichte": {
+            "article": "die",
+            "translation": "History"
+        },
+        "Gott": {
+            "article": "der",
+            "translation": "God"
+        },
+        "Woche": {
+            "article": "die",
+            "translation": "Week"
+        },
+        "Arbeit": {
+            "article": "die",
+            "translation": "Work"
+        },
+        "Schulter": {
+            "article": "die",
+            "translation": "Shoulder"
+        },
+        "Teil": {
+            "article": "der",
+            "translation": "Part"
+        },
+        "Geist": {
+            "article": "der",
+            "translation": "Spirit"
+        },
+        "Buch": {
+            "article": "das",
+            "translation": "Book"
+        },
+        "Baum": {
+            "article": "der",
+            "translation": "Tree"
+        },
+        "Klang": {
+            "article": "der",
+            "translation": "Sound"
+        },
+        "Linie": {
+            "article": "die",
+            "translation": "Line"
+        },
+        "Ehefrau": {
+            "article": "die",
+            "translation": "Wife"
+        },
+        "Herz": {
+            "article": "das",
+            "translation": "Heart"
+        },
+        "Geld": {
+            "article": "das",
+            "translation": "Cash"
+        },
+        "Telefon": {
+            "article": "das",
+            "translation": "Telephone"
+        },
+        "Aussehen": {
+            "article": "das",
+            "translation": "Look"
+        },
+        "B\u00fcro": {
+            "article": "das",
+            "translation": "Bureau"
+        },
+        "Stadt": {
+            "article": "die",
+            "translation": "Town"
+        },
+        "Baby": {
+            "article": "das",
+            "translation": "Baby"
+        },
+        "Zuhause": {
+            "article": "das",
+            "translation": "Home"
+        },
+        "Hund": {
+            "article": "der",
+            "translation": "Dog"
+        },
+        "Idee": {
+            "article": "die",
+            "translation": "Idea"
+        },
+        "Ganze": {
+            "article": "das",
+            "translation": "Whole"
+        },
+        "Beruf": {
+            "article": "der",
+            "translation": "Job"
+        },
+        "Papier": {
+            "article": "das",
+            "translation": "Paper"
+        },
+        "L\u00e4cheln": {
+            "article": "das",
+            "translation": "Smile"
+        },
+        "Punkt": {
+            "article": "der",
+            "translation": "Dot"
+        },
+        "Gedanke": {
+            "article": "der",
+            "translation": "Thought"
+        },
+        "Liebe": {
+            "article": "der",
+            "translation": "Dear"
+        },
+        "Tod": {
+            "article": "der",
+            "translation": "Death"
+        },
+        "Anderen": {
+            "article": "die",
+            "translation": "Others"
+        },
+        "Feuer": {
+            "article": "das",
+            "translation": "Fire"
+        },
+        "Schritt": {
+            "article": "die",
+            "translation": "Stride"
+        },
+        "Blut": {
+            "article": "das",
+            "translation": "Blood"
+        },
+        "Tatsache": {
+            "article": "die",
+            "translation": "Fact"
+        },
+        "Atem": {
+            "article": "das",
+            "translation": "Breathing"
+        },
+        "Sonne": {
+            "article": "die",
+            "translation": "Sun"
+        },
+        "Geb\u00e4ude": {
+            "article": "das",
+            "translation": "Building"
+        },
+        "Anzahl": {
+            "article": "die",
+            "translation": "Number"
+        },
+        "Ehemann": {
+            "article": "der",
+            "translation": "Husband"
+        },
+        "Elternteil": {
+            "article": "das",
+            "translation": "Parent"
+        },
+        "Ecke": {
+            "article": "die",
+            "translation": "Edge"
+        },
+        "Problem": {
+            "article": "das",
+            "translation": "Problem"
+        },
+        "Ehepaar": {
+            "article": "das",
+            "translation": "Couple"
+        },
+        "Beutel": {
+            "article": "der",
+            "translation": "Bag"
+        },
+        "H\u00f6lle": {
+            "article": "die",
+            "translation": "Hell"
+        },
+        "Rast": {
+            "article": "die",
+            "translation": "Rest"
+        },
+        "Gesch\u00e4ft": {
+            "article": "das",
+            "translation": "Shop"
+        },
+        "Himmel": {
+            "article": "der",
+            "translation": "Heaven"
+        },
+        "Kiste": {
+            "article": "die",
+            "translation": "Crate"
+        },
+        "Person": {
+            "article": "die",
+            "translation": "Person"
+        },
+        "Grund": {
+            "article": "der",
+            "translation": "Cause"
+        },
+        "Recht": {
+            "article": "das",
+            "translation": "Right"
+        },
+        "Fall": {
+            "article": "der",
+            "translation": "Drop"
+        },
+        "St\u00fcck": {
+            "article": "das",
+            "translation": "Piece"
+        },
+        "Doktor": {
+            "article": "der",
+            "translation": "Doctor"
+        },
+        "Mama": {
+            "article": "die",
+            "translation": "Mommy"
+        },
+        "Bild": {
+            "article": "das",
+            "translation": "Image"
+        },
+        "Sinn": {
+            "article": "der",
+            "translation": "Sense"
+        },
+        "Zweite": {
+            "article": "der",
+            "translation": "Second"
+        },
+        "Dame": {
+            "article": "die",
+            "translation": "Lady"
+        },
+        "Wind": {
+            "article": "der",
+            "translation": "Wind"
+        },
+        "Schreibtisch": {
+            "article": "der",
+            "translation": "Desk"
+        },
+        "Waffe": {
+            "article": "die",
+            "translation": "Weapon"
+        },
+        "Stein": {
+            "article": "der",
+            "translation": "Boulder"
+        },
+        "Kaffee": {
+            "article": "der",
+            "translation": "Coffee"
+        },
+        "Schiff": {
+            "article": "das",
+            "translation": "Vessel"
+        },
+        "Erde": {
+            "article": "die",
+            "translation": "Soil"
+        },
+        "Essen": {
+            "article": "das",
+            "translation": "Eating"
+        },
+        "Pferd": {
+            "article": "das",
+            "translation": "Horse"
+        },
+        "Feld": {
+            "article": "das",
+            "translation": "Field"
+        },
+        "Krieg": {
+            "article": "der",
+            "translation": "War"
+        },
+        "Nachmittag": {
+            "article": "der",
+            "translation": "Afternoon"
+        },
+        "Sir": {
+            "article": "die",
+            "translation": "Sir"
+        },
+        "Raum": {
+            "article": "der",
+            "translation": "Space"
+        },
+        "Abend": {
+            "article": "der",
+            "translation": "Evening"
+        },
+        "Brief": {
+            "article": "der",
+            "translation": "Letter"
+        },
+        "Bar": {
+            "article": "die",
+            "translation": "Bar"
+        },
+        "Traum": {
+            "article": "der",
+            "translation": "Dream"
+        },
+        "Spiel": {
+            "article": "das",
+            "translation": "Play"
+        },
+        "Sommer": {
+            "article": "der",
+            "translation": "Summer"
+        },
+        "Stille": {
+            "article": "die",
+            "translation": "Silence"
+        },
+        "Spitze": {
+            "article": "die",
+            "translation": "Lace"
+        },
+        "Fels": {
+            "article": "der",
+            "translation": "Rock"
+        },
+        "Macht": {
+            "article": "die",
+            "translation": "Power"
+        },
+        "Kleider": {
+            "article": "die",
+            "translation": "Clothes"
+        },
+        "Schild": {
+            "article": "das",
+            "translation": "Shield"
+        },
+        "Aufmerksamkeit": {
+            "article": "die",
+            "translation": "Attention"
+        },
+        "Musik": {
+            "article": "die",
+            "translation": "Music"
+        },
+        "Staat": {
+            "article": "der",
+            "translation": "State"
+        },
+        "Tasche": {
+            "article": "die",
+            "translation": "Pocket"
+        },
+        "Abendessen": {
+            "article": "das",
+            "translation": "Supper"
+        },
+        "Halle": {
+            "article": "die",
+            "translation": "Hall"
+        },
+        "Schmerz": {
+            "article": "der",
+            "translation": "Pain"
+        },
+        "Alter": {
+            "article": "das",
+            "translation": "Age"
+        },
+        "Fluss": {
+            "article": "der",
+            "translation": "River"
+        },
+        "Chance": {
+            "article": "die",
+            "translation": "Chance"
+        },
+        "Schatten": {
+            "article": "der",
+            "translation": "Shadow"
+        },
+        "Polizei": {
+            "article": "die",
+            "translation": "Police"
+        },
+        "Ged\u00e4chtnis": {
+            "article": "das",
+            "translation": "Memory"
+        },
+        "Knie": {
+            "article": "das",
+            "translation": "Knee"
+        },
+        "Holz": {
+            "article": "das",
+            "translation": "Wood"
+        },
+        "Party": {
+            "article": "die",
+            "translation": "Party"
+        },
+        "Land": {
+            "article": "das",
+            "translation": "Land"
+        },
+        "Lkw": {
+            "article": "der",
+            "translation": "Truck"
+        },
+        "Szene": {
+            "article": "die",
+            "translation": "Scene"
+        },
+        "Stern": {
+            "article": "der",
+            "translation": "Star"
+        },
+        "Vogel": {
+            "article": "der",
+            "translation": "Bird"
+        },
+        "Schlafzimmer": {
+            "article": "das",
+            "translation": "Bedroom"
+        },
+        "Gruppe": {
+            "article": "die",
+            "translation": "Gang"
+        },
+        "Wahrheit": {
+            "article": "die",
+            "translation": "Truth"
+        },
+        "Schwierigkeiten": {
+            "article": "die",
+            "translation": "Trouble"
+        },
+        "Menge": {
+            "article": "die",
+            "translation": "Crowd"
+        },
+        "Bahnhof": {
+            "article": "der",
+            "translation": "Station"
+        },
+        "Rei\u00df": {
+            "article": "die",
+            "translation": "Tear"
+        },
+        "Klasse": {
+            "article": "die",
+            "translation": "Grade"
+        },
+        "Meer": {
+            "article": "das",
+            "translation": "Sea"
+        },
+        "Tier": {
+            "article": "das",
+            "translation": "Animal"
+        },
+        "Zentrum": {
+            "article": "das",
+            "translation": "Center"
+        },
+        "Gef\u00fchl": {
+            "article": "das",
+            "translation": "Feel"
+        },
+        "Berg": {
+            "article": "der",
+            "translation": "Mount"
+        },
+        "Nachrichten": {
+            "article": "die",
+            "translation": "News"
+        },
+        "Katze": {
+            "article": "die",
+            "translation": "Cat"
+        },
+        "Bildschirm": {
+            "article": "der",
+            "translation": "Monitor"
+        },
+        "Flasche": {
+            "article": "die",
+            "translation": "Bottle"
+        },
+        "Anruf": {
+            "article": "der",
+            "translation": "Call"
+        },
+        "Lebenden": {
+            "article": "die",
+            "translation": "Living"
+        },
+        "Wange": {
+            "article": "die",
+            "translation": "Cheek"
+        },
+        "Sch\u00fcler": {
+            "article": "der",
+            "translation": "Student"
+        },
+        "Ball": {
+            "article": "der",
+            "translation": "Ball"
+        },
+        "Sehensw\u00fcrdigkeit": {
+            "article": "die",
+            "translation": "Sight"
+        },
+        "H\u00fcgel": {
+            "article": "der",
+            "translation": "Mound"
+        },
+        "Unternehmen": {
+            "article": "das",
+            "translation": "Company"
+        },
+        "Kirche": {
+            "article": "die",
+            "translation": "Church"
+        },
+        "Regen": {
+            "article": "der",
+            "translation": "Rain"
+        },
+        "Eine": {
+            "article": "der",
+            "translation": "One"
+        },
+        "Richtung": {
+            "article": "die",
+            "translation": "Direction"
+        },
+        "Wille": {
+            "article": "der",
+            "translation": "Will"
+        },
+        "Mitte": {
+            "article": "die",
+            "translation": "Middle"
+        },
+        "Zeug": {
+            "article": "das",
+            "translation": "Stuff"
+        },
+        "Krankenhaus": {
+            "article": "das",
+            "translation": "Hospital"
+        },
+        "Kamera": {
+            "article": "die",
+            "translation": "Camera"
+        },
+        "Karte": {
+            "article": "die",
+            "translation": "Map"
+        },
+        "Hof": {
+            "article": "der",
+            "translation": "Courtyard"
+        },
+        "Dunkelheit": {
+            "article": "die",
+            "translation": "Dark"
+        },
+        "Schei\u00dfe": {
+            "article": "die",
+            "translation": "Shit"
+        },
+        "Maschine": {
+            "article": "die",
+            "translation": "Machine"
+        },
+        "Distanz": {
+            "article": "die",
+            "translation": "Distance"
+        },
+        "Gebiet": {
+            "article": "das",
+            "translation": "Area"
+        },
+        "Erz\u00e4hler": {
+            "article": "der",
+            "translation": "Narrator"
+        },
+        "Eis": {
+            "article": "das",
+            "translation": "Ice"
+        },
+        "Schnee": {
+            "article": "der",
+            "translation": "Snow"
+        },
+        "Notiz": {
+            "article": "die",
+            "translation": "Notice"
+        },
+        "Spiegel": {
+            "article": "der",
+            "translation": "Mirror"
+        },
+        "K\u00f6nig": {
+            "article": "der",
+            "translation": "King"
+        },
+        "Angst": {
+            "article": "die",
+            "translation": "Anxiety"
+        },
+        "Offizier": {
+            "article": "der",
+            "translation": "Officer"
+        },
+        "Loch": {
+            "article": "das",
+            "translation": "Hole"
+        },
+        "Schuss": {
+            "article": "der",
+            "translation": "Shot"
+        },
+        "W\u00e4chter": {
+            "article": "der",
+            "translation": "Guard"
+        },
+        "Unterhaltung": {
+            "article": "die",
+            "translation": "Conversation"
+        },
+        "Boot": {
+            "article": "das",
+            "translation": "Boot"
+        },
+        "System": {
+            "article": "das",
+            "translation": "System"
+        },
+        "Pflege": {
+            "article": "die",
+            "translation": "Care"
+        },
+        "Bit": {
+            "article": "die",
+            "translation": "Bit"
+        },
+        "Film": {
+            "article": "der",
+            "translation": "Film"
+        },
+        "Knochen": {
+            "article": "der",
+            "translation": "Bone"
+        },
+        "Kapit\u00e4n": {
+            "article": "der",
+            "translation": "Captain"
+        },
+        "Kontrolle": {
+            "article": "die",
+            "translation": "Control"
+        },
+        "Hotel": {
+            "article": "das",
+            "translation": "Hotel"
+        },
+        "Treppen": {
+            "article": "die",
+            "translation": "Stair"
+        },
+        "Bestellung": {
+            "article": "die",
+            "translation": "Order"
+        },
+        "Rose": {
+            "article": "die",
+            "translation": "Rose"
+        },
+        "Fehl": {
+            "article": "der",
+            "translation": "Miss"
+        },
+        "Hut": {
+            "article": "der",
+            "translation": "Hat"
+        },
+        "Gold": {
+            "article": "das",
+            "translation": "Gold"
+        },
+        "Zigarette": {
+            "article": "die",
+            "translation": "Cigarette"
+        },
+        "Wolke": {
+            "article": "die",
+            "translation": "Cloud"
+        },
+        "Aussicht": {
+            "article": "die",
+            "translation": "View"
+        },
+        "Fahrer": {
+            "article": "der",
+            "translation": "Rider"
+        },
+        "Figur": {
+            "article": "die",
+            "translation": "Figure"
+        },
+        "Ausdruck": {
+            "article": "der",
+            "translation": "Expression"
+        },
+        "Pfad": {
+            "article": "der",
+            "translation": "Trail"
+        },
+        "Schl\u00fcssel": {
+            "article": "der",
+            "translation": "Clue"
+        },
+        "Computer": {
+            "article": "der",
+            "translation": "Computer"
+        },
+        "Blume": {
+            "article": "die",
+            "translation": "Flower"
+        },
+        "Ring": {
+            "article": "der",
+            "translation": "Ring"
+        },
+        "Metall": {
+            "article": "das",
+            "translation": "Metal"
+        },
+        "Mond": {
+            "article": "der",
+            "translation": "Moon"
+        },
+        "Lied": {
+            "article": "das",
+            "translation": "Song"
+        },
+        "Soldat": {
+            "article": "der",
+            "translation": "Soldier"
+        },
+        "Radio": {
+            "article": "das",
+            "translation": "Radio"
+        },
+        "Welle": {
+            "article": "die",
+            "translation": "Shaft"
+        },
+        "Plan": {
+            "article": "der",
+            "translation": "Plan"
+        },
+        "College": {
+            "article": "das",
+            "translation": "College"
+        },
+        "Fisch": {
+            "article": "der",
+            "translation": "Fish"
+        },
+        "Garten": {
+            "article": "der",
+            "translation": "Garden"
+        },
+        "Zug": {
+            "article": "der",
+            "translation": "Train"
+        },
+        "Polizist": {
+            "article": "der",
+            "translation": "Policeman"
+        },
+        "Kunst": {
+            "article": "die",
+            "translation": "Art"
+        },
+        "Bier": {
+            "article": "das",
+            "translation": "Beer"
+        },
+        "Nord": {
+            "article": "der",
+            "translation": "North"
+        },
+        "Insel": {
+            "article": "die",
+            "translation": "Island"
+        },
+        "Bus": {
+            "article": "der",
+            "translation": "Bus"
+        },
+        "Geruch": {
+            "article": "der",
+            "translation": "Odor"
+        },
+        "Ger\u00e4usch": {
+            "article": "das",
+            "translation": "Noise"
+        },
+        "Park": {
+            "article": "das",
+            "translation": "Parking"
+        },
+        "S\u00fcden": {
+            "article": "der",
+            "translation": "South"
+        },
+        "Paar": {
+            "article": "das",
+            "translation": "Pair"
+        },
+        "Herr": {
+            "article": "der",
+            "translation": "Mister"
+        },
+        "Hilfe": {
+            "article": "die",
+            "translation": "Help"
+        },
+        "Papa": {
+            "article": "die",
+            "translation": "Papa"
+        },
+        "Gras": {
+            "article": "das",
+            "translation": "Grass"
+        },
+        "Dank": {
+            "article": "die",
+            "translation": "Thanks"
+        },
+        "Hitze": {
+            "article": "die",
+            "translation": "Heat"
+        },
+        "Schlaf": {
+            "article": "der",
+            "translation": "Sleeping"
+        },
+        "Gehirn": {
+            "article": "das",
+            "translation": "Brain"
+        },
+        "Service": {
+            "article": "der",
+            "translation": "Service"
+        },
+        "Reise": {
+            "article": "die",
+            "translation": "Travel"
+        },
+        "Beat": {
+            "article": "der",
+            "translation": "Beat"
+        },
+        "Platz": {
+            "article": "der",
+            "translation": "Spot"
+        },
+        "Nachricht": {
+            "article": "die",
+            "translation": "Message"
+        },
+        "Lehrer": {
+            "article": "der",
+            "translation": "Teacher"
+        },
+        "Blick": {
+            "article": "der",
+            "translation": "Glimpse"
+        },
+        "Dorf": {
+            "article": "das",
+            "translation": "Village"
+        },
+        "Winter": {
+            "article": "der",
+            "translation": "Winter"
+        },
+        "Front": {
+            "article": "die",
+            "translation": "Front"
+        },
+        "Gesetz": {
+            "article": "das",
+            "translation": "Law"
+        },
+        "Oberfl\u00e4che": {
+            "article": "die",
+            "translation": "Surface"
+        },
+        "Bank": {
+            "article": "die",
+            "translation": "Bench"
+        },
+        "Team": {
+            "article": "das",
+            "translation": "Team"
+        },
+        "Maximum": {
+            "article": "das",
+            "translation": "Maximum"
+        },
+        "Position": {
+            "article": "die",
+            "translation": "Position"
+        },
+        "Wende": {
+            "article": "die",
+            "translation": "Turn"
+        },
+        "Westen": {
+            "article": "der",
+            "translation": "West"
+        },
+        "Mittagessen": {
+            "article": "das",
+            "translation": "Lunch"
+        },
+        "Wechsel": {
+            "article": "der",
+            "translation": "Change"
+        },
+        "Kreatur": {
+            "article": "die",
+            "translation": "Creature"
+        },
+        "Seele": {
+            "article": "die",
+            "translation": "Soul"
+        },
+        "Blatt": {
+            "article": "das",
+            "translation": "Sheet"
+        },
+        "Show": {
+            "article": "die",
+            "translation": "Show"
+        },
+        "Gate": {
+            "article": "die",
+            "translation": "Gate"
+        },
+        "Palme": {
+            "article": "die",
+            "translation": "Palm"
+        },
+        "Kunststoff": {
+            "article": "der",
+            "translation": "Plastic"
+        },
+        "Kraft": {
+            "article": "die",
+            "translation": "Force"
+        },
+        "Strand": {
+            "article": "der",
+            "translation": "Beach"
+        },
+        "Pr\u00e4sident": {
+            "article": "der",
+            "translation": "President"
+        },
+        "Form": {
+            "article": "die",
+            "translation": "Form"
+        },
+        "Rauch": {
+            "article": "der",
+            "translation": "Smoke"
+        },
+        "Rad": {
+            "article": "das",
+            "translation": "Wheel"
+        },
+        "Silber": {
+            "article": "das",
+            "translation": "Silver"
+        },
+        "Dach": {
+            "article": "das",
+            "translation": "Roof"
+        },
+        "Gewicht": {
+            "article": "das",
+            "translation": "Weight"
+        },
+        "Zunge": {
+            "article": "die",
+            "translation": "Tongue"
+        },
+        "Tee": {
+            "article": "der",
+            "translation": "Tea"
+        },
+        "Strecke": {
+            "article": "die",
+            "translation": "Stretch"
+        },
+        "Winkel": {
+            "article": "der",
+            "translation": "Angle"
+        },
+        "Ton": {
+            "article": "der",
+            "translation": "Clay"
+        },
+        "Kreis": {
+            "article": "die",
+            "translation": "County"
+        },
+        "Fr\u00fchling": {
+            "article": "der",
+            "translation": "Spring"
+        },
+        "Vorhalle": {
+            "article": "die",
+            "translation": "Porch"
+        },
+        "Mitglied": {
+            "article": "das",
+            "translation": "Member"
+        },
+        "Schwimmbecken": {
+            "article": "das",
+            "translation": "Pool"
+        },
+        "Bed\u00fcrfnis": {
+            "article": "das",
+            "translation": "Need"
+        },
+        "Hoffnung": {
+            "article": "die",
+            "translation": "Hope"
+        },
+        "See": {
+            "article": "der",
+            "translation": "Lake"
+        },
+        "\u00dcberraschung": {
+            "article": "die",
+            "translation": "Surprise"
+        },
+        "Interesse": {
+            "article": "die",
+            "translation": "Interest"
+        },
+        "Block": {
+            "article": "der",
+            "translation": "Block"
+        },
+        "Br\u00fccke": {
+            "article": "die",
+            "translation": "Bridge"
+        },
+        "Staub": {
+            "article": "der",
+            "translation": "Dust"
+        },
+        "Zelle": {
+            "article": "die",
+            "translation": "Cell"
+        },
+        "Wahl": {
+            "article": "die",
+            "translation": "Choice"
+        },
+        "Reihe": {
+            "article": "die",
+            "translation": "Series"
+        },
+        "Gespr\u00e4ch": {
+            "article": "das",
+            "translation": "Talk"
+        },
+        "Flugzeug": {
+            "article": "das",
+            "translation": "Airplane"
+        },
+        "Information": {
+            "article": "die",
+            "translation": "Information"
+        },
+        "Fl\u00fcgel": {
+            "article": "der",
+            "translation": "Wing"
+        },
+        "Bob": {
+            "article": "die",
+            "translation": "Bob"
+        },
+        "Club": {
+            "article": "der",
+            "translation": "Club"
+        },
+        "Meister": {
+            "article": "der",
+            "translation": "Master"
+        },
+        "Gnade": {
+            "article": "die",
+            "translation": "Grace"
+        },
+        "Wald": {
+            "article": "der",
+            "translation": "Forest"
+        },
+        "Ehe": {
+            "article": "die",
+            "translation": "Marriage"
+        },
+        "Stirn": {
+            "article": "die",
+            "translation": "Brow"
+        },
+        "Sturm": {
+            "article": "der",
+            "translation": "Storm"
+        },
+        "T\u00fcr\u00f6ffnung": {
+            "article": "die",
+            "translation": "Doorway"
+        },
+        "Situation": {
+            "article": "die",
+            "translation": "Situation"
+        },
+        "Z\u00e4hler": {
+            "article": "der",
+            "translation": "Counter"
+        },
+        "Nachbar": {
+            "article": "der",
+            "translation": "Neighbor"
+        },
+        "Foto": {
+            "article": "das",
+            "translation": "Photo"
+        },
+        "B\u00fchne": {
+            "article": "die",
+            "translation": "Stage"
+        },
+        "Treffen": {
+            "article": "das",
+            "translation": "Meeting"
+        },
+        "Krankenschwester": {
+            "article": "die",
+            "translation": "Nurse"
+        },
+        "Sicherheit": {
+            "article": "die",
+            "translation": "Safety"
+        },
+        "Ereignis": {
+            "article": "das",
+            "translation": "Event"
+        },
+        "Decke": {
+            "article": "die",
+            "translation": "Quilt"
+        },
+        "Motor": {
+            "article": "der",
+            "translation": "Motor"
+        },
+        "Geschenk": {
+            "article": "das",
+            "translation": "Present"
+        },
+        "Restaurant": {
+            "article": "das",
+            "translation": "Restaurant"
+        },
+        "Tafel": {
+            "article": "die",
+            "translation": "Board"
+        },
+        "Flur": {
+            "article": "der",
+            "translation": "Hallway"
+        },
+        "Armee": {
+            "article": "die",
+            "translation": "Army"
+        },
+        "Aufwand": {
+            "article": "der",
+            "translation": "Expense"
+        },
+        "Osten": {
+            "article": "der",
+            "translation": "East"
+        },
+        "Agent": {
+            "article": "der",
+            "translation": "Agent"
+        },
+        "Zukunft": {
+            "article": "die",
+            "translation": "Future"
+        },
+        "Leder": {
+            "article": "das",
+            "translation": "Leather"
+        },
+        "Flug": {
+            "article": "der",
+            "translation": "Fly"
+        },
+        "Geschlecht": {
+            "article": "das",
+            "translation": "Sex"
+        },
+        "Gericht": {
+            "article": "das",
+            "translation": "Dish"
+        },
+        "Kurs": {
+            "article": "der",
+            "translation": "Course"
+        },
+        "Dreck": {
+            "article": "der",
+            "translation": "Dirt"
+        },
+        "Ei": {
+            "article": "das",
+            "translation": "Egg"
+        },
+        "Kinn": {
+            "article": "das",
+            "translation": "Chin"
+        },
+        "Fremde": {
+            "article": "der",
+            "translation": "Stranger"
+        },
+        "Freude": {
+            "article": "die",
+            "translation": "Delight"
+        },
+        "Detail": {
+            "article": "das",
+            "translation": "Detail"
+        },
+        "Besatzung": {
+            "article": "die",
+            "translation": "Crew"
+        },
+        "Herbst": {
+            "article": "der",
+            "translation": "Autumn"
+        },
+        "Gast": {
+            "article": "der",
+            "translation": "Guest"
+        },
+        "Erlebnis": {
+            "article": "das",
+            "translation": "Experience"
+        },
+        "Witz": {
+            "article": "der",
+            "translation": "Wit"
+        },
+        "Sand": {
+            "article": "der",
+            "translation": "Sand"
+        },
+        "Faust": {
+            "article": "die",
+            "translation": "Fist"
+        },
+        "Aktion": {
+            "article": "die",
+            "translation": "Action"
+        },
+        "Wandern": {
+            "article": "das",
+            "translation": "Walk"
+        },
+        "Hochzeit": {
+            "article": "die",
+            "translation": "Wedding"
+        },
+        "Deal": {
+            "article": "der",
+            "translation": "Deal"
+        },
+        "Natur": {
+            "article": "die",
+            "translation": "Nature"
+        },
+        "Planet": {
+            "article": "der",
+            "translation": "Planet"
+        },
+        "Cousin": {
+            "article": "der",
+            "translation": "Cousin"
+        },
+        "Bewegung": {
+            "article": "die",
+            "translation": "Move"
+        },
+        "Fleisch": {
+            "article": "das",
+            "translation": "Meat"
+        },
+        "Datensatz": {
+            "article": "der",
+            "translation": "Record"
+        },
+        "Camp": {
+            "article": "das",
+            "translation": "Camp"
+        },
+        "Zeitung": {
+            "article": "die",
+            "translation": "Newspaper"
+        },
+        "Strahl": {
+            "article": "der",
+            "translation": "Jet"
+        },
+        "Fotografie": {
+            "article": "die",
+            "translation": "Photograph"
+        },
+        "Geheimnis": {
+            "article": "das",
+            "translation": "Secret"
+        },
+        "Sch\u00f6nheit": {
+            "article": "die",
+            "translation": "Beauty"
+        },
+        "Vorhandensein": {
+            "article": "das",
+            "translation": "Presence"
+        },
+        "Glocke": {
+            "article": "die",
+            "translation": "Bell"
+        },
+        "Volks": {
+            "article": "die",
+            "translation": "Folk"
+        },
+        "Knopf": {
+            "article": "der",
+            "translation": "Knob"
+        },
+        "Liste": {
+            "article": "die",
+            "translation": "List"
+        },
+        "Level": {
+            "article": "das",
+            "translation": "Level"
+        },
+        "Datum": {
+            "article": "das",
+            "translation": "Date"
+        },
+        "Unterschied": {
+            "article": "der",
+            "translation": "Difference"
+        },
+        "Pause": {
+            "article": "die",
+            "translation": "Break"
+        },
+        "Van": {
+            "article": "der",
+            "translation": "Van"
+        },
+        "Klinge": {
+            "article": "die",
+            "translation": "Blade"
+        },
+        "Fernsehen": {
+            "article": "das",
+            "translation": "Television"
+        },
+        "Titelseite": {
+            "article": "die",
+            "translation": "Cover"
+        },
+        "Vergangenheit": {
+            "article": "die",
+            "translation": "Past"
+        },
+        "Bauernhof": {
+            "article": "der",
+            "translation": "Farm"
+        },
+        "Runden": {
+            "article": "die",
+            "translation": "Lap"
+        },
+        "Band": {
+            "article": "das",
+            "translation": "Tie"
+        },
+        "Anwalt": {
+            "article": "der",
+            "translation": "Attorney"
+        },
+        "Magazin": {
+            "article": "das",
+            "translation": "Magazine"
+        },
+        "Ast": {
+            "article": "der",
+            "translation": "Branch"
+        },
+        "Rahmen": {
+            "article": "der",
+            "translation": "Frame"
+        },
+        "Deck": {
+            "article": "das",
+            "translation": "Deck"
+        },
+        "Effekt": {
+            "article": "der",
+            "translation": "Effect"
+        },
+        "Tanz": {
+            "article": "der",
+            "translation": "Dance"
+        },
+        "Sicht": {
+            "article": "die",
+            "translation": "Vision"
+        },
+        "Gespenst": {
+            "article": "das",
+            "translation": "Ghost"
+        },
+        "Esel": {
+            "article": "der",
+            "translation": "Ass"
+        },
+        "Fr\u00fchst\u00fcck": {
+            "article": "das",
+            "translation": "Breakfast"
+        },
+        "Geste": {
+            "article": "die",
+            "translation": "Gesture"
+        },
+        "Gl\u00fcck": {
+            "article": "das",
+            "translation": "Fortune"
+        },
+        "Gas": {
+            "article": "das",
+            "translation": "Gas"
+        },
+        "Korridor": {
+            "article": "der",
+            "translation": "Corridor"
+        },
+        "Professor": {
+            "article": "der",
+            "translation": "Professor"
+        },
+        "Universit\u00e4t": {
+            "article": "die",
+            "translation": "University"
+        },
+        "Ozean": {
+            "article": "der",
+            "translation": "Ocean"
+        },
+        "Jahrhundert": {
+            "article": "das",
+            "translation": "Century"
+        },
+        "Honig": {
+            "article": "der",
+            "translation": "Honey"
+        },
+        "Stapel": {
+            "article": "der",
+            "translation": "Stack"
+        },
+        "Schale": {
+            "article": "die",
+            "translation": "Tray"
+        },
+        "Zaun": {
+            "article": "der",
+            "translation": "Fence"
+        },
+        "Regel": {
+            "article": "die",
+            "translation": "Rule"
+        },
+        "Gel\u00e4chter": {
+            "article": "das",
+            "translation": "Laughter"
+        },
+        "Wut": {
+            "article": "die",
+            "translation": "Fury"
+        },
+        "Schwei\u00df": {
+            "article": "der",
+            "translation": "Sweat"
+        },
+        "Unfall": {
+            "article": "der",
+            "translation": "Accident"
+        },
+        "Wetter": {
+            "article": "das",
+            "translation": "Weather"
+        },
+        "Entscheidung": {
+            "article": "die",
+            "translation": "Decision"
+        },
+        "Engel": {
+            "article": "der",
+            "translation": "Angel"
+        },
+        "St\u00e4rke": {
+            "article": "die",
+            "translation": "Strength"
+        },
+        "Huhn": {
+            "article": "das",
+            "translation": "Chicken"
+        },
+        "Studium": {
+            "article": "die",
+            "translation": "Study"
+        },
+        "Handgelenk": {
+            "article": "das",
+            "translation": "Wrist"
+        },
+        "Halt": {
+            "article": "der",
+            "translation": "Hold"
+        },
+        "H\u00fcfte": {
+            "article": "die",
+            "translation": "Hip"
+        },
+        "Regierung": {
+            "article": "die",
+            "translation": "Government"
+        },
+        "K\u00f6nigin": {
+            "article": "die",
+            "translation": "Queen"
+        },
+        "Schweif": {
+            "article": "der",
+            "translation": "Tail"
+        },
+        "Pflanze": {
+            "article": "die",
+            "translation": "Plant"
+        },
+        "Flamme": {
+            "article": "die",
+            "translation": "Flame"
+        },
+        "G\u00fcrtel": {
+            "article": "der",
+            "translation": "Belt"
+        },
+        "Nachbarschaft": {
+            "article": "die",
+            "translation": "Neighborhood"
+        },
+        "Energie": {
+            "article": "die",
+            "translation": "Energy"
+        },
+        "Gr\u00fcn": {
+            "article": "das",
+            "translation": "Green"
+        },
+        "Viertel": {
+            "article": "das",
+            "translation": "District"
+        },
+        "Feind": {
+            "article": "der",
+            "translation": "Enemy"
+        },
+        "Eingang": {
+            "article": "der",
+            "translation": "Entrance"
+        },
+        "Bibliothek": {
+            "article": "die",
+            "translation": "Library"
+        },
+        "Verfasser": {
+            "article": "der",
+            "translation": "Writer"
+        },
+        "Frieden": {
+            "article": "der",
+            "translation": "Peace"
+        },
+        "Ber\u00fchrung": {
+            "article": "die",
+            "translation": "Touch"
+        },
+        "Topf": {
+            "article": "der",
+            "translation": "Pot"
+        },
+        "Typ": {
+            "article": "der",
+            "translation": "Type"
+        },
+        "Seil": {
+            "article": "das",
+            "translation": "Rope"
+        },
+        "Muskel": {
+            "article": "der",
+            "translation": "Muscle"
+        },
+        "Gem\u00e4lde": {
+            "article": "das",
+            "translation": "Painting"
+        },
+        "Gardine": {
+            "article": "die",
+            "translation": "Curtain"
+        },
+        "Mahlzeit": {
+            "article": "die",
+            "translation": "Meal"
+        },
+        "Akt": {
+            "article": "der",
+            "translation": "Act"
+        },
+        "Wolf": {
+            "article": "der",
+            "translation": "Wolf"
+        },
+        "Kaj\u00fcte": {
+            "article": "die",
+            "translation": "Cabin"
+        },
+        "Ladung": {
+            "article": "die",
+            "translation": "Load"
+        },
+        "Passagier": {
+            "article": "der",
+            "translation": "Passenger"
+        },
+        "Kumpel": {
+            "article": "der",
+            "translation": "Dude"
+        },
+        "Medikament": {
+            "article": "das",
+            "translation": "Drug"
+        },
+        "Verwendung": {
+            "article": "die",
+            "translation": "Use"
+        },
+        "Verkehr": {
+            "article": "der",
+            "translation": "Traffic"
+        },
+        "Relief": {
+            "article": "das",
+            "translation": "Relief"
+        },
+        "Kappe": {
+            "article": "die",
+            "translation": "Cap"
+        },
+        "Rudel": {
+            "article": "das",
+            "translation": "Pack"
+        },
+        "Wochenende": {
+            "article": "das",
+            "translation": "Weekend"
+        },
+        "Stand": {
+            "article": "der",
+            "translation": "Stand"
+        },
+        "Aufzug": {
+            "article": "der",
+            "translation": "Elevator"
+        },
+        "Geburtstag": {
+            "article": "der",
+            "translation": "Birthday"
+        },
+        "B\u00fcgeleisen": {
+            "article": "das",
+            "translation": "Iron"
+        },
+        "Augenbraue": {
+            "article": "die",
+            "translation": "Eyebrow"
+        },
+        "Geschwindigkeit": {
+            "article": "die",
+            "translation": "Pace"
+        },
+        "Absicht": {
+            "article": "die",
+            "translation": "Intention"
+        },
+        "Quadrat": {
+            "article": "das",
+            "translation": "Square"
+        },
+        "Fahrt": {
+            "article": "die",
+            "translation": "Ride"
+        },
+        "Englisch": {
+            "article": "das",
+            "translation": "English"
+        },
+        "Turm": {
+            "article": "der",
+            "translation": "Tower"
+        },
+        "Kampf": {
+            "article": "der",
+            "translation": "Bout"
+        },
+        "Rennen": {
+            "article": "das",
+            "translation": "Running"
+        },
+        "Schock": {
+            "article": "der",
+            "translation": "Shock"
+        },
+        "Sektion": {
+            "article": "die",
+            "translation": "Section"
+        },
+        "Methode": {
+            "article": "die",
+            "translation": "Method"
+        },
+        "Schwert": {
+            "article": "das",
+            "translation": "Sword"
+        },
+        "Stock": {
+            "article": "der",
+            "translation": "Cane"
+        },
+        "Datei": {
+            "article": "die",
+            "translation": "File"
+        },
+        "Brot": {
+            "article": "das",
+            "translation": "Bread"
+        },
+        "\u00d6l": {
+            "article": "das",
+            "translation": "Oil"
+        },
+        "Kette": {
+            "article": "die",
+            "translation": "Chain"
+        },
+        "Abteilung": {
+            "article": "die",
+            "translation": "Department"
+        },
+        "Projekt": {
+            "article": "das",
+            "translation": "Project"
+        },
+        "Mord": {
+            "article": "der",
+            "translation": "Murder"
+        },
+        "B\u00e4r": {
+            "article": "der",
+            "translation": "Bear"
+        },
+        "Test": {
+            "article": "der",
+            "translation": "Test"
+        },
+        "Besuch": {
+            "article": "der",
+            "translation": "Visit"
+        },
+        "Milch": {
+            "article": "die",
+            "translation": "Milk"
+        },
+        "Chef": {
+            "article": "der",
+            "translation": "Chief"
+        },
+        "Ellbogen": {
+            "article": "der",
+            "translation": "Elbow"
+        },
+        "Verlangen": {
+            "article": "das",
+            "translation": "Desire"
+        },
+        "Patient": {
+            "article": "der",
+            "translation": "Patient"
+        },
+        "Grinsen": {
+            "article": "das",
+            "translation": "Grin"
+        },
+        "Liebhaber": {
+            "article": "der",
+            "translation": "Lover"
+        },
+        "Preis": {
+            "article": "der",
+            "translation": "Prize"
+        },
+        "Wissen": {
+            "article": "das",
+            "translation": "Knowledge"
+        },
+        "Anfang": {
+            "article": "der",
+            "translation": "Start"
+        },
+        "K\u00e4lte": {
+            "article": "die",
+            "translation": "Chill"
+        },
+        "Schrank": {
+            "article": "der",
+            "translation": "Closet"
+        },
+        "Morgend\u00e4mmerung": {
+            "article": "die",
+            "translation": "Dawn"
+        },
+        "Tempel": {
+            "article": "der",
+            "translation": "Temple"
+        },
+        "Spa\u00df": {
+            "article": "der",
+            "translation": "Fun"
+        },
+        "Pflicht": {
+            "article": "die",
+            "translation": "Duty"
+        },
+        "\u00dcbung": {
+            "article": "die",
+            "translation": "Exercise"
+        },
+        "Ferse": {
+            "article": "die",
+            "translation": "Heel"
+        },
+        "Tal": {
+            "article": "das",
+            "translation": "Valley"
+        },
+        "Kabel": {
+            "article": "das",
+            "translation": "Cable"
+        },
+        "Jeans": {
+            "article": "die",
+            "translation": "Jeans"
+        },
+        "Kuss": {
+            "article": "der",
+            "translation": "Kiss"
+        },
+        "Kiefer": {
+            "article": "die",
+            "translation": "Pine"
+        },
+        "Lauf": {
+            "article": "der",
+            "translation": "Barrel"
+        },
+        "Verh\u00e4ltnis": {
+            "article": "das",
+            "translation": "Relationship"
+        },
+        "Objekt": {
+            "article": "das",
+            "translation": "Object"
+        },
+        "Angriff": {
+            "article": "der",
+            "translation": "Attack"
+        },
+        "Autobahn": {
+            "article": "die",
+            "translation": "Highway"
+        },
+        "Schattierung": {
+            "article": "die",
+            "translation": "Shade"
+        },
+        "Verbrechen": {
+            "article": "das",
+            "translation": "Crime"
+        },
+        "Wei\u00df": {
+            "article": "das",
+            "translation": "White"
+        },
+        "Partner": {
+            "article": "der",
+            "translation": "Partner"
+        },
+        "Priester": {
+            "article": "der",
+            "translation": "Priest"
+        },
+        "Rasen": {
+            "article": "der",
+            "translation": "Lawn"
+        },
+        "Lachen": {
+            "article": "das",
+            "translation": "Laugh"
+        },
+        "Kofferraum": {
+            "article": "der",
+            "translation": "Trunk"
+        },
+        "Weinen": {
+            "article": "das",
+            "translation": "Crying"
+        },
+        "Programm": {
+            "article": "das",
+            "translation": "Program"
+        },
+        "Regal": {
+            "article": "das",
+            "translation": "Rack"
+        },
+        "Gentleman": {
+            "article": "der",
+            "translation": "Gentleman"
+        },
+        "Sein": {
+            "article": "das",
+            "translation": "Being"
+        },
+        "Stahl": {
+            "article": "der",
+            "translation": "Steel"
+        },
+        "B\u00fcrgersteig": {
+            "article": "der",
+            "translation": "Pavement"
+        },
+        "Uniform": {
+            "article": "die",
+            "translation": "Uniform"
+        },
+        "Muster": {
+            "article": "das",
+            "translation": "Sample"
+        },
+        "Beweis": {
+            "article": "der",
+            "translation": "Proof"
+        },
+        "Spieler": {
+            "article": "der",
+            "translation": "Player"
+        },
+        "Roman": {
+            "article": "der",
+            "translation": "Novel"
+        },
+        "Kissen": {
+            "article": "das",
+            "translation": "Pillow"
+        },
+        "Schublade": {
+            "article": "die",
+            "translation": "Drawer"
+        },
+        "Gefahr": {
+            "article": "die",
+            "translation": "Danger"
+        },
+        "Detektiv": {
+            "article": "der",
+            "translation": "Detective"
+        },
+        "Instant": {
+            "article": "die",
+            "translation": "Instant"
+        },
+        "Denken": {
+            "article": "das",
+            "translation": "Thinking"
+        },
+        "Riss": {
+            "article": "der",
+            "translation": "Crack"
+        },
+        "Gebet": {
+            "article": "das",
+            "translation": "Prayer"
+        },
+        "Handtuch": {
+            "article": "das",
+            "translation": "Towel"
+        },
+        "Bucht": {
+            "article": "die",
+            "translation": "Bay"
+        },
+        "Publikum": {
+            "article": "das",
+            "translation": "Audience"
+        },
+        "Dose": {
+            "article": "die",
+            "translation": "Tin"
+        },
+        "Bedingung": {
+            "article": "die",
+            "translation": "Condition"
+        },
+        "Taille": {
+            "article": "die",
+            "translation": "Waist"
+        },
+        "Druck": {
+            "article": "die",
+            "translation": "Print"
+        },
+        "Waschbecken": {
+            "article": "das",
+            "translation": "Sink"
+        },
+        "R\u00fcckkehr": {
+            "article": "die",
+            "translation": "Return"
+        },
+        "Brise": {
+            "article": "die",
+            "translation": "Breeze"
+        },
+        "Geschmack": {
+            "article": "der",
+            "translation": "Taste"
+        },
+        "Strom": {
+            "article": "der",
+            "translation": "Stream"
+        },
+        "Ergebnis": {
+            "article": "das",
+            "translation": "Result"
+        },
+        "Autor": {
+            "article": "der",
+            "translation": "Author"
+        },
+        "Trinkgeld": {
+            "article": "das",
+            "translation": "Tip"
+        },
+        "Zehe": {
+            "article": "die",
+            "translation": "Toe"
+        },
+        "Jahreszeit": {
+            "article": "die",
+            "translation": "Season"
+        },
+        "H\u00e4lfte": {
+            "article": "die",
+            "translation": "Half"
+        },
+        "Dummkopf": {
+            "article": "der",
+            "translation": "Fool"
+        },
+        "Tunnel": {
+            "article": "der",
+            "translation": "Tunnel"
+        },
+        "Klient": {
+            "article": "der",
+            "translation": "Client"
+        },
+        "Garage": {
+            "article": "die",
+            "translation": "Garage"
+        },
+        "Mission": {
+            "article": "die",
+            "translation": "Mission"
+        },
+        "Kugel": {
+            "article": "die",
+            "translation": "Bullet"
+        },
+        "Markt": {
+            "article": "der",
+            "translation": "Market"
+        },
+        "Verlust": {
+            "article": "der",
+            "translation": "Loss"
+        },
+        "Stift": {
+            "article": "der",
+            "translation": "Pin"
+        },
+        "Begriff": {
+            "article": "der",
+            "translation": "Term"
+        },
+        "Gedicht": {
+            "article": "das",
+            "translation": "Poem"
+        },
+        "Prinz": {
+            "article": "der",
+            "translation": "Prince"
+        },
+        "Schloss": {
+            "article": "das",
+            "translation": "Lock"
+        },
+        "Realit\u00e4t": {
+            "article": "die",
+            "translation": "Reality"
+        },
+        "Schlange": {
+            "article": "die",
+            "translation": "Snake"
+        },
+        "Apfel": {
+            "article": "der",
+            "translation": "Apple"
+        },
+        "Maske": {
+            "article": "die",
+            "translation": "Mask"
+        },
+        "Geburt": {
+            "article": "die",
+            "translation": "Birth"
+        },
+        "Wunder": {
+            "article": "das",
+            "translation": "Miracle"
+        },
+        "Sonnenlicht": {
+            "article": "das",
+            "translation": "Sunlight"
+        },
+        "Panzer": {
+            "article": "der",
+            "translation": "Tank"
+        },
+        "Personal": {
+            "article": "das",
+            "translation": "Staff"
+        },
+        "L\u00fcge": {
+            "article": "die",
+            "translation": "Lie"
+        },
+        "Glaube": {
+            "article": "der",
+            "translation": "Belief"
+        },
+        "Ehre": {
+            "article": "die",
+            "translation": "Honor"
+        },
+        "Creme": {
+            "article": "die",
+            "translation": "Cream"
+        },
+        "Wohl": {
+            "article": "das",
+            "translation": "Sake"
+        },
+        "Opfer": {
+            "article": "das",
+            "translation": "Victim"
+        },
+        "M\u00f6glichkeit": {
+            "article": "die",
+            "translation": "Possibility"
+        },
+        "Kontakt": {
+            "article": "der",
+            "translation": "Contact"
+        },
+        "Stimmung": {
+            "article": "die",
+            "translation": "Temper"
+        },
+        "Daumen": {
+            "article": "der",
+            "translation": "Thumb"
+        },
+        "Lesen": {
+            "article": "das",
+            "translation": "Reading"
+        },
+        "Kerze": {
+            "article": "die",
+            "translation": "Candle"
+        },
+        "H\u00f6hle": {
+            "article": "die",
+            "translation": "Den"
+        },
+        "Post": {
+            "article": "die",
+            "translation": "Mail"
+        },
+        "Gef\u00e4ngnis": {
+            "article": "das",
+            "translation": "Jail"
+        },
+        "Emotion": {
+            "article": "die",
+            "translation": "Emotion"
+        },
+        "F\u00fchrer": {
+            "article": "der",
+            "translation": "Guide"
+        },
+        "Grad": {
+            "article": "der",
+            "translation": "Degree"
+        },
+        "Eigenschaft": {
+            "article": "die",
+            "translation": "Property"
+        },
+        "Ticket": {
+            "article": "das",
+            "translation": "Ticket"
+        },
+        "Alien": {
+            "article": "das",
+            "translation": "Alien"
+        },
+        "W\u00fcste": {
+            "article": "die",
+            "translation": "Desert"
+        },
+        "Schnitt": {
+            "article": "der",
+            "translation": "Cut"
+        },
+        "Unordnung": {
+            "article": "die",
+            "translation": "Mess"
+        },
+        "Warnung": {
+            "article": "die",
+            "translation": "Warning"
+        },
+        "M\u00e4rchen": {
+            "article": "das",
+            "translation": "Tale"
+        },
+        "Begr\u00e4bnis": {
+            "article": "das",
+            "translation": "Funeral"
+        },
+        "Taxi": {
+            "article": "das",
+            "translation": "Taxi"
+        },
+        "Reporter": {
+            "article": "der",
+            "translation": "Reporter"
+        },
+        "Theater": {
+            "article": "das",
+            "translation": "Theater"
+        },
+        "L\u00e4nge": {
+            "article": "die",
+            "translation": "Length"
+        },
+        "Schlamm": {
+            "article": "der",
+            "translation": "Mud"
+        },
+        "Wissenschaft": {
+            "article": "die",
+            "translation": "Science"
+        },
+        "Schnur": {
+            "article": "die",
+            "translation": "Cord"
+        },
+        "Rede": {
+            "article": "die",
+            "translation": "Speech"
+        },
+        "Kopie": {
+            "article": "die",
+            "translation": "Copy"
+        },
+        "Kuh": {
+            "article": "die",
+            "translation": "Cow"
+        },
+        "Arbeiter": {
+            "article": "der",
+            "translation": "Worker"
+        },
+        "Oberschenkel": {
+            "article": "der",
+            "translation": "Thigh"
+        },
+        "Labor": {
+            "article": "das",
+            "translation": "Lab"
+        },
+        "Rolle": {
+            "article": "die",
+            "translation": "Role"
+        },
+        "Obst": {
+            "article": "das",
+            "translation": "Fruit"
+        },
+        "Patch": {
+            "article": "der",
+            "translation": "Patch"
+        },
+        "Seide": {
+            "article": "die",
+            "translation": "Silk"
+        },
+        "Buck": {
+            "article": "der",
+            "translation": "Buck"
+        },
+        "Ziegel": {
+            "article": "die",
+            "translation": "Brick"
+        },
+        "Gewehr": {
+            "article": "das",
+            "translation": "Rifle"
+        },
+        "Karriere": {
+            "article": "die",
+            "translation": "Career"
+        },
+        "Gelegenheit": {
+            "article": "die",
+            "translation": "Opportunity"
+        },
+        "Direktor": {
+            "article": "der",
+            "translation": "Director"
+        },
+        "Monster": {
+            "article": "das",
+            "translation": "Monster"
+        },
+        "Fahrzeug": {
+            "article": "das",
+            "translation": "Vehicle"
+        },
+        "Gasse": {
+            "article": "die",
+            "translation": "Alley"
+        },
+        "H\u00fclse": {
+            "article": "die",
+            "translation": "Sleeve"
+        },
+        "Grab": {
+            "article": "das",
+            "translation": "Grave"
+        },
+        "Busch": {
+            "article": "der",
+            "translation": "Bush"
+        },
+        "Speisesaal": {
+            "article": "der",
+            "translation": "Dining"
+        },
+        "Er\u00f6ffnung": {
+            "article": "die",
+            "translation": "Opening"
+        },
+        "Zwilling": {
+            "article": "der",
+            "translation": "Twin"
+        },
+        "Scheune": {
+            "article": "die",
+            "translation": "Barn"
+        },
+        "Pfund": {
+            "article": "das",
+            "translation": "Pound"
+        },
+        "Standort": {
+            "article": "der",
+            "translation": "Site"
+        },
+        "Blitz": {
+            "article": "der",
+            "translation": "Lightning"
+        },
+        "Richter": {
+            "article": "der",
+            "translation": "Judge"
+        },
+        "Masse": {
+            "article": "die",
+            "translation": "Mass"
+        },
+        "Prozess": {
+            "article": "der",
+            "translation": "Process"
+        },
+        "Geldbeutel": {
+            "article": "der",
+            "translation": "Wallet"
+        },
+        "Rohr": {
+            "article": "das",
+            "translation": "Tube"
+        },
+        "Drache": {
+            "article": "der",
+            "translation": "Dragon"
+        },
+        "Horizont": {
+            "article": "der",
+            "translation": "Horizon"
+        },
+        "Umschlag": {
+            "article": "der",
+            "translation": "Envelope"
+        },
+        "Erwachsene": {
+            "article": "die",
+            "translation": "Adult"
+        },
+        "Notfall": {
+            "article": "der",
+            "translation": "Emergency"
+        },
+        "Material": {
+            "article": "das",
+            "translation": "Material"
+        },
+        "Kindheit": {
+            "article": "die",
+            "translation": "Childhood"
+        },
+        "Angewohnheit": {
+            "article": "die",
+            "translation": "Habit"
+        },
+        "K\u00fcnstler": {
+            "article": "der",
+            "translation": "Artist"
+        },
+        "Adresse": {
+            "article": "die",
+            "translation": "Address"
+        },
+        "Duft": {
+            "article": "der",
+            "translation": "Scent"
+        },
+        "Universum": {
+            "article": "das",
+            "translation": "Universe"
+        },
+        "Kopfnicken": {
+            "article": "das",
+            "translation": "Nod"
+        },
+        "Muschel": {
+            "article": "die",
+            "translation": "Shell"
+        },
+        "Gemeinde": {
+            "article": "die",
+            "translation": "Community"
+        },
+        "Wunde": {
+            "article": "die",
+            "translation": "Wound"
+        },
+        "Maus": {
+            "article": "die",
+            "translation": "Mouse"
+        },
+        "Pilot": {
+            "article": "der",
+            "translation": "Pilot"
+        },
+        "Video": {
+            "article": "das",
+            "translation": "Video"
+        },
+        "Korb": {
+            "article": "der",
+            "translation": "Basket"
+        },
+        "Wagen": {
+            "article": "der",
+            "translation": "Carriage"
+        },
+        "Versuch": {
+            "article": "der",
+            "translation": "Attempt"
+        },
+        "Aff\u00e4re": {
+            "article": "die",
+            "translation": "Affair"
+        },
+        "K\u00fcste": {
+            "article": "die",
+            "translation": "Coast"
+        },
+        "Allgemeine": {
+            "article": "die",
+            "translation": "General"
+        },
+        "Ursprung": {
+            "article": "der",
+            "translation": "Root"
+        },
+        "Robe": {
+            "article": "die",
+            "translation": "Robe"
+        },
+        "Sorge": {
+            "article": "die",
+            "translation": "Worry"
+        },
+        "Presse": {
+            "article": "die",
+            "translation": "Press"
+        },
+        "Ratte": {
+            "article": "die",
+            "translation": "Rat"
+        },
+        "Gesellschaft": {
+            "article": "die",
+            "translation": "Society"
+        },
+        "Stil": {
+            "article": "der",
+            "translation": "Style"
+        },
+        "Befehl": {
+            "article": "der",
+            "translation": "Command"
+        },
+        "Besucher": {
+            "article": "der",
+            "translation": "Visitor"
+        },
+        "Model": {
+            "article": "das",
+            "translation": "Model"
+        },
+        "Kammer": {
+            "article": "die",
+            "translation": "Chamber"
+        },
+        "Biest": {
+            "article": "das",
+            "translation": "Beast"
+        },
+        "B\u00fcndel": {
+            "article": "das",
+            "translation": "Bundle"
+        },
+        "Hintergrund": {
+            "article": "der",
+            "translation": "Background"
+        },
+        "Einheit": {
+            "article": "die",
+            "translation": "Unit"
+        },
+        "M\u00f6bel": {
+            "article": "die",
+            "translation": "Furniture"
+        },
+        "Nagel": {
+            "article": "der",
+            "translation": "Nail"
+        },
+        "Schrei": {
+            "article": "der",
+            "translation": "Shout"
+        },
+        "Ausr\u00fcstung": {
+            "article": "die",
+            "translation": "Equipment"
+        },
+        "Auffahrt": {
+            "article": "die",
+            "translation": "Driveway"
+        },
+        "Griff": {
+            "article": "der",
+            "translation": "Handle"
+        },
+        "Asche": {
+            "article": "die",
+            "translation": "Ash"
+        },
+        "Fan": {
+            "article": "der",
+            "translation": "Fan"
+        },
+        "Meinung": {
+            "article": "die",
+            "translation": "Opinion"
+        },
+        "Daten": {
+            "article": "die",
+            "translation": "Data"
+        },
+        "Verbindung": {
+            "article": "die",
+            "translation": "Connection"
+        },
+        "Trick": {
+            "article": "der",
+            "translation": "Trick"
+        },
+        "Mysterium": {
+            "article": "das",
+            "translation": "Mystery"
+        },
+        "Periode": {
+            "article": "die",
+            "translation": "Period"
+        },
+        "Schreiben": {
+            "article": "das",
+            "translation": "Writing"
+        },
+        "Horror": {
+            "article": "der",
+            "translation": "Horror"
+        },
+        "S\u00fc\u00dfigkeit": {
+            "article": "die",
+            "translation": "Candy"
+        },
+        "Bitch": {
+            "article": "die",
+            "translation": "Bitch"
+        },
+        "Gesundheit": {
+            "article": "die",
+            "translation": "Health"
+        },
+        "Gesch\u00e4ftsf\u00fchrer": {
+            "article": "der",
+            "translation": "Manager"
+        },
+        "H\u00f6he": {
+            "article": "die",
+            "translation": "Height"
+        },
+        "Erscheinung": {
+            "article": "die",
+            "translation": "Appearance"
+        },
+        "Seufzer": {
+            "article": "der",
+            "translation": "Sigh"
+        },
+        "Mine": {
+            "article": "die",
+            "translation": "Mine"
+        },
+        "Reaktion": {
+            "article": "die",
+            "translation": "Reaction"
+        },
+        "Quelle": {
+            "article": "die",
+            "translation": "Source"
+        },
+        "Ich": {
+            "article": "das",
+            "translation": "Self"
+        },
+        "Pistole": {
+            "article": "die",
+            "translation": "Pistol"
+        },
+        "Flughafen": {
+            "article": "der",
+            "translation": "Airport"
+        },
+        "Held": {
+            "article": "der",
+            "translation": "Hero"
+        },
+        "Versprechen": {
+            "article": "das",
+            "translation": "Promise"
+        },
+        "Bogen": {
+            "article": "die",
+            "translation": "Arc"
+        },
+        "Zelt": {
+            "article": "das",
+            "translation": "Tent"
+        },
+        "Messestand": {
+            "article": "der",
+            "translation": "Booth"
+        },
+        "Tshirt": {
+            "article": "das",
+            "translation": "Tshirt"
+        },
+        "Teppich": {
+            "article": "der",
+            "translation": "Rug"
+        },
+        "Keller": {
+            "article": "der",
+            "translation": "Basement"
+        },
+        "Freundin": {
+            "article": "die",
+            "translation": "Girlfriend"
+        },
+        "Bart": {
+            "article": "der",
+            "translation": "Beard"
+        },
+        "Signal": {
+            "article": "das",
+            "translation": "Signal"
+        },
+        "Diener": {
+            "article": "der",
+            "translation": "Servant"
+        },
+        "Fl\u00fcstern": {
+            "article": "das",
+            "translation": "Whisper"
+        },
+        "Zweifel": {
+            "article": "der",
+            "translation": "Doubt"
+        },
+        "Konto": {
+            "article": "das",
+            "translation": "Account"
+        },
+        "Magie": {
+            "article": "die",
+            "translation": "Magic"
+        },
+        "Hank": {
+            "article": "die",
+            "translation": "Hank"
+        },
+        "Glied": {
+            "article": "das",
+            "translation": "Limb"
+        },
+        "Bastard": {
+            "article": "der",
+            "translation": "Bastard"
+        },
+        "Sch\u00e4del": {
+            "article": "der",
+            "translation": "Skull"
+        },
+        "Kragen": {
+            "article": "der",
+            "translation": "Collar"
+        },
+        "Horn": {
+            "article": "das",
+            "translation": "Horn"
+        },
+        "Eiche": {
+            "article": "die",
+            "translation": "Oak"
+        },
+        "Kn\u00f6chel": {
+            "article": "der",
+            "translation": "Ankle"
+        },
+        "Puppe": {
+            "article": "die",
+            "translation": "Doll"
+        },
+        "Sandwich": {
+            "article": "das",
+            "translation": "Sandwich"
+        },
+        "Rotkehlchen": {
+            "article": "das",
+            "translation": "Robin"
+        },
+        "Justiz": {
+            "article": "die",
+            "translation": "Justice"
+        },
+        "Stolz": {
+            "article": "der",
+            "translation": "Pride"
+        },
+        "Jugend": {
+            "article": "die",
+            "translation": "Youth"
+        },
+        "Sekret\u00e4r": {
+            "article": "der",
+            "translation": "Secretary"
+        },
+        "Forschung": {
+            "article": "die",
+            "translation": "Research"
+        },
+        "Sport": {
+            "article": "der",
+            "translation": "Sport"
+        },
+        "Zuschuss": {
+            "article": "der",
+            "translation": "Grant"
+        },
+        "Sheriff": {
+            "article": "der",
+            "translation": "Sheriff"
+        },
+        "Mitternachts": {
+            "article": "die",
+            "translation": "Midnight"
+        },
+        "Chip": {
+            "article": "der",
+            "translation": "Chip"
+        },
+        "Theorie": {
+            "article": "die",
+            "translation": "Theory"
+        },
+        "Sammlung": {
+            "article": "die",
+            "translation": "Collection"
+        },
+        "Kreuz": {
+            "article": "das",
+            "translation": "Cross"
+        },
+        "Generation": {
+            "article": "die",
+            "translation": "Generation"
+        },
+        "Autorit\u00e4t": {
+            "article": "die",
+            "translation": "Authority"
+        },
+        "Perle": {
+            "article": "die",
+            "translation": "Pearl"
+        },
+        "M\u00f6rder": {
+            "article": "der",
+            "translation": "Murderer"
+        },
+        "Werkzeug": {
+            "article": "das",
+            "translation": "Tool"
+        },
+        "Medizin": {
+            "article": "die",
+            "translation": "Medicine"
+        },
+        "Zucker": {
+            "article": "der",
+            "translation": "Sugar"
+        },
+        "Prinzessin": {
+            "article": "die",
+            "translation": "Princess"
+        },
+        "Argument": {
+            "article": "das",
+            "translation": "Argument"
+        },
+        "Klippe": {
+            "article": "die",
+            "translation": "Cliff"
+        },
+        "Kristall": {
+            "article": "der",
+            "translation": "Crystal"
+        },
+        "Bohne": {
+            "article": "die",
+            "translation": "Bean"
+        },
+        "K\u00e4fig": {
+            "article": "der",
+            "translation": "Cage"
+        },
+        "Schokolade": {
+            "article": "die",
+            "translation": "Chocolate"
+        },
+        "Jahrzehnt": {
+            "article": "das",
+            "translation": "Decade"
+        },
+        "Bedeutung": {
+            "article": "die",
+            "translation": "Meaning"
+        },
+        "Getriebe": {
+            "article": "das",
+            "translation": "Gear"
+        },
+        "Koffer": {
+            "article": "der",
+            "translation": "Suitcase"
+        },
+        "Operation": {
+            "article": "die",
+            "translation": "Surgery"
+        },
+        "Version": {
+            "article": "die",
+            "translation": "Version"
+        },
+        "Gefangene": {
+            "article": "der",
+            "translation": "Prisoner"
+        },
+        "Match": {
+            "article": "das",
+            "translation": "Match"
+        },
+        "Burg": {
+            "article": "die",
+            "translation": "Castle"
+        },
+        "Ansturm": {
+            "article": "der",
+            "translation": "Rush"
+        },
+        "Fahrspur": {
+            "article": "die",
+            "translation": "Lane"
+        },
+        "Bekleidung": {
+            "article": "die",
+            "translation": "Clothing"
+        },
+        "Pol": {
+            "article": "der",
+            "translation": "Pole"
+        },
+        "Freiheit": {
+            "article": "die",
+            "translation": "Liberty"
+        },
+        "K\u00f6nnen": {
+            "article": "das",
+            "translation": "Skill"
+        },
+        "Leidenschaft": {
+            "article": "die",
+            "translation": "Passion"
+        },
+        "Aktivit\u00e4t": {
+            "article": "die",
+            "translation": "Activity"
+        },
+        "Platform": {
+            "article": "die",
+            "translation": "Platform"
+        },
+        "Salz": {
+            "article": "das",
+            "translation": "Salt"
+        },
+        "Fahrrad": {
+            "article": "das",
+            "translation": "Bicycle"
+        },
+        "Begleiter": {
+            "article": "der",
+            "translation": "Attendant"
+        },
+        "Schicksal": {
+            "article": "das",
+            "translation": "Fate"
+        },
+        "Versorgung": {
+            "article": "die",
+            "translation": "Supply"
+        },
+        "Wal": {
+            "article": "der",
+            "translation": "Whale"
+        },
+        "Schwein": {
+            "article": "das",
+            "translation": "Pig"
+        },
+        "Hase": {
+            "article": "der",
+            "translation": "Rabbit"
+        },
+        "Gang": {
+            "article": "der",
+            "translation": "Aisle"
+        },
+        "Helm": {
+            "article": "der",
+            "translation": "Helmet"
+        },
+        "Respekt": {
+            "article": "der",
+            "translation": "Respect"
+        },
+        "Aufregung": {
+            "article": "die",
+            "translation": "Excitement"
+        },
+        "Lobby": {
+            "article": "die",
+            "translation": "Lobby"
+        },
+        "Fell": {
+            "article": "das",
+            "translation": "Fur"
+        },
+        "Bereich": {
+            "article": "der",
+            "translation": "Range"
+        },
+        "Dick": {
+            "article": "die",
+            "translation": "Dick"
+        },
+        "Code": {
+            "article": "der",
+            "translation": "Code"
+        },
+        "Kapitel": {
+            "article": "das",
+            "translation": "Chapter"
+        },
+        "Reflexion": {
+            "article": "die",
+            "translation": "Reflection"
+        },
+        "Kabinett": {
+            "article": "das",
+            "translation": "Cabinet"
+        },
+        "Spielzeug": {
+            "article": "das",
+            "translation": "Toy"
+        },
+        "Baseball": {
+            "article": "die",
+            "translation": "Baseball"
+        },
+        "Innere": {
+            "article": "das",
+            "translation": "Inside"
+        },
+        "F\u00fchrung": {
+            "article": "die",
+            "translation": "Lead"
+        },
+        "Summe": {
+            "article": "die",
+            "translation": "Amount"
+        },
+        "Nerv": {
+            "article": "der",
+            "translation": "Nerve"
+        },
+        "Schrecken": {
+            "article": "der",
+            "translation": "Terror"
+        },
+        "Pullover": {
+            "article": "der",
+            "translation": "Sweater"
+        },
+        "Qualit\u00e4t": {
+            "article": "die",
+            "translation": "Quality"
+        },
+        "J\u00e4ger": {
+            "article": "der",
+            "translation": "Hunter"
+        },
+        "Buster": {
+            "article": "die",
+            "translation": "Buster"
+        },
+        "Baumwolle": {
+            "article": "die",
+            "translation": "Cotton"
+        },
+        "Wachtmeister": {
+            "article": "der",
+            "translation": "Sergeant"
+        },
+        "Kredit": {
+            "article": "der",
+            "translation": "Credit"
+        },
+        "Schlag": {
+            "article": "der",
+            "translation": "Punch"
+        },
+        "Teufel": {
+            "article": "der",
+            "translation": "Devil"
+        },
+        "Bedrohung": {
+            "article": "die",
+            "translation": "Threat"
+        },
+        "Erfolg": {
+            "article": "der",
+            "translation": "Success"
+        },
+        "Pfanne": {
+            "article": "die",
+            "translation": "Pan"
+        },
+        "Angestellte": {
+            "article": "der",
+            "translation": "Clerk"
+        },
+        "Messger\u00e4t": {
+            "article": "das",
+            "translation": "Meter"
+        },
+        "Schande": {
+            "article": "die",
+            "translation": "Shame"
+        },
+        "Nadel": {
+            "article": "die",
+            "translation": "Needle"
+        },
+        "Lunge": {
+            "article": "die",
+            "translation": "Lung"
+        },
+        "Krieger": {
+            "article": "der",
+            "translation": "Warrior"
+        },
+        "Umstand": {
+            "article": "der",
+            "translation": "Circumstance"
+        },
+        "Studio": {
+            "article": "das",
+            "translation": "Studio"
+        },
+        "Panik": {
+            "article": "die",
+            "translation": "Panic"
+        },
+        "Mangel": {
+            "article": "der",
+            "translation": "Lack"
+        },
+        "Bauer": {
+            "article": "der",
+            "translation": "Farmer"
+        },
+        "Akzent": {
+            "article": "der",
+            "translation": "Accent"
+        },
+        "Bombe": {
+            "article": "die",
+            "translation": "Bomb"
+        },
+        "Platte": {
+            "article": "die",
+            "translation": "Panel"
+        },
+        "F\u00e4higkeit": {
+            "article": "die",
+            "translation": "Ability"
+        },
+        "Sieger": {
+            "article": "der",
+            "translation": "Victor"
+        },
+        "Feder": {
+            "article": "die",
+            "translation": "Feather"
+        },
+        "Oma": {
+            "article": "die",
+            "translation": "Grandma"
+        },
+        "Gl\u00fchen": {
+            "article": "das",
+            "translation": "Glow"
+        },
+        "Verhalten": {
+            "article": "das",
+            "translation": "Behavior"
+        },
+        "Durchgang": {
+            "article": "der",
+            "translation": "Passage"
+        },
+        "Slave": {
+            "article": "die",
+            "translation": "Slave"
+        },
+        "Leutnant": {
+            "article": "der",
+            "translation": "Lieutenant"
+        },
+        "W\u00e4rme": {
+            "article": "die",
+            "translation": "Warmth"
+        },
+        "Eindruck": {
+            "article": "der",
+            "translation": "Impression"
+        },
+        "Maurer": {
+            "article": "der",
+            "translation": "Mason"
+        },
+        "Braut": {
+            "article": "die",
+            "translation": "Bride"
+        },
+        "Paket": {
+            "article": "das",
+            "translation": "Package"
+        },
+        "Nebel": {
+            "article": "der",
+            "translation": "Mist"
+        },
+        "Gehen": {
+            "article": "das",
+            "translation": "Walking"
+        },
+        "Balance": {
+            "article": "die",
+            "translation": "Balance"
+        },
+        "Roboter": {
+            "article": "der",
+            "translation": "Robot"
+        },
+        "Gegenstand": {
+            "article": "der",
+            "translation": "Item"
+        },
+        "Diamant": {
+            "article": "der",
+            "translation": "Diamond"
+        },
+        "Leiche": {
+            "article": "die",
+            "translation": "Corpse"
+        },
+        "Erkl\u00e4rung": {
+            "article": "die",
+            "translation": "Explanation"
+        },
+        "Struktur": {
+            "article": "die",
+            "translation": "Structure"
+        },
+        "Ausgang": {
+            "article": "der",
+            "translation": "Exit"
+        },
+        "Pad": {
+            "article": "das",
+            "translation": "Pad"
+        },
+        "Blaue": {
+            "article": "das",
+            "translation": "Blue"
+        },
+        "Amerikaner": {
+            "article": "die",
+            "translation": "American"
+        },
+        "Rubin": {
+            "article": "der",
+            "translation": "Ruby"
+        },
+        "Grube": {
+            "article": "die",
+            "translation": "Pit"
+        },
+        "Oberst": {
+            "article": "der",
+            "translation": "Colonel"
+        },
+        "Dock": {
+            "article": "das",
+            "translation": "Dock"
+        },
+        "Bach": {
+            "article": "der",
+            "translation": "Creek"
+        },
+        "Ratschlag": {
+            "article": "der",
+            "translation": "Advice"
+        },
+        "Tourist": {
+            "article": "der",
+            "translation": "Tourist"
+        },
+        "Trauer": {
+            "article": "die",
+            "translation": "Sorrow"
+        },
+        "Verteidigung": {
+            "article": "die",
+            "translation": "Defense"
+        },
+        "Biss": {
+            "article": "der",
+            "translation": "Bite"
+        },
+        "Museum": {
+            "article": "das",
+            "translation": "Museum"
+        },
+        "Gunst": {
+            "article": "die",
+            "translation": "Favor"
+        },
+        "Komfort": {
+            "article": "der",
+            "translation": "Comfort"
+        },
+        "Dekan": {
+            "article": "der",
+            "translation": "Dean"
+        },
+        "Wert": {
+            "article": "der",
+            "translation": "Worth"
+        },
+        "Marsch": {
+            "article": "der",
+            "translation": "March"
+        },
+        "Anwesen": {
+            "article": "das",
+            "translation": "Estate"
+        },
+        "Poet": {
+            "article": "der",
+            "translation": "Poet"
+        },
+        "Palast": {
+            "article": "der",
+            "translation": "Palace"
+        },
+        "Nation": {
+            "article": "die",
+            "translation": "Nation"
+        },
+        "Gef\u00e4ss": {
+            "article": "das",
+            "translation": "Jar"
+        },
+        "St\u00e4ndige": {
+            "article": "der",
+            "translation": "Standing"
+        },
+        "Sack": {
+            "article": "der",
+            "translation": "Sack"
+        },
+        "D\u00e4mon": {
+            "article": "der",
+            "translation": "Demon"
+        },
+        "Konferenz": {
+            "article": "die",
+            "translation": "Conference"
+        },
+        "Saft": {
+            "article": "der",
+            "translation": "Juice"
+        },
+        "Verantwortung": {
+            "article": "die",
+            "translation": "Responsibility"
+        },
+        "Pinsel": {
+            "article": "der",
+            "translation": "Brush"
+        },
+        "Route": {
+            "article": "die",
+            "translation": "Route"
+        },
+        "K\u00e4se": {
+            "article": "der",
+            "translation": "Cheese"
+        },
+        "Haube": {
+            "article": "die",
+            "translation": "Hood"
+        },
+        "Ente": {
+            "article": "die",
+            "translation": "Duck"
+        },
+        "Heilige": {
+            "article": "der",
+            "translation": "Saint"
+        },
+        "Pass": {
+            "article": "der",
+            "translation": "Pass"
+        },
+        "Ziel": {
+            "article": "das",
+            "translation": "Destination"
+        },
+        "Orange": {
+            "article": "die",
+            "translation": "Orange"
+        },
+        "Kultur": {
+            "article": "die",
+            "translation": "Culture"
+        },
+        "Kommandant": {
+            "article": "der",
+            "translation": "Commander"
+        },
+        "Haken": {
+            "article": "der",
+            "translation": "Hook"
+        },
+        "Training": {
+            "article": "das",
+            "translation": "Training"
+        },
+        "Suche": {
+            "article": "die",
+            "translation": "Search"
+        },
+        "M\u00fcnze": {
+            "article": "die",
+            "translation": "Coin"
+        },
+        "Vorteil": {
+            "article": "der",
+            "translation": "Benefit"
+        },
+        "Austausch": {
+            "article": "der",
+            "translation": "Exchange"
+        },
+        "Fiktion": {
+            "article": "die",
+            "translation": "Fiction"
+        },
+        "Teich": {
+            "article": "der",
+            "translation": "Pond"
+        },
+        "Assistent": {
+            "article": "der",
+            "translation": "Assistant"
+        },
+        "Design": {
+            "article": "das",
+            "translation": "Design"
+        },
+        "Angel": {
+            "article": "die",
+            "translation": "Fishing"
+        },
+        "Piste": {
+            "article": "die",
+            "translation": "Slope"
+        },
+        "Graf": {
+            "article": "der",
+            "translation": "Earl"
+        },
+        "Kommentar": {
+            "article": "der",
+            "translation": "Comment"
+        },
+        "Kellner": {
+            "article": "der",
+            "translation": "Waiter"
+        },
+        "Lebensmittel": {
+            "article": "der",
+            "translation": "Grocery"
+        },
+        "Leiter": {
+            "article": "die",
+            "translation": "Ladder"
+        },
+        "Kurve": {
+            "article": "die",
+            "translation": "Curve"
+        },
+        "Volumen": {
+            "article": "das",
+            "translation": "Volume"
+        },
+        "Risiko": {
+            "article": "das",
+            "translation": "Risk"
+        },
+        "Albtraum": {
+            "article": "der",
+            "translation": "Nightmare"
+        },
+        "Existenz": {
+            "article": "die",
+            "translation": "Existence"
+        },
+        "Spur": {
+            "article": "die",
+            "translation": "Trace"
+        },
+        "Krankheit": {
+            "article": "die",
+            "translation": "Illness"
+        },
+        "Unterst\u00fctzung": {
+            "article": "die",
+            "translation": "Support"
+        },
+        "Zeuge": {
+            "article": "der",
+            "translation": "Witness"
+        },
+        "Aktie": {
+            "article": "die",
+            "translation": "Stock"
+        },
+        "Ger\u00e4t": {
+            "article": "das",
+            "translation": "Device"
+        },
+        "Landschaft": {
+            "article": "die",
+            "translation": "Landscape"
+        },
+        "Urlaub": {
+            "article": "der",
+            "translation": "Leave"
+        },
+        "Ass": {
+            "article": "das",
+            "translation": "Ace"
+        },
+        "Klavier": {
+            "article": "das",
+            "translation": "Piano"
+        },
+        "Eingeweide": {
+            "article": "die",
+            "translation": "Gut"
+        },
+        "Talent": {
+            "article": "das",
+            "translation": "Talent"
+        },
+        "Phantasie": {
+            "article": "die",
+            "translation": "Imagination"
+        },
+        "Schwarze": {
+            "article": "die",
+            "translation": "Black"
+        },
+        "Reed": {
+            "article": "der",
+            "translation": "Reed"
+        },
+        "Deckel": {
+            "article": "der",
+            "translation": "Lid"
+        },
+        "Hinweis": {
+            "article": "der",
+            "translation": "Hint"
+        },
+        "Wanderer": {
+            "article": "der",
+            "translation": "Walker"
+        },
+        "Studie": {
+            "article": "die",
+            "translation": "Trial"
+        },
+        "Interview": {
+            "article": "das",
+            "translation": "Interview"
+        },
+        "Ansatz": {
+            "article": "der",
+            "translation": "Approach"
+        },
+        "Narbe": {
+            "article": "die",
+            "translation": "Scar"
+        },
+        "Mode": {
+            "article": "die",
+            "translation": "Fashion"
+        },
+        "Kanal": {
+            "article": "der",
+            "translation": "Channel"
+        },
+        "Tritt": {
+            "article": "die",
+            "translation": "Footstep"
+        },
+        "Aufnehmer": {
+            "article": "der",
+            "translation": "Pickup"
+        },
+        "Habicht": {
+            "article": "der",
+            "translation": "Hawk"
+        },
+        "Anh\u00e4nger": {
+            "article": "der",
+            "translation": "Trailer"
+        },
+        "Statue": {
+            "article": "die",
+            "translation": "Statue"
+        },
+        "Pille": {
+            "article": "die",
+            "translation": "Pill"
+        },
+        "K\u00e4fer": {
+            "article": "der",
+            "translation": "Bug"
+        },
+        "Eimer": {
+            "article": "der",
+            "translation": "Bucket"
+        },
+        "Arten": {
+            "article": "die",
+            "translation": "Species"
+        },
+        "Kolumne": {
+            "article": "die",
+            "translation": "Column"
+        },
+        "Schaden": {
+            "article": "der",
+            "translation": "Harm"
+        },
+        "Instrument": {
+            "article": "das",
+            "translation": "Instrument"
+        },
+        "Hafen": {
+            "article": "der",
+            "translation": "Harbor"
+        },
+        "Schicht": {
+            "article": "die",
+            "translation": "Layer"
+        },
+        "Streifen": {
+            "article": "der",
+            "translation": "Streak"
+        },
+        "M\u00fcll": {
+            "article": "der",
+            "translation": "Waste"
+        },
+        "Rippe": {
+            "article": "die",
+            "translation": "Rib"
+        },
+        "Notebook": {
+            "article": "das",
+            "translation": "Notebook"
+        },
+        "Mais": {
+            "article": "der",
+            "translation": "Corn"
+        },
+        "Angebot": {
+            "article": "das",
+            "translation": "Offer"
+        },
+        "Zeichnung": {
+            "article": "die",
+            "translation": "Drawing"
+        },
+        "Aussage": {
+            "article": "die",
+            "translation": "Statement"
+        },
+        "Intelligenz": {
+            "article": "die",
+            "translation": "Intelligence"
+        },
+        "Entschuldigung": {
+            "article": "die",
+            "translation": "Apology"
+        },
+        "Landung": {
+            "article": "die",
+            "translation": "Landing"
+        },
+        "Urheberrechts": {
+            "article": "der",
+            "translation": "Copyright"
+        },
+        "Stange": {
+            "article": "die",
+            "translation": "Rod"
+        },
+        "Fantasie": {
+            "article": "die",
+            "translation": "Fantasy"
+        },
+        "Neugier": {
+            "article": "die",
+            "translation": "Curiosity"
+        },
+        "Grenze": {
+            "article": "die",
+            "translation": "Border"
+        },
+        "Poesie": {
+            "article": "die",
+            "translation": "Poetry"
+        },
+        "Firma": {
+            "article": "die",
+            "translation": "Firm"
+        },
+        "Aufgang": {
+            "article": "der",
+            "translation": "Rise"
+        },
+        "Handvoll": {
+            "article": "die",
+            "translation": "Handful"
+        },
+        "China": {
+            "article": "die",
+            "translation": "China"
+        },
+        "Franzosen": {
+            "article": "die",
+            "translation": "French"
+        },
+        "Durchschnitts": {
+            "article": "die",
+            "translation": "Mean"
+        },
+        "Reh": {
+            "article": "das",
+            "translation": "Deer"
+        },
+        "Schiene": {
+            "article": "die",
+            "translation": "Rail"
+        },
+        "Rate": {
+            "article": "die",
+            "translation": "Rate"
+        },
+        "Mut": {
+            "article": "der",
+            "translation": "Courage"
+        },
+        "Ankunft": {
+            "article": "die",
+            "translation": "Arrival"
+        },
+        "Wunsch": {
+            "article": "der",
+            "translation": "Wish"
+        },
+        "Grat": {
+            "article": "der",
+            "translation": "Ridge"
+        },
+        "Idiot": {
+            "article": "der",
+            "translation": "Idiot"
+        },
+        "Bulle": {
+            "article": "der",
+            "translation": "Bull"
+        },
+        "Saat": {
+            "article": "die",
+            "translation": "Seed"
+        },
+        "Fortschritt": {
+            "article": "der",
+            "translation": "Progress"
+        },
+        "Shorts": {
+            "article": "die",
+            "translation": "Shorts"
+        },
+        "B\u00fcrger": {
+            "article": "der",
+            "translation": "Citizen"
+        },
+        "Protokoll": {
+            "article": "das",
+            "translation": "Log"
+        },
+        "Geduld": {
+            "article": "die",
+            "translation": "Patience"
+        },
+        "Fledermaus": {
+            "article": "die",
+            "translation": "Bat"
+        },
+        "Fu\u00dfball": {
+            "article": "der",
+            "translation": "Football"
+        },
+        "Routine": {
+            "article": "die",
+            "translation": "Routine"
+        },
+        "Explosion": {
+            "article": "die",
+            "translation": "Blast"
+        },
+        "Inhalt": {
+            "article": "der",
+            "translation": "Content"
+        },
+        "Wissenschaftler": {
+            "article": "der",
+            "translation": "Scientist"
+        },
+        "Versagen": {
+            "article": "das",
+            "translation": "Failure"
+        },
+        "S\u00fcnde": {
+            "article": "die",
+            "translation": "Sin"
+        },
+        "Hintern": {
+            "article": "der",
+            "translation": "Butt"
+        },
+        "Verwirrung": {
+            "article": "die",
+            "translation": "Confusion"
+        },
+        "Verst\u00e4ndnis": {
+            "article": "das",
+            "translation": "Understanding"
+        },
+        "Handel": {
+            "article": "der",
+            "translation": "Trade"
+        },
+        "Taschenlampe": {
+            "article": "die",
+            "translation": "Flashlight"
+        },
+        "Internet": {
+            "article": "das",
+            "translation": "Net"
+        },
+        "Seemann": {
+            "article": "der",
+            "translation": "Sailor"
+        },
+        "Attit\u00fcde": {
+            "article": "die",
+            "translation": "Attitude"
+        },
+        "Schuld": {
+            "article": "die",
+            "translation": "Guilt"
+        },
+        "Sip": {
+            "article": "die",
+            "translation": "Sip"
+        },
+        "Keks": {
+            "article": "der",
+            "translation": "Cookie"
+        },
+        "Flucht": {
+            "article": "die",
+            "translation": "Escape"
+        },
+        "Anleitung": {
+            "article": "die",
+            "translation": "Instruction"
+        },
+        "Gewebe": {
+            "article": "das",
+            "translation": "Tissue"
+        },
+        "Marmor": {
+            "article": "der",
+            "translation": "Marble"
+        },
+        "D\u00e4mmerung": {
+            "article": "die",
+            "translation": "Dusk"
+        },
+        "H\u00fctte": {
+            "article": "die",
+            "translation": "Hut"
+        },
+        "Affe": {
+            "article": "der",
+            "translation": "Monkey"
+        },
+        "Makeup": {
+            "article": "das",
+            "translation": "Makeup"
+        },
+        "Doc": {
+            "article": "die",
+            "translation": "Doc"
+        },
+        "Rhythmus": {
+            "article": "der",
+            "translation": "Rhythm"
+        },
+        "Dampf": {
+            "article": "der",
+            "translation": "Steam"
+        },
+        "Koch": {
+            "article": "der",
+            "translation": "Cook"
+        },
+        "Flagge": {
+            "article": "die",
+            "translation": "Flag"
+        },
+        "Trainer": {
+            "article": "der",
+            "translation": "Coach"
+        },
+        "Schaukel": {
+            "article": "die",
+            "translation": "Swing"
+        },
+        "Lautsprecher": {
+            "article": "der",
+            "translation": "Speaker"
+        },
+        "Bolzen": {
+            "article": "der",
+            "translation": "Bolt"
+        },
+        "Fett": {
+            "article": "das",
+            "translation": "Fat"
+        },
+        "Klopf": {
+            "article": "die",
+            "translation": "Knock"
+        },
+        "Zauber": {
+            "article": "der",
+            "translation": "Spell"
+        },
+        "Runde": {
+            "article": "die",
+            "translation": "Round"
+        },
+        "Strohhalm": {
+            "article": "der",
+            "translation": "Straw"
+        },
+        "Luke": {
+            "article": "die",
+            "translation": "Hatch"
+        },
+        "B\u00f6se": {
+            "article": "das",
+            "translation": "Evil"
+        },
+        "Dienstm\u00e4dchen": {
+            "article": "das",
+            "translation": "Maid"
+        },
+        "Relative": {
+            "article": "die",
+            "translation": "Relative"
+        },
+        "Hexe": {
+            "article": "die",
+            "translation": "Witch"
+        },
+        "Sensation": {
+            "article": "die",
+            "translation": "Sensation"
+        },
+        "Blase": {
+            "article": "die",
+            "translation": "Bubble"
+        },
+        "Leser": {
+            "article": "der",
+            "translation": "Reader"
+        },
+        "Locke": {
+            "article": "die",
+            "translation": "Curl"
+        },
+        "Verschiebung": {
+            "article": "die",
+            "translation": "Shift"
+        },
+        "Union": {
+            "article": "die",
+            "translation": "Union"
+        },
+        "Teenager": {
+            "article": "der",
+            "translation": "Teenager"
+        },
+        "Ebene": {
+            "article": "die",
+            "translation": "Plain"
+        },
+        "Kellnerin": {
+            "article": "die",
+            "translation": "Waitress"
+        },
+        "Ger\u00fccht": {
+            "article": "das",
+            "translation": "Rumor"
+        },
+        "Schwerkraft": {
+            "article": "die",
+            "translation": "Gravity"
+        },
+        "Zuflucht": {
+            "article": "die",
+            "translation": "Shelter"
+        },
+        "Abenteuer": {
+            "article": "das",
+            "translation": "Adventure"
+        },
+        "L\u00f6we": {
+            "article": "der",
+            "translation": "Lion"
+        },
+        "Wirbels\u00e4ule": {
+            "article": "die",
+            "translation": "Spine"
+        },
+        "Vertrauen": {
+            "article": "das",
+            "translation": "Trust"
+        },
+        "Tiefe": {
+            "article": "die",
+            "translation": "Depth"
+        },
+        "Reichweite": {
+            "article": "die",
+            "translation": "Reach"
+        },
+        "Hammer": {
+            "article": "der",
+            "translation": "Hammer"
+        },
+        "Bibel": {
+            "article": "die",
+            "translation": "Bible"
+        },
+        "Vertrag": {
+            "article": "der",
+            "translation": "Contract"
+        },
+        "Dschungel": {
+            "article": "der",
+            "translation": "Jungle"
+        },
+        "Fabrik": {
+            "article": "die",
+            "translation": "Factory"
+        },
+        "Indische": {
+            "article": "die",
+            "translation": "Indian"
+        },
+        "Balkon": {
+            "article": "der",
+            "translation": "Balcony"
+        },
+        "Reis": {
+            "article": "der",
+            "translation": "Rice"
+        },
+        "Knoten": {
+            "article": "der",
+            "translation": "Knot"
+        },
+        "Kollege": {
+            "article": "der",
+            "translation": "Colleague"
+        },
+        "Stare": {
+            "article": "die",
+            "translation": "Stare"
+        },
+        "Motel": {
+            "article": "das",
+            "translation": "Motel"
+        },
+        "Liebling": {
+            "article": "der",
+            "translation": "Darling"
+        },
+        "Diskussion": {
+            "article": "die",
+            "translation": "Discussion"
+        },
+        "Leistung": {
+            "article": "die",
+            "translation": "Performance"
+        },
+        "Spannung": {
+            "article": "die",
+            "translation": "Tension"
+        },
+        "Text": {
+            "article": "der",
+            "translation": "Text"
+        },
+        "Strang": {
+            "article": "der",
+            "translation": "Strand"
+        },
+        "Mittags": {
+            "article": "die",
+            "translation": "Noon"
+        },
+        "Vene": {
+            "article": "die",
+            "translation": "Vein"
+        },
+        "Experte": {
+            "article": "der",
+            "translation": "Expert"
+        },
+        "Krebs": {
+            "article": "der",
+            "translation": "Cancer"
+        },
+        "Fuchs": {
+            "article": "der",
+            "translation": "Fox"
+        },
+        "Scheidung": {
+            "article": "die",
+            "translation": "Divorce"
+        },
+        "Impuls": {
+            "article": "der",
+            "translation": "Impulse"
+        },
+        "Abwesenheit": {
+            "article": "die",
+            "translation": "Absence"
+        },
+        "Gewalt": {
+            "article": "die",
+            "translation": "Violence"
+        },
+        "Humor": {
+            "article": "der",
+            "translation": "Humor"
+        },
+        "Kies": {
+            "article": "der",
+            "translation": "Gravel"
+        },
+        "Schatz": {
+            "article": "der",
+            "translation": "Sweetheart"
+        },
+        "Schalter": {
+            "article": "der",
+            "translation": "Switch"
+        },
+        "Zigarre": {
+            "article": "die",
+            "translation": "Cigar"
+        },
+        "Leinwand": {
+            "article": "die",
+            "translation": "Canvas"
+        },
+        "Fr\u00f6hlichkeit": {
+            "article": "die",
+            "translation": "Happiness"
+        },
+        "Schauspieler": {
+            "article": "der",
+            "translation": "Actor"
+        },
+        "Vereinbarung": {
+            "article": "die",
+            "translation": "Agreement"
+        },
+        "Braune": {
+            "article": "die",
+            "translation": "Brown"
+        },
+        "Gastgeber": {
+            "article": "der",
+            "translation": "Host"
+        },
+        "Farbband": {
+            "article": "das",
+            "translation": "Ribbon"
+        },
+        "Skala": {
+            "article": "die",
+            "translation": "Scale"
+        },
+        "Pfeil": {
+            "article": "der",
+            "translation": "Arrow"
+        },
+        "Temperatur": {
+            "article": "die",
+            "translation": "Temperature"
+        },
+        "Technologie": {
+            "article": "die",
+            "translation": "Technology"
+        },
+        "Erlaubnis": {
+            "article": "die",
+            "translation": "Permission"
+        },
+        "Klaue": {
+            "article": "die",
+            "translation": "Claw"
+        },
+        "Cowboy": {
+            "article": "der",
+            "translation": "Cowboy"
+        },
+        "Agentur": {
+            "article": "die",
+            "translation": "Agency"
+        },
+        "Konstruktion": {
+            "article": "die",
+            "translation": "Construction"
+        },
+        "Jagd": {
+            "article": "die",
+            "translation": "Hunt"
+        },
+        "Gem\u00fcse": {
+            "article": "das",
+            "translation": "Vegetable"
+        },
+        "Hubschrauber": {
+            "article": "der",
+            "translation": "Helicopter"
+        },
+        "Falle": {
+            "article": "die",
+            "translation": "Trap"
+        },
+        "Pat": {
+            "article": "das",
+            "translation": "Pat"
+        },
+        "L\u00fccke": {
+            "article": "die",
+            "translation": "Gap"
+        },
+        "Haustier": {
+            "article": "das",
+            "translation": "Pet"
+        },
+        "Bildung": {
+            "article": "die",
+            "translation": "Education"
+        },
+        "Einkaufen": {
+            "article": "das",
+            "translation": "Shopping"
+        },
+        "Schuppen": {
+            "article": "der",
+            "translation": "Shed"
+        },
+        "Herzog": {
+            "article": "der",
+            "translation": "Duke"
+        },
+        "Schrotflinte": {
+            "article": "die",
+            "translation": "Shotgun"
+        },
+        "Vorstellung": {
+            "article": "die",
+            "translation": "Notion"
+        },
+        "R\u00fcck": {
+            "article": "die",
+            "translation": "Rear"
+        },
+        "Zeremonie": {
+            "article": "die",
+            "translation": "Ceremony"
+        },
+        "Wanne": {
+            "article": "die",
+            "translation": "Tub"
+        },
+        "Iris": {
+            "article": "die",
+            "translation": "Iris"
+        },
+        "Vorfall": {
+            "article": "der",
+            "translation": "Incident"
+        },
+        "Absturz": {
+            "article": "der",
+            "translation": "Crash"
+        },
+        "Tagebuch": {
+            "article": "das",
+            "translation": "Diary"
+        },
+        "Zugriffs": {
+            "article": "die",
+            "translation": "Access"
+        },
+        "Messing": {
+            "article": "der",
+            "translation": "Brass"
+        },
+        "Seitenleiste": {
+            "article": "die",
+            "translation": "Sidebar"
+        },
+        "Schaf": {
+            "article": "das",
+            "translation": "Sheep"
+        },
+        "Ingenieur": {
+            "article": "der",
+            "translation": "Engineer"
+        },
+        "Rumpf": {
+            "article": "der",
+            "translation": "Hull"
+        },
+        "Termin": {
+            "article": "der",
+            "translation": "Appointment"
+        },
+        "Einladung": {
+            "article": "die",
+            "translation": "Invitation"
+        },
+        "Lappen": {
+            "article": "die",
+            "translation": "Rag"
+        },
+        "Gute": {
+            "article": "das",
+            "translation": "Good"
+        },
+        "Behandlung": {
+            "article": "die",
+            "translation": "Treatment"
+        },
+        "Weisheit": {
+            "article": "die",
+            "translation": "Wisdom"
+        },
+        "Element": {
+            "article": "das",
+            "translation": "Element"
+        },
+        "Gigant": {
+            "article": "der",
+            "translation": "Giant"
+        },
+        "Serviette": {
+            "article": "die",
+            "translation": "Napkin"
+        },
+        "W\u00e4sche": {
+            "article": "die",
+            "translation": "Laundry"
+        },
+        "Option": {
+            "article": "die",
+            "translation": "Option"
+        },
+        "Anforderung": {
+            "article": "die",
+            "translation": "Request"
+        },
+        "Opa": {
+            "article": "der",
+            "translation": "Grandpa"
+        },
+        "Ranch": {
+            "article": "die",
+            "translation": "Ranch"
+        },
+        "Skript": {
+            "article": "das",
+            "translation": "Script"
+        },
+        "Einkaufshalle": {
+            "article": "die",
+            "translation": "Mall"
+        },
+        "Ford": {
+            "article": "der",
+            "translation": "Ford"
+        },
+        "Witwe": {
+            "article": "die",
+            "translation": "Widow"
+        },
+        "Kr\u00e4he": {
+            "article": "die",
+            "translation": "Crow"
+        },
+        "Faden": {
+            "article": "der",
+            "translation": "Thread"
+        },
+        "Selbstmord": {
+            "article": "die",
+            "translation": "Suicide"
+        },
+        "Sonnenuntergang": {
+            "article": "der",
+            "translation": "Sunset"
+        },
+        "Gallerie": {
+            "article": "die",
+            "translation": "Gallery"
+        },
+        "Donner": {
+            "article": "der",
+            "translation": "Thunder"
+        },
+        "Seife": {
+            "article": "die",
+            "translation": "Soap"
+        },
+        "Whisky": {
+            "article": "der",
+            "translation": "Whiskey"
+        },
+        "Weibchen": {
+            "article": "das",
+            "translation": "Female"
+        },
+        "B\u00fcrgermeister": {
+            "article": "der",
+            "translation": "Major"
+        },
+        "Hub": {
+            "article": "der",
+            "translation": "Stroke"
+        },
+        "Klick": {
+            "article": "der",
+            "translation": "Click"
+        },
+        "Ruf": {
+            "article": "der",
+            "translation": "Reputation"
+        },
+        "M\u00fcller": {
+            "article": "der",
+            "translation": "Miller"
+        },
+        "Rat": {
+            "article": "der",
+            "translation": "Council"
+        },
+        "Stundenplan": {
+            "article": "der",
+            "translation": "Schedule"
+        },
+        "Friedhof": {
+            "article": "der",
+            "translation": "Cemetery"
+        },
+        "Instinkt": {
+            "article": "der",
+            "translation": "Instinct"
+        },
+        "Ruhe": {
+            "article": "die",
+            "translation": "Calm"
+        },
+        "Arbeitnehmer": {
+            "article": "der",
+            "translation": "Employee"
+        },
+        "Nest": {
+            "article": "das",
+            "translation": "Nest"
+        },
+        "Limit": {
+            "article": "das",
+            "translation": "Limit"
+        },
+        "Deutsche": {
+            "article": "der",
+            "translation": "German"
+        },
+        "M\u00f6nch": {
+            "article": "der",
+            "translation": "Monk"
+        },
+        "Wurm": {
+            "article": "der",
+            "translation": "Worm"
+        },
+        "Dokument": {
+            "article": "das",
+            "translation": "Document"
+        },
+        "Traurigkeit": {
+            "article": "die",
+            "translation": "Sadness"
+        },
+        "Lebensdauer": {
+            "article": "die",
+            "translation": "Lifetime"
+        },
+        "T\u00e4nzerin": {
+            "article": "die",
+            "translation": "Dancer"
+        },
+        "Versicherung": {
+            "article": "die",
+            "translation": "Insurance"
+        },
+        "Schwierigkeit": {
+            "article": "die",
+            "translation": "Difficulty"
+        },
+        "Matratze": {
+            "article": "die",
+            "translation": "Mattress"
+        },
+        "Klinik": {
+            "article": "die",
+            "translation": "Clinic"
+        },
+        "Ad": {
+            "article": "die",
+            "translation": "Ad"
+        },
+        "Becher": {
+            "article": "der",
+            "translation": "Mug"
+        },
+        "Kit": {
+            "article": "das",
+            "translation": "Kit"
+        },
+        "Kommunikation": {
+            "article": "die",
+            "translation": "Communication"
+        },
+        "Ungl\u00fcck": {
+            "article": "das",
+            "translation": "Disaster"
+        },
+        "Fliese": {
+            "article": "die",
+            "translation": "Tile"
+        },
+        "Empf\u00e4nger": {
+            "article": "der",
+            "translation": "Receiver"
+        },
+        "Gebr\u00fcll": {
+            "article": "das",
+            "translation": "Roar"
+        },
+        "Truppe": {
+            "article": "die",
+            "translation": "Troop"
+        },
+        "Sarg": {
+            "article": "der",
+            "translation": "Coffin"
+        },
+        "Freundschaft": {
+            "article": "die",
+            "translation": "Friendship"
+        },
+        "Ermittlung": {
+            "article": "die",
+            "translation": "Investigation"
+        },
+        "Verkauf": {
+            "article": "der",
+            "translation": "Sale"
+        },
+        "Krankenwagen": {
+            "article": "der",
+            "translation": "Ambulance"
+        },
+        "Mondlicht": {
+            "article": "das",
+            "translation": "Moonlight"
+        },
+        "M\u00fcndel": {
+            "article": "das",
+            "translation": "Ward"
+        },
+        "Hosen": {
+            "article": "die",
+            "translation": "Trousers"
+        },
+        "Wolle": {
+            "article": "die",
+            "translation": "Wool"
+        },
+        "Mac": {
+            "article": "die",
+            "translation": "Mac"
+        },
+        "Minister": {
+            "article": "der",
+            "translation": "Minister"
+        },
+        "Eintritt": {
+            "article": "der",
+            "translation": "Entry"
+        },
+        "Dieb": {
+            "article": "der",
+            "translation": "Thief"
+        },
+        "Aktentasche": {
+            "article": "die",
+            "translation": "Briefcase"
+        },
+        "Mitleid": {
+            "article": "das",
+            "translation": "Pity"
+        },
+        "Marine": {
+            "article": "die",
+            "translation": "Navy"
+        },
+        "Insekt": {
+            "article": "das",
+            "translation": "Insect"
+        },
+        "Samt": {
+            "article": "der",
+            "translation": "Velvet"
+        },
+        "Biene": {
+            "article": "die",
+            "translation": "Bee"
+        },
+        "Gen": {
+            "article": "das",
+            "translation": "Gene"
+        },
+        "Windschutzscheibe": {
+            "article": "die",
+            "translation": "Windshield"
+        },
+        "Outfit": {
+            "article": "das",
+            "translation": "Outfit"
+        },
+        "Shuttle": {
+            "article": "der",
+            "translation": "Shuttle"
+        },
+        "Herausforderung": {
+            "article": "die",
+            "translation": "Challenge"
+        },
+        "Zufriedenheit": {
+            "article": "die",
+            "translation": "Satisfaction"
+        },
+        "Produkt": {
+            "article": "das",
+            "translation": "Product"
+        },
+        "Unkraut": {
+            "article": "das",
+            "translation": "Weed"
+        },
+        "Fitnesscenter": {
+            "article": "das",
+            "translation": "Gym"
+        },
+        "Kapital": {
+            "article": "das",
+            "translation": "Capital"
+        },
+        "Rand": {
+            "article": "der",
+            "translation": "Rim"
+        },
+        "Pfote": {
+            "article": "die",
+            "translation": "Paw"
+        },
+        "Festung": {
+            "article": "die",
+            "translation": "Fort"
+        },
+        "Kosten": {
+            "article": "die",
+            "translation": "Cost"
+        },
+        "Plakat": {
+            "article": "das",
+            "translation": "Poster"
+        },
+        "Vampir": {
+            "article": "der",
+            "translation": "Vampire"
+        },
+        "Identit\u00e4t": {
+            "article": "die",
+            "translation": "Identity"
+        },
+        "Arschloch": {
+            "article": "das",
+            "translation": "Asshole"
+        },
+        "Gurt": {
+            "article": "der",
+            "translation": "Strap"
+        },
+        "Netz": {
+            "article": "das",
+            "translation": "Web"
+        },
+        "Golf": {
+            "article": "der",
+            "translation": "Golf"
+        },
+        "Steuer": {
+            "article": "das",
+            "translation": "Steering"
+        },
+        "Falte": {
+            "article": "die",
+            "translation": "Fold"
+        },
+        "Portr\u00e4t": {
+            "article": "das",
+            "translation": "Portrait"
+        },
+        "Kost\u00fcm": {
+            "article": "das",
+            "translation": "Costume"
+        },
+        "Ma\u00df": {
+            "article": "das",
+            "translation": "Measure"
+        },
+        "Gitarre": {
+            "article": "die",
+            "translation": "Guitar"
+        },
+        "Ritter": {
+            "article": "der",
+            "translation": "Knight"
+        },
+        "Rang": {
+            "article": "der",
+            "translation": "Rank"
+        },
+        "Brunnen": {
+            "article": "der",
+            "translation": "Fountain"
+        },
+        "Stall": {
+            "article": "der",
+            "translation": "Stall"
+        },
+        "Funke": {
+            "article": "der",
+            "translation": "Spark"
+        },
+        "Champagner": {
+            "article": "der",
+            "translation": "Champagne"
+        },
+        "Schutz": {
+            "article": "der",
+            "translation": "Protection"
+        },
+        "Urteil": {
+            "article": "das",
+            "translation": "Judgment"
+        },
+        "Sympathie": {
+            "article": "die",
+            "translation": "Sympathy"
+        },
+        "Violett": {
+            "article": "das",
+            "translation": "Violet"
+        },
+        "Aufprall": {
+            "article": "der",
+            "translation": "Impact"
+        },
+        "Entt\u00e4uschung": {
+            "article": "die",
+            "translation": "Disappointment"
+        },
+        "Trink": {
+            "article": "das",
+            "translation": "Drinking"
+        },
+        "Bewusstsein": {
+            "article": "das",
+            "translation": "Consciousness"
+        },
+        "Taschentuch": {
+            "article": "das",
+            "translation": "Handkerchief"
+        },
+        "Tanzen": {
+            "article": "das",
+            "translation": "Dancing"
+        },
+        "Parf\u00fcm": {
+            "article": "das",
+            "translation": "Perfume"
+        },
+        "Netzwerk": {
+            "article": "das",
+            "translation": "Network"
+        },
+        "Anspruch": {
+            "article": "der",
+            "translation": "Claim"
+        },
+        "Nonne": {
+            "article": "die",
+            "translation": "Nun"
+        },
+        "Krone": {
+            "article": "die",
+            "translation": "Crown"
+        },
+        "Gel\u00e4nder": {
+            "article": "das",
+            "translation": "Railing"
+        },
+        "Lizenz": {
+            "article": "die",
+            "translation": "License"
+        },
+        "Barmherzigkeit": {
+            "article": "die",
+            "translation": "Mercy"
+        },
+        "Ballon": {
+            "article": "der",
+            "translation": "Balloon"
+        },
+        "Chaos": {
+            "article": "das",
+            "translation": "Chaos"
+        },
+        "Fieber": {
+            "article": "das",
+            "translation": "Fever"
+        },
+        "Schlie\u00dffach": {
+            "article": "das",
+            "translation": "Locker"
+        },
+        "Sitzung": {
+            "article": "die",
+            "translation": "Session"
+        },
+        "Burst": {
+            "article": "die",
+            "translation": "Burst"
+        },
+        "Spitzer": {
+            "article": "der",
+            "translation": "Peak"
+        },
+        "Trommel": {
+            "article": "die",
+            "translation": "Drum"
+        },
+        "Fokus": {
+            "article": "der",
+            "translation": "Focus"
+        },
+        "Frosch": {
+            "article": "der",
+            "translation": "Frog"
+        },
+        "Bemerkung": {
+            "article": "die",
+            "translation": "Remark"
+        },
+        "Gezeiten": {
+            "article": "die",
+            "translation": "Tide"
+        },
+        "Verdacht": {
+            "article": "der",
+            "translation": "Suspicion"
+        },
+        "Jeep": {
+            "article": "der",
+            "translation": "Jeep"
+        },
+        "Literatur": {
+            "article": "die",
+            "translation": "Literature"
+        },
+        "Bogensch\u00fctze": {
+            "article": "der",
+            "translation": "Archer"
+        },
+        "Haushalt": {
+            "article": "der",
+            "translation": "Household"
+        },
+        "Pulver": {
+            "article": "das",
+            "translation": "Powder"
+        },
+        "Hirte": {
+            "article": "der",
+            "translation": "Shepherd"
+        },
+        "Linse": {
+            "article": "die",
+            "translation": "Lens"
+        },
+        "Favorit": {
+            "article": "der",
+            "translation": "Favorite"
+        },
+        "Madame": {
+            "article": "die",
+            "translation": "Madame"
+        },
+        "Villa": {
+            "article": "die",
+            "translation": "Mansion"
+        },
+        "Boom": {
+            "article": "der",
+            "translation": "Boom"
+        },
+        "\u00dcberpr\u00fcfung": {
+            "article": "die",
+            "translation": "Review"
+        },
+        "Rezeption": {
+            "article": "die",
+            "translation": "Reception"
+        },
+        "Schrott": {
+            "article": "der",
+            "translation": "Scrap"
+        },
+        "Wulst": {
+            "article": "der",
+            "translation": "Bead"
+        },
+        "Blendung": {
+            "article": "die",
+            "translation": "Glare"
+        },
+        "Str\u00f6mung": {
+            "article": "die",
+            "translation": "Flow"
+        },
+        "Cafe": {
+            "article": "das",
+            "translation": "Cafe"
+        },
+        "Status": {
+            "article": "der",
+            "translation": "Status"
+        },
+        "Pochen": {
+            "article": "das",
+            "translation": "Pounding"
+        },
+        "Rakete": {
+            "article": "die",
+            "translation": "Missile"
+        },
+        "Schlucht": {
+            "article": "die",
+            "translation": "Canyon"
+        },
+        "Spinne": {
+            "article": "die",
+            "translation": "Spider"
+        },
+        "Pers\u00f6nlichkeit": {
+            "article": "die",
+            "translation": "Personality"
+        },
+        "Campus": {
+            "article": "der",
+            "translation": "Campus"
+        },
+        "Fluch": {
+            "article": "der",
+            "translation": "Curse"
+        },
+        "Treppenhaus": {
+            "article": "das",
+            "translation": "Staircase"
+        },
+        "Drang": {
+            "article": "der",
+            "translation": "Urge"
+        },
+        "Frustration": {
+            "article": "die",
+            "translation": "Frustration"
+        },
+        "Pumpe": {
+            "article": "die",
+            "translation": "Pump"
+        },
+        "Leichtigkeit": {
+            "article": "die",
+            "translation": "Ease"
+        },
+        "Z\u00e4hlung": {
+            "article": "die",
+            "translation": "Count"
+        },
+        "L\u00f6sung": {
+            "article": "die",
+            "translation": "Solution"
+        },
+        "Schmuck": {
+            "article": "der",
+            "translation": "Jewelry"
+        },
+        "Sirene": {
+            "article": "die",
+            "translation": "Siren"
+        },
+        "Tradition": {
+            "article": "die",
+            "translation": "Tradition"
+        },
+        "Leer": {
+            "article": "das",
+            "translation": "Curb"
+        },
+        "Vielfalt": {
+            "article": "die",
+            "translation": "Variety"
+        },
+        "Pirat": {
+            "article": "der",
+            "translation": "Pirate"
+        },
+        "Beschreibung": {
+            "article": "die",
+            "translation": "Description"
+        },
+        "Tonh\u00f6he": {
+            "article": "die",
+            "translation": "Pitch"
+        },
+        "Pizza": {
+            "article": "die",
+            "translation": "Pizza"
+        },
+        "Elefant": {
+            "article": "der",
+            "translation": "Elephant"
+        },
+        "Politik": {
+            "article": "die",
+            "translation": "Politics"
+        },
+        "Tennis": {
+            "article": "der",
+            "translation": "Tennis"
+        },
+        "Hunger": {
+            "article": "der",
+            "translation": "Hunger"
+        },
+        "Genie": {
+            "article": "das",
+            "translation": "Genius"
+        },
+        "Ziege": {
+            "article": "die",
+            "translation": "Goat"
+        },
+        "Sieg": {
+            "article": "der",
+            "translation": "Victory"
+        },
+        "Kombination": {
+            "article": "die",
+            "translation": "Combination"
+        },
+        "Zugeh\u00f6rigkeit": {
+            "article": "die",
+            "translation": "Affiliation"
+        },
+        "Momma": {
+            "article": "das",
+            "translation": "Momma"
+        },
+        "Umhang": {
+            "article": "der",
+            "translation": "Cape"
+        },
+        "Scheinwerfer": {
+            "article": "der",
+            "translation": "Headlight"
+        },
+        "Gouverneur": {
+            "article": "der",
+            "translation": "Governor"
+        },
+        "Sauerstoff": {
+            "article": "die",
+            "translation": "Oxygen"
+        },
+        "Bischof": {
+            "article": "der",
+            "translation": "Bishop"
+        },
+        "Entwicklung": {
+            "article": "die",
+            "translation": "Development"
+        },
+        "Fingernagel": {
+            "article": "der",
+            "translation": "Fingernail"
+        },
+        "Punktzahl": {
+            "article": "die",
+            "translation": "Score"
+        },
+        "Steuermann": {
+            "article": "der",
+            "translation": "Mate"
+        },
+        "Umlaufbahn": {
+            "article": "die",
+            "translation": "Orbit"
+        },
+        "Weinstock": {
+            "article": "der",
+            "translation": "Vine"
+        },
+        "Suite": {
+            "article": "die",
+            "translation": "Suite"
+        },
+        "Barkeeper": {
+            "article": "der",
+            "translation": "Bartender"
+        },
+        "Koks": {
+            "article": "der",
+            "translation": "Coke"
+        },
+        "Melodie": {
+            "article": "die",
+            "translation": "Tune"
+        },
+        "Herrlichkeit": {
+            "article": "die",
+            "translation": "Glory"
+        },
+        "Rabbi": {
+            "article": "der",
+            "translation": "Rabbi"
+        },
+        "Vieh": {
+            "article": "das",
+            "translation": "Cattle"
+        },
+        "Ritual": {
+            "article": "das",
+            "translation": "Ritual"
+        },
+        "Begr\u00fc\u00dfung": {
+            "article": "die",
+            "translation": "Greeting"
+        },
+        "Scheibe": {
+            "article": "die",
+            "translation": "Slice"
+        },
+        "Homer": {
+            "article": "die",
+            "translation": "Homer"
+        },
+        "Kamin": {
+            "article": "der",
+            "translation": "Fireplace"
+        },
+        "Trikot": {
+            "article": "das",
+            "translation": "Jersey"
+        },
+        "Medien": {
+            "article": "die",
+            "translation": "Media"
+        },
+        "Pop": {
+            "article": "die",
+            "translation": "Pop"
+        },
+        "Fracht": {
+            "article": "die",
+            "translation": "Cargo"
+        },
+        "Gasthaus": {
+            "article": "das",
+            "translation": "Inn"
+        },
+        "Stellvertretende": {
+            "article": "der",
+            "translation": "Deputy"
+        },
+        "Verzweiflung": {
+            "article": "die",
+            "translation": "Despair"
+        },
+        "Territorium": {
+            "article": "das",
+            "translation": "Territory"
+        },
+        "Jazz": {
+            "article": "die",
+            "translation": "Jazz"
+        },
+        "Umarmung": {
+            "article": "die",
+            "translation": "Hug"
+        },
+        "Pfeife": {
+            "article": "die",
+            "translation": "Whistle"
+        },
+        "Menschlichkeit": {
+            "article": "die",
+            "translation": "Humanity"
+        },
+        "Handwerk": {
+            "article": "das",
+            "translation": "Craft"
+        },
+        "Tageslicht": {
+            "article": "das",
+            "translation": "Daylight"
+        },
+        "Slip": {
+            "article": "der",
+            "translation": "Slip"
+        },
+        "R\u00fcstung": {
+            "article": "die",
+            "translation": "Armor"
+        },
+        "Rucksack": {
+            "article": "der",
+            "translation": "Backpack"
+        },
+        "Vorschlag": {
+            "article": "der",
+            "translation": "Suggestion"
+        },
+        "Symbol": {
+            "article": "das",
+            "translation": "Symbol"
+        },
+        "Kolonie": {
+            "article": "die",
+            "translation": "Colony"
+        },
+        "Fazit": {
+            "article": "das",
+            "translation": "Conclusion"
+        },
+        "Nasenloch": {
+            "article": "das",
+            "translation": "Nostril"
+        },
+        "Speer": {
+            "article": "der",
+            "translation": "Spear"
+        },
+        "Tomate": {
+            "article": "die",
+            "translation": "Tomato"
+        },
+        "Kalb": {
+            "article": "das",
+            "translation": "Calf"
+        },
+        "Fund": {
+            "article": "der",
+            "translation": "Discovery"
+        },
+        "Klassenzimmer": {
+            "article": "das",
+            "translation": "Classroom"
+        },
+        "Lieferung": {
+            "article": "die",
+            "translation": "Delivery"
+        },
+        "Spray": {
+            "article": "das",
+            "translation": "Spray"
+        },
+        "Fl\u00fcssigkeit": {
+            "article": "die",
+            "translation": "Liquid"
+        },
+        "Kraftstoff": {
+            "article": "die",
+            "translation": "Fuel"
+        },
+        "Unterw\u00e4sche": {
+            "article": "die",
+            "translation": "Underwear"
+        },
+        "Kuppel": {
+            "article": "die",
+            "translation": "Dome"
+        },
+        "Bev\u00f6lkerung": {
+            "article": "die",
+            "translation": "Population"
+        },
+        "Neigung": {
+            "article": "die",
+            "translation": "Affection"
+        },
+        "Religion": {
+            "article": "die",
+            "translation": "Religion"
+        },
+        "S\u00e4nger": {
+            "article": "der",
+            "translation": "Singer"
+        },
+        "Illusion": {
+            "article": "die",
+            "translation": "Illusion"
+        },
+        "Link": {
+            "article": "der",
+            "translation": "Link"
+        },
+        "Innenraum": {
+            "article": "der",
+            "translation": "Interior"
+        },
+        "Achselzucken": {
+            "article": "die",
+            "translation": "Shrug"
+        },
+        "Zone": {
+            "article": "die",
+            "translation": "Zone"
+        },
+        "Standard": {
+            "article": "der",
+            "translation": "Standard"
+        },
+        "Kohlen": {
+            "article": "die",
+            "translation": "Coal"
+        },
+        "Klumpen": {
+            "article": "der",
+            "translation": "Lump"
+        },
+        "Charm": {
+            "article": "der",
+            "translation": "Charm"
+        },
+        "Legende": {
+            "article": "die",
+            "translation": "Legend"
+        },
+        "Konsequenz": {
+            "article": "die",
+            "translation": "Consequence"
+        },
+        "Beobachtung": {
+            "article": "die",
+            "translation": "Observation"
+        },
+        "Zahlung": {
+            "article": "die",
+            "translation": "Pay"
+        },
+        "Prospekt": {
+            "article": "das",
+            "translation": "Prospect"
+        },
+        "Ubahn": {
+            "article": "die",
+            "translation": "Subway"
+        },
+        "Kirsche": {
+            "article": "die",
+            "translation": "Cherry"
+        },
+        "H\u00e4ndler": {
+            "article": "der",
+            "translation": "Merchant"
+        },
+        "Zuordnung": {
+            "article": "die",
+            "translation": "Assignment"
+        },
+        "Eile": {
+            "article": "die",
+            "translation": "Hurry"
+        },
+        "Geliebte": {
+            "article": "die",
+            "translation": "Mistress"
+        },
+        "Unsinn": {
+            "article": "der",
+            "translation": "Nonsense"
+        },
+        "Komitee": {
+            "article": "das",
+            "translation": "Committee"
+        },
+        "Echo": {
+            "article": "das",
+            "translation": "Echo"
+        },
+        "Durchhang": {
+            "article": "der",
+            "translation": "Slack"
+        },
+        "Decker": {
+            "article": "die",
+            "translation": "Decker"
+        },
+        "Warenhaus": {
+            "article": "das",
+            "translation": "Warehouse"
+        },
+        "Toast": {
+            "article": "der",
+            "translation": "Toast"
+        },
+        "Einrichtung": {
+            "article": "die",
+            "translation": "Facility"
+        },
+        "Basketball": {
+            "article": "der",
+            "translation": "Basketball"
+        },
+        "Schnurrbart": {
+            "article": "der",
+            "translation": "Mustache"
+        },
+        "Senator": {
+            "article": "der",
+            "translation": "Senator"
+        },
+        "Teilen": {
+            "article": "das",
+            "translation": "Share"
+        },
+        "Augenlid": {
+            "article": "das",
+            "translation": "Eyelid"
+        },
+        "Begeisterung": {
+            "article": "die",
+            "translation": "Enthusiasm"
+        },
+        "Chunk": {
+            "article": "die",
+            "translation": "Chunk"
+        },
+        "Schildkr\u00f6te": {
+            "article": "die",
+            "translation": "Turtle"
+        },
+        "Alkohol": {
+            "article": "der",
+            "translation": "Alcohol"
+        },
+        "Gummi": {
+            "article": "die",
+            "translation": "Gum"
+        },
+        "Truthahn": {
+            "article": "der",
+            "translation": "Turkey"
+        },
+        "Prediger": {
+            "article": "der",
+            "translation": "Preacher"
+        },
+        "Besitz": {
+            "article": "der",
+            "translation": "Possession"
+        },
+        "Dolly": {
+            "article": "der",
+            "translation": "Dolly"
+        },
+        "Leinen": {
+            "article": "das",
+            "translation": "Linen"
+        },
+        "Vortrag": {
+            "article": "der",
+            "translation": "Lecture"
+        },
+        "Heap": {
+            "article": "der",
+            "translation": "Heap"
+        },
+        "Fotograf": {
+            "article": "der",
+            "translation": "Photographer"
+        },
+        "Bremse": {
+            "article": "die",
+            "translation": "Brake"
+        },
+        "Nachfrage": {
+            "article": "die",
+            "translation": "Demand"
+        },
+        "Sch\u00fcrze": {
+            "article": "die",
+            "translation": "Apron"
+        },
+        "Jury": {
+            "article": "die",
+            "translation": "Jury"
+        },
+        "Anh\u00f6rung": {
+            "article": "die",
+            "translation": "Hearing"
+        },
+        "Graue": {
+            "article": "das",
+            "translation": "Gray"
+        },
+        "Referenz": {
+            "article": "die",
+            "translation": "Reference"
+        },
+        "Ekel": {
+            "article": "der",
+            "translation": "Disgust"
+        },
+        "Flotte": {
+            "article": "die",
+            "translation": "Liquor"
+        },
+        "Lippenstift": {
+            "article": "der",
+            "translation": "Lipstick"
+        },
+        "Kern": {
+            "article": "der",
+            "translation": "Core"
+        },
+        "Einzelne": {
+            "article": "der",
+            "translation": "Individual"
+        },
+        "Container": {
+            "article": "der",
+            "translation": "Container"
+        },
+        "Hure": {
+            "article": "die",
+            "translation": "Whore"
+        },
+        "Kleinkind": {
+            "article": "das",
+            "translation": "Infant"
+        },
+        "Sonnenbrille": {
+            "article": "die",
+            "translation": "Sunglasses"
+        },
+        "Schlauch": {
+            "article": "der",
+            "translation": "Hose"
+        },
+        "Konzert": {
+            "article": "das",
+            "translation": "Concert"
+        },
+        "Bullshit": {
+            "article": "das",
+            "translation": "Bullshit"
+        },
+        "Eisenbahn": {
+            "article": "die",
+            "translation": "Railroad"
+        },
+        "Parade": {
+            "article": "die",
+            "translation": "Parade"
+        },
+        "Fach": {
+            "article": "das",
+            "translation": "Compartment"
+        },
+        "Bewohner": {
+            "article": "der",
+            "translation": "Resident"
+        },
+        "Backofen": {
+            "article": "der",
+            "translation": "Oven"
+        },
+        "Techniker": {
+            "article": "der",
+            "translation": "Technician"
+        },
+        "Verfahren": {
+            "article": "das",
+            "translation": "Procedure"
+        },
+        "K\u00e4mpfer": {
+            "article": "der",
+            "translation": "Fighter"
+        },
+        "Korn": {
+            "article": "das",
+            "translation": "Grain"
+        },
+        "Picknick": {
+            "article": "das",
+            "translation": "Picnic"
+        },
+        "Stamm": {
+            "article": "der",
+            "translation": "Tribe"
+        },
+        "Knospe": {
+            "article": "die",
+            "translation": "Bud"
+        },
+        "Wiese": {
+            "article": "die",
+            "translation": "Meadow"
+        },
+        "\u00d6ffentlichkeit": {
+            "article": "die",
+            "translation": "Public"
+        },
+        "Gift": {
+            "article": "das",
+            "translation": "Poison"
+        },
+        "B\u00fcffel": {
+            "article": "der",
+            "translation": "Buffalo"
+        },
+        "Region": {
+            "article": "die",
+            "translation": "Region"
+        },
+        "Produktion": {
+            "article": "die",
+            "translation": "Production"
+        },
+        "Schleife": {
+            "article": "die",
+            "translation": "Loop"
+        },
+        "Soda": {
+            "article": "die",
+            "translation": "Soda"
+        },
+        "Eule": {
+            "article": "die",
+            "translation": "Owl"
+        },
+        "Men\u00fc": {
+            "article": "das",
+            "translation": "Menu"
+        },
+        "Kick": {
+            "article": "der",
+            "translation": "Kick"
+        },
+        "Ruine": {
+            "article": "die",
+            "translation": "Ruin"
+        },
+        "Rampe": {
+            "article": "die",
+            "translation": "Ramp"
+        },
+        "Unterarm": {
+            "article": "der",
+            "translation": "Forearm"
+        },
+        "Achsschenkel": {
+            "article": "der",
+            "translation": "Knuckle"
+        },
+        "Gans": {
+            "article": "die",
+            "translation": "Goose"
+        },
+        "Vormarsch": {
+            "article": "der",
+            "translation": "Advance"
+        },
+        "Fee": {
+            "article": "die",
+            "translation": "Fairy"
+        },
+        "Mannschaft": {
+            "article": "die",
+            "translation": "Squad"
+        },
+        "Offizielle": {
+            "article": "das",
+            "translation": "Official"
+        },
+        "Marke": {
+            "article": "die",
+            "translation": "Brand"
+        },
+        "Orgel": {
+            "article": "die",
+            "translation": "Organ"
+        },
+        "Schmetterling": {
+            "article": "der",
+            "translation": "Butterfly"
+        },
+        "Reich": {
+            "article": "das",
+            "translation": "Empire"
+        },
+        "Profil": {
+            "article": "das",
+            "translation": "Profile"
+        },
+        "Unglaube": {
+            "article": "der",
+            "translation": "Disbelief"
+        },
+        "Hain": {
+            "article": "der",
+            "translation": "Grove"
+        },
+        "Sattel": {
+            "article": "der",
+            "translation": "Saddle"
+        },
+        "Chancen": {
+            "article": "die",
+            "translation": "Odds"
+        },
+        "Cluster": {
+            "article": "die",
+            "translation": "Cluster"
+        },
+        "Satellit": {
+            "article": "der",
+            "translation": "Satellite"
+        },
+        "Abzug": {
+            "article": "der",
+            "translation": "Trigger"
+        },
+        "Welpe": {
+            "article": "der",
+            "translation": "Puppy"
+        },
+        "Warte": {
+            "article": "die",
+            "translation": "Waiting"
+        },
+        "Gl\u00fchbirne": {
+            "article": "die",
+            "translation": "Bulb"
+        },
+        "Kommode": {
+            "article": "die",
+            "translation": "Dresser"
+        },
+        "Patrouille": {
+            "article": "die",
+            "translation": "Patrol"
+        },
+        "Adler": {
+            "article": "der",
+            "translation": "Eagle"
+        },
+        "Privatsph\u00e4re": {
+            "article": "der",
+            "translation": "Privacy"
+        },
+        "Fluid": {
+            "article": "das",
+            "translation": "Fluid"
+        },
+        "Herde": {
+            "article": "die",
+            "translation": "Herd"
+        },
+        "Kopfschmerz": {
+            "article": "der",
+            "translation": "Headache"
+        },
+        "Vergn\u00fcgungspark": {
+            "article": "der",
+            "translation": "Amusement"
+        },
+        "Rollstuhl": {
+            "article": "der",
+            "translation": "Wheelchair"
+        },
+        "Richtlinie": {
+            "article": "die",
+            "translation": "Policy"
+        },
+        "Belle": {
+            "article": "das",
+            "translation": "Belle"
+        },
+        "Tabak": {
+            "article": "die",
+            "translation": "Tobacco"
+        },
+        "Einstellung": {
+            "article": "die",
+            "translation": "Setting"
+        },
+        "T\u00e4towierung": {
+            "article": "die",
+            "translation": "Tattoo"
+        },
+        "Last": {
+            "article": "die",
+            "translation": "Burden"
+        },
+        "Rutsche": {
+            "article": "die",
+            "translation": "Slide"
+        },
+        "Fleck": {
+            "article": "der",
+            "translation": "Stain"
+        },
+        "Bindung": {
+            "article": "die",
+            "translation": "Bond"
+        },
+        "Schwimmen": {
+            "article": "das",
+            "translation": "Swimming"
+        },
+        "Grundlage": {
+            "article": "die",
+            "translation": "Foundation"
+        },
+        "Verletzung": {
+            "article": "die",
+            "translation": "Injury"
+        },
+        "Liga": {
+            "article": "die",
+            "translation": "League"
+        },
+        "Batterie": {
+            "article": "die",
+            "translation": "Battery"
+        },
+        "Regenschirm": {
+            "article": "der",
+            "translation": "Umbrella"
+        },
+        "Kaiser": {
+            "article": "der",
+            "translation": "Emperor"
+        },
+        "Pier": {
+            "article": "der",
+            "translation": "Pier"
+        },
+        "Wasserhahn": {
+            "article": "der",
+            "translation": "Tap"
+        },
+        "Cutter": {
+            "article": "der",
+            "translation": "Cutter"
+        },
+        "Dachboden": {
+            "article": "der",
+            "translation": "Attic"
+        },
+        "Tiger": {
+            "article": "der",
+            "translation": "Tiger"
+        },
+        "Pal": {
+            "article": "die",
+            "translation": "Pal"
+        },
+        "Vorfahr": {
+            "article": "der",
+            "translation": "Ancestor"
+        },
+        "Konzentration": {
+            "article": "die",
+            "translation": "Concentration"
+        },
+        "Segen": {
+            "article": "der",
+            "translation": "Blessing"
+        },
+        "Leiste": {
+            "article": "die",
+            "translation": "Ledge"
+        },
+        "Fackel": {
+            "article": "die",
+            "translation": "Torch"
+        },
+        "Tinten": {
+            "article": "die",
+            "translation": "Ink"
+        },
+        "Handlung": {
+            "article": "die",
+            "translation": "Plot"
+        },
+        "Miete": {
+            "article": "die",
+            "translation": "Rent"
+        },
+        "Maultier": {
+            "article": "das",
+            "translation": "Mule"
+        },
+        "Umgebung": {
+            "article": "die",
+            "translation": "Environment"
+        },
+        "Stirnrunzeln": {
+            "article": "das",
+            "translation": "Frown"
+        },
+        "Inspektor": {
+            "article": "der",
+            "translation": "Inspector"
+        },
+        "Mitten": {
+            "article": "die",
+            "translation": "Midst"
+        },
+        "Verlegenheit": {
+            "article": "die",
+            "translation": "Embarrassment"
+        },
+        "Beschwerde": {
+            "article": "die",
+            "translation": "Complaint"
+        },
+        "Portion": {
+            "article": "die",
+            "translation": "Portion"
+        },
+        "Spannfutter": {
+            "article": "das",
+            "translation": "Chuck"
+        },
+        "Clearing": {
+            "article": "die",
+            "translation": "Clearing"
+        },
+        "Krise": {
+            "article": "die",
+            "translation": "Crisis"
+        },
+        "Halskette": {
+            "article": "die",
+            "translation": "Necklace"
+        },
+        "Laterne": {
+            "article": "die",
+            "translation": "Lantern"
+        },
+        "Reichtum": {
+            "article": "der",
+            "translation": "Wealth"
+        },
+        "Zivilisation": {
+            "article": "die",
+            "translation": "Civilization"
+        },
+        "Konzept": {
+            "article": "das",
+            "translation": "Concept"
+        },
+        "Lamm": {
+            "article": "das",
+            "translation": "Lamb"
+        },
+        "Manschette": {
+            "article": "die",
+            "translation": "Cuff"
+        },
+        "Jungfrau": {
+            "article": "die",
+            "translation": "Virgin"
+        },
+        "Eichh\u00f6rnchen": {
+            "article": "das",
+            "translation": "Squirrel"
+        },
+        "Star": {
+            "article": "der",
+            "translation": "Starling"
+        },
+        "Depression": {
+            "article": "die",
+            "translation": "Depression"
+        },
+        "Speicher": {
+            "article": "das",
+            "translation": "Storage"
+        },
+        "Altar": {
+            "article": "der",
+            "translation": "Altar"
+        },
+        "Trag\u00f6die": {
+            "article": "die",
+            "translation": "Tragedy"
+        },
+        "Ressource": {
+            "article": "die",
+            "translation": "Resource"
+        },
+        "Reisende": {
+            "article": "der",
+            "translation": "Traveler"
+        },
+        "K\u00f6nigreich": {
+            "article": "das",
+            "translation": "Kingdom"
+        },
+        "Juwel": {
+            "article": "das",
+            "translation": "Jewel"
+        },
+        "Musiker": {
+            "article": "der",
+            "translation": "Musician"
+        },
+        "Junk": {
+            "article": "die",
+            "translation": "Junk"
+        },
+        "Sonnenschein": {
+            "article": "der",
+            "translation": "Sunshine"
+        },
+        "Knabe": {
+            "article": "der",
+            "translation": "Lad"
+        },
+        "Elf": {
+            "article": "der",
+            "translation": "Elf"
+        },
+        "Protest": {
+            "article": "der",
+            "translation": "Protest"
+        },
+        "Exekutive": {
+            "article": "die",
+            "translation": "Executive"
+        },
+        "Aspekt": {
+            "article": "das",
+            "translation": "Aspect"
+        },
+        "Zifferblatt": {
+            "article": "das",
+            "translation": "Dial"
+        },
+        "Hausschuh": {
+            "article": "der",
+            "translation": "Slipper"
+        },
+        "Schauspielerin": {
+            "article": "die",
+            "translation": "Actress"
+        },
+        "Shooting": {
+            "article": "das",
+            "translation": "Shooting"
+        },
+        "Ohrring": {
+            "article": "der",
+            "translation": "Earring"
+        },
+        "Ameise": {
+            "article": "die",
+            "translation": "Ant"
+        },
+        "Patty": {
+            "article": "die",
+            "translation": "Patty"
+        },
+        "Sauce": {
+            "article": "die",
+            "translation": "Sauce"
+        },
+        "Intensit\u00e4t": {
+            "article": "die",
+            "translation": "Intensity"
+        },
+        "Graben": {
+            "article": "der",
+            "translation": "Ditch"
+        },
+        "G\u00e4nsebl\u00fcmchen": {
+            "article": "das",
+            "translation": "Daisy"
+        },
+        "Kapelle": {
+            "article": "die",
+            "translation": "Chapel"
+        },
+        "Sumpf": {
+            "article": "der",
+            "translation": "Swamp"
+        },
+        "Beziehung": {
+            "article": "die",
+            "translation": "Relation"
+        },
+        "Vermutung": {
+            "article": "die",
+            "translation": "Guess"
+        },
+        "Kran": {
+            "article": "der",
+            "translation": "Crane"
+        },
+        "Begegnung": {
+            "article": "die",
+            "translation": "Encounter"
+        },
+        "Sequenz": {
+            "article": "die",
+            "translation": "Sequence"
+        },
+        "Fragment": {
+            "article": "das",
+            "translation": "Fragment"
+        },
+        "Entwurf": {
+            "article": "der",
+            "translation": "Draft"
+        },
+        "Diner": {
+            "article": "das",
+            "translation": "Diner"
+        },
+        "Funktion": {
+            "article": "die",
+            "translation": "Function"
+        },
+        "Organisation": {
+            "article": "die",
+            "translation": "Organization"
+        },
+        "Skelett": {
+            "article": "das",
+            "translation": "Skeleton"
+        },
+        "Elend": {
+            "article": "das",
+            "translation": "Misery"
+        },
+        "Kraut": {
+            "article": "das",
+            "translation": "Herb"
+        },
+        "Stumpf": {
+            "article": "der",
+            "translation": "Stump"
+        },
+        "Einsatz": {
+            "article": "der",
+            "translation": "Stake"
+        },
+        "Puff": {
+            "article": "die",
+            "translation": "Puff"
+        },
+        "Kreation": {
+            "article": "die",
+            "translation": "Creation"
+        },
+        "Gefolge": {
+            "article": "das",
+            "translation": "Wake"
+        },
+        "Zauberer": {
+            "article": "der",
+            "translation": "Wizard"
+        },
+        "Matte": {
+            "article": "die",
+            "translation": "Mat"
+        },
+        "Dichtung": {
+            "article": "die",
+            "translation": "Seal"
+        },
+        "Zwielicht": {
+            "article": "das",
+            "translation": "Twilight"
+        },
+        "Grunzen": {
+            "article": "das",
+            "translation": "Grunt"
+        },
+        "Strafe": {
+            "article": "die",
+            "translation": "Punishment"
+        },
+        "Clan": {
+            "article": "der",
+            "translation": "Clan"
+        },
+        "Kupfer": {
+            "article": "das",
+            "translation": "Copper"
+        },
+        "Tr\u00fcmmer": {
+            "article": "die",
+            "translation": "Debris"
+        },
+        "Maler": {
+            "article": "der",
+            "translation": "Painter"
+        },
+        "Mathematik": {
+            "article": "die",
+            "translation": "Math"
+        },
+        "Erkennung": {
+            "article": "die",
+            "translation": "Recognition"
+        },
+        "Bedauern": {
+            "article": "das",
+            "translation": "Regret"
+        },
+        "M\u00fchle": {
+            "article": "die",
+            "translation": "Mill"
+        },
+        "Romantik": {
+            "article": "die",
+            "translation": "Romance"
+        },
+        "Terrasse": {
+            "article": "die",
+            "translation": "Patio"
+        },
+        "Schaufel": {
+            "article": "die",
+            "translation": "Shovel"
+        },
+        "Schlafanz\u00fcge": {
+            "article": "die",
+            "translation": "Pajamas"
+        },
+        "Email": {
+            "article": "die",
+            "translation": "Email"
+        },
+        "Taube": {
+            "article": "die",
+            "translation": "Pigeon"
+        },
+        "Dinosaurier": {
+            "article": "der",
+            "translation": "Dinosaur"
+        },
+        "Branche": {
+            "article": "die",
+            "translation": "Industry"
+        },
+        "Betreiber": {
+            "article": "der",
+            "translation": "Operator"
+        },
+        "Lift": {
+            "article": "der",
+            "translation": "Lift"
+        },
+        "Ratgeber": {
+            "article": "der",
+            "translation": "Counselor"
+        },
+        "Versammlung": {
+            "article": "die",
+            "translation": "Gathering"
+        },
+        "Prinzip": {
+            "article": "das",
+            "translation": "Principle"
+        },
+        "Drama": {
+            "article": "das",
+            "translation": "Drama"
+        },
+        "K\u00fcken": {
+            "article": "das",
+            "translation": "Chick"
+        },
+        "Diagramm": {
+            "article": "das",
+            "translation": "Chart"
+        },
+        "Kampagne": {
+            "article": "die",
+            "translation": "Campaign"
+        },
+        "Lorbeer": {
+            "article": "der",
+            "translation": "Laurel"
+        },
+        "Steak": {
+            "article": "das",
+            "translation": "Steak"
+        },
+        "Kriminelle": {
+            "article": "der",
+            "translation": "Criminal"
+        },
+        "Globus": {
+            "article": "der",
+            "translation": "Globe"
+        },
+        "Bluterguss": {
+            "article": "der",
+            "translation": "Bruise"
+        },
+        "T\u00f6ten": {
+            "article": "das",
+            "translation": "Killing"
+        },
+        "Oper": {
+            "article": "die",
+            "translation": "Opera"
+        },
+        "Frost": {
+            "article": "der",
+            "translation": "Frost"
+        },
+        "Nippel": {
+            "article": "der",
+            "translation": "Nipple"
+        },
+        "Pfarrer": {
+            "article": "der",
+            "translation": "Reverend"
+        },
+        "Tr\u00fcbung": {
+            "article": "die",
+            "translation": "Haze"
+        },
+        "Hochwasser": {
+            "article": "das",
+            "translation": "Flood"
+        },
+        "Weihnachtslied": {
+            "article": "das",
+            "translation": "Carol"
+        },
+        "Schw\u00e4che": {
+            "article": "die",
+            "translation": "Weakness"
+        },
+        "Kochen": {
+            "article": "das",
+            "translation": "Cooking"
+        },
+        "Metzger": {
+            "article": "der",
+            "translation": "Butcher"
+        },
+        "W\u00fcrfel": {
+            "article": "der",
+            "translation": "Cube"
+        }
+
+    }
+}

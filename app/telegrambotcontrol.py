@@ -16,6 +16,9 @@ class TelegramBotController:
             CommandHandler('start', self._handle_start)
         )
         updater.dispatcher.add_handler(
+            CommandHandler('start1000', self._handle_start1000)
+        )
+        updater.dispatcher.add_handler(
             CallbackQueryHandler(self._handle_button_clicked)
         )
         updater.dispatcher.add_handler(
@@ -27,6 +30,9 @@ class TelegramBotController:
 
     def _handle_start(self, update, context):
         self._model.start(update, context)
+
+    def _handle_start1000(self, update, context):
+        self._model.start1000(update, context)
 
     def _handle_button_clicked(self, update, context):
         self._model.card_button_clicked(update, context)
