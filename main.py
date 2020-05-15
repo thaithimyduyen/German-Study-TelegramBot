@@ -1,4 +1,4 @@
-from telegrambot import StudyGermanTelegramBot
+from app.telegrambot import StudyGermanTelegramBot
 
 TOKEN_FILE = "./token.txt"
 

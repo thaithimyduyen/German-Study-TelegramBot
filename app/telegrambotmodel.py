@@ -2,7 +2,7 @@
 
 import random
 
-from gendercard import GenderCard
+from app.gendercard import GenderCard
 
 KEY_USER_DATA_CARDS = "cards"
 KEY_USER_DATA_COUNT = "count"

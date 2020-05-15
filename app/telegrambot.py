@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 
 from telegram.utils.request import Request
-from telegrambotmodel import TelegramBotModel
-from telegrambotcontrol import TelegramBotController
-from telegrambotview import TelegramBotViewer
+from app.telegrambotmodel import TelegramBotModel
+from app.telegrambotcontrol import TelegramBotController
+from app.telegrambotview import TelegramBotViewer
+from app.storage import WordsStorage
 from telegram import Bot
 from telegram.ext import Updater
-from storage import WordsStorage
 
 
 class StudyGermanTelegramBot:

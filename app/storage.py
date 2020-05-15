@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import json
-from entities import GermanArticle
+from app.entities import GermanArticle
 
 
 class WordsStorage:
