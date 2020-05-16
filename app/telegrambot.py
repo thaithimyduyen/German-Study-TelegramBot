@@ -22,7 +22,11 @@ class StudyGermanTelegramBot:
         storage = WordsStorage()
         self._updater = Updater(bot=bot, use_context=True)
         self._view = TelegramBotViewer(bot=bot)
-        self._model = TelegramBotModel(self._view, bot=bot, storage=storage,)
+        self._model = TelegramBotModel(
+            view=self._view,
+            bot=bot,
+            storage=storage,
+        )
         self._controller = TelegramBotController(self._model, self._updater)
 
     def run(self):

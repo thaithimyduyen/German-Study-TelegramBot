@@ -1,8 +1,8 @@
 # Secrets
 token.txt
 
-# Output.
-words.json
+# Database.
+words.db
 
 # Editor and OS.
 

@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 
-import random
-
 
 from app.gendercard import GenderCard
 from app.storage import CollectionName
@@ -59,8 +57,8 @@ class TelegramBotModel:
         name_collection = context.user_data.get(
             KEY_USER_DATA_COLLECTION, CollectionName.user
         )
-        word_articles = self._storage.get_words_dict(user_id, name_collection)
-        if len(word_articles) == 0:
+        word = self._storage.get_random_word(name_collection, user_id)
+        if word is None:
             self._view.send_message_reply(
                 update=update,
                 context=context,
@@ -69,13 +67,9 @@ class TelegramBotModel:
                 "/Start1000 to begin with predefined words collection"
             )
             return
-        word_translation = random.choice(list(word_articles))
-        word, translation = word_translation
         card = GenderCard(
             bot=self._bot,
             word=word,
-            translation=translation,
-            article=word_articles[word_translation],
             listener=TelegramBotCardEventListener(self),
         )
 

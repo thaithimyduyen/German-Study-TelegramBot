@@ -18,15 +18,12 @@ logging.basicConfig(
 
 
 class GenderCard:
-    def __init__(self, bot, word, translation, article, listener):
+    def __init__(self, bot, word, listener):
         self.view = GenderCardView(bot)
         self.model = GenderCardModel(
             view=self.view,
             word=word,
-            article=article,
             listener=listener,
-            translation=translation,
-
         )
         self.controller = GenderCardController(self.model)
 
@@ -41,12 +38,10 @@ class Answers(enum.Enum):
 
 
 class GenderCardModel:
-    def __init__(self, view, word, translation, article, listener):
+    def __init__(self, view, word, listener):
         self._view = view
         self._word = word
-        self._translation = translation
-        self._visible_tanslation = None
-        self._right_choice = article
+        self._visible_translation = None
         self._right_answer = False
         self._listener = listener
         self._articles = {}
@@ -56,20 +51,20 @@ class GenderCardModel:
     def start(self, update, context):
         return self._view.send_card(
             update=update,
-            text=self._word,
+            text=self._word.get_word(),
             articles=self._articles,
-            translation=self._visible_tanslation,
+            translation=self._visible_translation,
         )
 
     def check_answer(self, update, context, article):
         if self._right_answer:
             return
-        self._right_answer = article == self._right_choice
+        self._right_answer = article == self._word.get_article()
         self._articles = {
             article: Answers.true if self._right_answer else Answers.false,
         }
         self._view.update_card(update, self._articles,
-                               self._visible_tanslation)
+                               self._visible_translation)
 
         if self._right_answer:
             if not self.is_old:
@@ -79,11 +74,14 @@ class GenderCardModel:
                 )
 
     def show_transaltion(self, update, context):
-        if self._visible_tanslation is not None:
+        if self._visible_translation is not None:
             return
-        self._visible_tanslation = self._translation
-        self._view.update_card(update, self._articles,
-                               self._visible_tanslation)
+        self._visible_translation = self._word.get_translation()
+        self._view.update_card(
+            update=update,
+            articles=self._articles,
+            translation=self._visible_translation,
+        )
 
 
 class GenderCardController:

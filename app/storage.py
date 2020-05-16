@@ -1,84 +1,109 @@
 #!/usr/bin/env python3
 
-import json
 import enum
+import re
+import sqlite3
 
 from app.entities import GermanArticle
 
 
 class CollectionName(enum.Enum):
-    user = "User Collection"
-    top_1000 = "1000 words collection"
+    user = "user"
+    top_1000 = "top1000"
+
+
+class Word:
+    def __init__(
+        self,
+        word,
+        translation,
+        article=None
+    ):
+        self._word = word
+        self._translation = translation
+        self._article = article
+
+    def get_article(self) -> GermanArticle:
+        return self._article
+
+    def get_word(self) -> str:
+        return self._word
+
+    def get_translation(self) -> str:
+        return self._translation
+
+    def is_noun(self) -> bool:
+        return self._article != ""
 
 
 class WordsStorage:
     def __init__(
         self,
-        file_storage_user="words.json",
-        file_storage_1000="1000_words.json",
+        file_db="words.db",
+        init_sql="db.sql"
     ):
-        self.file_storage_user = file_storage_user
-        with open(file_storage_user, 'r') as f:
-            self._storage_data_user = json.load(f)
-        self.file_storage_1000 = file_storage_1000
-        with open(file_storage_1000, 'r') as f:
-            self._storage_data_1000 = json.load(f)
+        self._file_db = file_db
 
-    def get_words_dict(self, user_id, name_collection):
-        get_words = {}
-        if name_collection == CollectionName.user:
-            dict_words = self._storage_data_user.get(str(user_id), {})
-        else:
-            dict_words = self._storage_data_1000.get("0", {})
-        for word, article_trans in dict_words.items():
-            article = article_trans.get("article", "")
-            translation = article_trans.get("translation", "")
-            get_words[word, translation] = GermanArticle(article)
-        return get_words
+        with self._open_conn() as conn:
+            cursor = conn.cursor()
+            with open(init_sql, 'r') as f:
+                cursor.executescript(f.read())
+            conn.commit()
 
-    def _add_word_to_storage(self, user_id, word):
-        word_tokens = word.split()
+    def _open_conn(self):
+        return sqlite3.connect(database=self._file_db)
 
-        if len(word_tokens) != 4:
-            return False
+    def close(self):
+        self._conn.close()
 
-        del word_tokens[2]
+    def get_random_word(self, collection, user_id=None) -> Word:
+        if collection != CollectionName.user:
+            user_id = None
 
-        article, word, translation = word_tokens
+        with self._open_conn() as conn:
+            rows = conn.cursor().execute(
+                """
+                SELECT "word", "translation", "article" FROM words
+                WHERE "collection" = ? OR "user_id" = ?
+                ORDER BY RANDOM()
+                LIMIT 1;
+                """,
+                (collection.value, user_id)
+            )
 
-        article = article.lower()
-        word = word.lower().capitalize()
-        translation = translation.lower().capitalize()
+        try:
+            row = next(rows)
+        except StopIteration:
+            return None
 
-        if article not in [
-            GermanArticle.der.value,
-            GermanArticle.die.value,
-            GermanArticle.das.value
-        ]:
-            return False
+        return Word(
+            word=row[0],
+            translation=row[1],
+            article=GermanArticle(row[2]),
+        )
 
-        if user_id not in self._storage_data:
-            self._storage_data[user_id] = {}
-
-        self._storage_data[user_id][word] = {
-            "article": article,
-            "transaltion": translation,
-        }
-
+    def add_words(self, user_id, word_translations) -> bool:
         return True
 
-    def add_word(self, user_id, word) -> bool:
-        added = self._add_word_to_storage(user_id, word)
-        self._save()
-        return added
+    @staticmethod
+    def parse_word_translation(word_translation):
+        tokens = re.findall(
+            pattern=r'^(der|das|die|)\s*(\w+)\s*-\s*(.+)$',
+            string=word_translation,
+            flags=re.UNICODE | re.IGNORECASE,
+        )
+        if len(tokens) == 0:
+            raise Exception("invalid format")
 
-    def add_many_words(self, user_id, words) -> bool:
-        added = False
-        for word in words:
-            added |= self._add_word_to_storage(user_id, word)
-        self._save()
-        return added
+        article, word, translation = tokens
+        article = GermanArticle(article.lower())
+        word = word.lower()
+        if article != GermanArticle.no:  # Word is noun.
+            word = word.capitalize()
+        translation = translation.lower().capitalize()
 
-    def _save(self):
-        with open(self._file_storage, 'w') as f:
-            json.dump(self._storage_data, f)
+        return Word(
+            article=article,
+            word=word,
+            translation=translation
+        )
