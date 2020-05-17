@@ -95,13 +95,14 @@ class TelegramBotModel:
         user_id = str(update.effective_message.from_user.id)
         words = update.effective_message.text.split("\n")
 
-        if len(words) > 1:
-            added = self._storage.add_many_words(user_id, words)
-        else:
-            added = self._storage.add_word(user_id, words[0])
-
-        if added:
+        if self._storage.add_words_to_user_collection(user_id, words):
             self._view.send_message_reply(update, context, "Saved 🔖")
+        else:
+            self._view.send_message_reply(
+                update=update,
+                context=context,
+                text="Invalid format\nCorrect format is `der Mann - Man`"
+            )
 
 
 class TelegramBotCardEventListener:

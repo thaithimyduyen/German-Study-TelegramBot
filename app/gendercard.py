@@ -8,6 +8,7 @@ from telegram import (
     InlineKeyboardMarkup,
     ParseMode
 )
+import telegram.error
 
 from app.entities import GermanArticle
 
@@ -145,8 +146,12 @@ class GenderCardView:
         ).message_id
 
     def update_card(self, update, articles, translation):
-        return self._bot.edit_message_reply_markup(
-            chat_id=update.effective_message.chat_id,
-            message_id=update.effective_message.message_id,
-            reply_markup=GenderCardView._get_card_markup(articles, translation)
-        )
+        try:
+            return self._bot.edit_message_reply_markup(
+                chat_id=update.effective_message.chat_id,
+                message_id=update.effective_message.message_id,
+                reply_markup=GenderCardView._get_card_markup(
+                    articles, translation)
+            )
+        except telegram.error.BadRequest:
+            return None

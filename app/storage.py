@@ -36,6 +36,10 @@ class Word:
         return self._article != ""
 
 
+class InvalidFormatException(Exception):
+    pass
+
+
 class WordsStorage:
     def __init__(
         self,
@@ -82,7 +86,38 @@ class WordsStorage:
             article=GermanArticle(row[2]),
         )
 
-    def add_words(self, user_id, word_translations) -> bool:
+    def add_words_to_user_collection(self, user_id, word_translations):
+        words = []
+        for word_trans in word_translations:
+            try:
+                word = WordsStorage.parse_word_translation(word_trans)
+                words.append((
+                    word.get_article().value,
+                    word.get_word(),
+                    word.get_translation(),
+                    user_id,
+                    CollectionName.user.value,
+                ))
+            except InvalidFormatException:
+                pass
+
+        if len(words) == 0:
+            return False
+
+        with self._open_conn() as conn:
+            conn.cursor().executemany(
+                """
+                INSERT OR REPLACE INTO words (
+                    "article",
+                    "word",
+                    "translation",
+                    "user_id",
+                    "collection"
+                ) VALUES (?, ?, ?, ?, ?);
+                """, words
+            )
+            conn.commit()
+
         return True
 
     @staticmethod
@@ -92,10 +127,10 @@ class WordsStorage:
             string=word_translation,
             flags=re.UNICODE | re.IGNORECASE,
         )
-        if len(tokens) == 0:
-            raise Exception("invalid format")
+        if len(tokens) == 0 or len(tokens[0]) != 3:
+            raise InvalidFormatException("invalid format: " + word_translation)
 
-        article, word, translation = tokens
+        article, word, translation = tokens[0]
         article = GermanArticle(article.lower())
         word = word.lower()
         if article != GermanArticle.no:  # Word is noun.
