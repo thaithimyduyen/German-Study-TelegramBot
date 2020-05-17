@@ -33,7 +33,7 @@ class Word:
         return self._translation
 
     def is_noun(self) -> bool:
-        return self._article != ""
+        return self._article != GermanArticle.no
 
 
 class InvalidFormatException(Exception):
