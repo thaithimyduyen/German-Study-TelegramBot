@@ -7,6 +7,7 @@ from app.storage import CollectionName
 KEY_USER_DATA_CARDS = "cards"
 KEY_USER_DATA_COUNT = "count"
 KEY_USER_DATA_COLLECTION = "collection"
+KEY_USER_DATA_START = "fisrt_start_user"
 COUNT_REPEAT = 20
 
 
@@ -28,11 +29,21 @@ class TelegramBotModel:
     def start(self, update, context):
         self.change_status_card(update, context)
         context.user_data[KEY_USER_DATA_COLLECTION] = CollectionName.user
-        self.create_gender_card(
-            update=update,
-            context=context,
-            user_id=update.effective_message.from_user.id
-        )
+        if KEY_USER_DATA_START not in context.user_data:
+            self._view.send_message(
+                update=update,
+                context=context,
+                text="Welcome to German-Study-Bot\n" +
+                "/Start - to study with your lists of word\n" +
+                "/Start1000 - to study with our lists of word"
+            )
+        else:
+            self.create_gender_card(
+                update=update,
+                context=context,
+                user_id=update.effective_message.from_user.id
+            )
+        context.user_data[KEY_USER_DATA_START] = True
 
     def start1000(self, update, context):
         self.change_status_card(update, context)
@@ -53,10 +64,7 @@ class TelegramBotModel:
             )
             context.user_data[KEY_USER_DATA_COUNT] = 0
             return
-
-        name_collection = context.user_data.get(
-            KEY_USER_DATA_COLLECTION, CollectionName.user
-        )
+        name_collection = context.user_data[KEY_USER_DATA_COLLECTION]
         word = self._storage.get_random_word(name_collection, user_id)
         if word is None:
             self._view.send_message_reply(

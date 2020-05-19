@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 
-from telegram import ParseMode
+from telegram import ParseMode, ReplyKeyboardMarkup
+
+CUSTOM_KEYBOARD = [
+    ["/start", "/start1000"]
+]
 
 
 class TelegramBotViewer:
@@ -16,7 +20,10 @@ class TelegramBotViewer:
         )
 
     def send_message(self, update, context, text):
+        reply_markup = ReplyKeyboardMarkup(
+            CUSTOM_KEYBOARD, resize_keyboard=True)
         self._bot.send_message(
             chat_id=update.effective_message.chat_id,
             text=text,
+            reply_markup=reply_markup,
         )
