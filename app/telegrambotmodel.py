@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-
 from app.gendercard import GenderCard
 from app.storage import CollectionName
 
@@ -111,6 +110,59 @@ class TelegramBotModel:
                 context=context,
                 text="Invalid format\nCorrect format is `der Mann - Man`"
             )
+
+    def delete_word(self, update, context):
+        cards = context.user_data.get(KEY_USER_DATA_CARDS, {})
+        collection = context.user_data.get(
+            KEY_USER_DATA_COLLECTION,
+            CollectionName.top_1000
+        )
+        if len(cards) == 0 or collection != CollectionName.user:
+            self._view.send_message_reply(
+                update=update,
+                context=context,
+                text="Can not delete last word"
+            )
+            return
+
+        last_msg_id = max(cards)
+        card = cards[last_msg_id]
+
+        if card.model.is_old:
+            self._view.send_message_reply(
+                update=update,
+                context=context,
+                text="Current session has no cards to delete"
+            )
+            return
+
+        if card.model.is_deleted():
+            self._view.send_message_reply(
+                update=update,
+                context=context,
+                text="Already deleted"
+            )
+            return
+
+        word = card.model.get_word()
+        user_id = update.effective_message.from_user.id
+
+        self._storage.delete_word_from_user_collection(user_id, word)
+
+        card.model.set_as_deleted(update, context)
+
+        self._view.send_message_reply(
+            update=update,
+            context=context,
+            text="Deleted",
+            message_id=last_msg_id,
+        )
+
+        self.create_gender_card(
+            update=update,
+            context=context,
+            user_id=update.effective_message.from_user.id,
+        )
 
 
 class TelegramBotCardEventListener:

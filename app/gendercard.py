@@ -2,6 +2,7 @@
 
 import logging
 import enum
+import copy
 
 from telegram import (
     InlineKeyboardButton,
@@ -46,16 +47,32 @@ class GenderCardModel:
         self._right_answer = False
         self._listener = listener
         self._articles = {}
-
+        self._message_id = None
+        self._is_deleted = False
         self.is_old = False
 
+    def set_as_deleted(self, update, context):
+        self._view.update_card_as_deleted(
+            update=update,
+            context=context,
+            message_id=self._message_id,
+        )
+        self._is_deleted = True
+
+    def is_deleted(self) -> bool:
+        return self._is_deleted
+
+    def get_word(self):
+        return copy.copy(self._word)
+
     def start(self, update, context):
-        return self._view.send_card(
+        self._message_id = self._view.send_card(
             update=update,
             word=self._word,
             articles=self._articles,
             translation=self._visible_translation,
         )
+        return self._message_id
 
     def check_answer(self, update, context, article):
         if self._right_answer:
@@ -173,3 +190,10 @@ class GenderCardView:
             )
         except telegram.error.BadRequest:
             return None
+
+    def update_card_as_deleted(self, update, context, message_id):
+        return self._bot.edit_message_reply_markup(
+            chat_id=update.effective_message.chat_id,
+            message_id=message_id,
+            reply_markup=None
+        )

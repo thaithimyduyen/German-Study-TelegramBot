@@ -17,7 +17,7 @@ class Word:
         self,
         word,
         translation,
-        article=None
+        article=GermanArticle.no
     ):
         self._word = word
         self._translation = translation
@@ -119,6 +119,22 @@ class WordsStorage:
             conn.commit()
 
         return True
+
+    def delete_word_from_user_collection(self, user_id, word):
+        with self._open_conn() as conn:
+            conn.cursor().execute(
+                """
+                DELETE FROM words WHERE
+                    "word" = ? AND
+                    "user_id" = ? AND
+                    "collection" = ?;
+                """, (
+                    word.get_word(),
+                    user_id,
+                    CollectionName.user.value,
+                )
+            )
+            conn.commit()
 
     @staticmethod
     def parse_word_translation(word_translation):

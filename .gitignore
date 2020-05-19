@@ -1,9 +1,10 @@
 # Secrets
 token.txt
 
-# Database.
+# Storage.
 words.db
 words.db-journal
+presistence_storage
 
 # Editor and OS.
 

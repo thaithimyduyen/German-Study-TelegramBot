@@ -19,6 +19,9 @@ class TelegramBotController:
             CommandHandler('start1000', self._handle_start1000)
         )
         updater.dispatcher.add_handler(
+            CommandHandler('delete', self._handle_delete)
+        )
+        updater.dispatcher.add_handler(
             CallbackQueryHandler(self._handle_button_clicked)
         )
         updater.dispatcher.add_handler(
@@ -39,3 +42,6 @@ class TelegramBotController:
 
     def _handle_text(self, update, context):
         self._model.to_storage(update, context)
+
+    def _handle_delete(self, update, context):
+        self._model.delete_word(update, context)
