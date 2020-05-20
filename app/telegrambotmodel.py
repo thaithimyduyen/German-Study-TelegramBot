@@ -43,6 +43,7 @@ class TelegramBotModel:
                 context=context,
                 user_id=update.effective_message.from_user.id
             )
+            context.user_data[KEY_USER_DATA_COUNT] = 1
         context.user_data[KEY_USER_DATA_START] = True
 
     def start1000(self, update, context):
@@ -54,6 +55,9 @@ class TelegramBotModel:
             context=context,
             user_id=update.effective_message.from_user.id,
         )
+
+        context.user_data[KEY_USER_DATA_START] = True
+        context.user_data[KEY_USER_DATA_COUNT] = 1
 
     def create_card(self, update, context, user_id):
         if context.user_data.get(KEY_USER_DATA_COUNT) == COUNT_REPEAT:

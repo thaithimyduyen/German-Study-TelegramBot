@@ -90,7 +90,6 @@ class GenderCardModel:
             update=update,
             articles=self._articles,
             translation=self._visible_translation,
-            is_noun=self._word.is_noun,
         )
 
         if self._right_answer and not self.is_old:
@@ -102,14 +101,11 @@ class GenderCardModel:
     def show_translation(self, update, context):
         if self._visible_translation is not None:
             return
-        if not self._word.is_noun:
-            self._listener.on_correct_answer_clicked(update, context)
         self._visible_translation = self._word.get_translation()
         self._view.update_card(
             update=update,
             articles=self._articles,
             translation=self._visible_translation,
-            is_noun=self._word.is_noun
         )
 
     def set_as_deleted(self, update, context):
@@ -142,7 +138,7 @@ class GenderCardView:
         self._bot = bot
 
     @staticmethod
-    def _get_card_markup(articles, translation, is_noun):
+    def _get_card_markup(articles, translation):
         def get_text(article):
             return article.value + " " + \
                 articles.get(article, Answers.none).value
@@ -151,27 +147,25 @@ class GenderCardView:
         if translation is None:
             translation_text = "Show translation"
 
-        keyboard = []
-        if is_noun:
-            keyboard.append([
-                InlineKeyboardButton(
-                    text=get_text(GermanArticle.der),
-                    callback_data=GermanArticle.der.value
-                ),
-                InlineKeyboardButton(
-                    text=get_text(GermanArticle.das),
-                    callback_data=GermanArticle.das.value
-                ),
-                InlineKeyboardButton(
-                    text=get_text(GermanArticle.die),
-                    callback_data=GermanArticle.die.value
-                )
-            ])
-        keyboard.append([
+        keyboard = [[
+            InlineKeyboardButton(
+                text=get_text(GermanArticle.der),
+                callback_data=GermanArticle.der.value
+            ),
+            InlineKeyboardButton(
+                text=get_text(GermanArticle.das),
+                callback_data=GermanArticle.das.value
+            ),
+            InlineKeyboardButton(
+                text=get_text(GermanArticle.die),
+                callback_data=GermanArticle.die.value
+            )
+        ], [
             InlineKeyboardButton(
                 text=translation_text,
-                callback_data="translation")
-        ])
+                callback_data="translation",
+            )
+        ]]
 
         return InlineKeyboardMarkup(keyboard)
 
@@ -179,7 +173,6 @@ class GenderCardView:
         markup = GenderCardView._get_card_markup(
             articles=articles,
             translation=translation,
-            is_noun=word.is_noun,
         )
         return self._bot.send_message(
             chat_id=update.effective_message.chat_id,
@@ -188,11 +181,10 @@ class GenderCardView:
             parse_mode=ParseMode.MARKDOWN
         ).message_id
 
-    def update_card(self, update, articles, translation, is_noun):
+    def update_card(self, update, articles, translation):
         reply_markup = GenderCardView._get_card_markup(
             articles=articles,
             translation=translation,
-            is_noun=is_noun
         )
         try:
             return self._bot.edit_message_reply_markup(

@@ -51,8 +51,8 @@ class KnowledgeCard:
 
 
 class Knowledge(enum.Enum):
-    true = "Know ✅"
-    false = "Forget ❌"
+    true = "✅"
+    false = "❌"
 
 
 class KnowledgeCardModel:
@@ -71,10 +71,10 @@ class KnowledgeCardModel:
         )
         return self._message_id
 
-    def show_translation(self, update, context):
+    def show_translation(self, update, context, knowledge):
         self._view.update_card(
             update=update,
-            translation=self._word.get_translation(),
+            translation=self._word.get_translation() + " " + knowledge.value,
         )
         self._listener.on_correct_answer_clicked(update, context)
 
@@ -93,8 +93,18 @@ class KnowledgeCardController:
 
     def button_clicked(self, update, context):
         query_data = update.callback_query.data
-        if query_data in ["know", "forgot"]:
-            self._model.show_translation(update, context)
+        if query_data == "know":
+            self._model.show_translation(
+                update=update,
+                context=context,
+                knowledge=Knowledge.true,
+            )
+        elif query_data == "forgot":
+            self._model.show_translation(
+                update=update,
+                context=context,
+                knowledge=Knowledge.false,
+            )
 
 
 class KnowledgeCardView:
@@ -106,15 +116,16 @@ class KnowledgeCardView:
 
         keyboard = [[
             InlineKeyboardButton(
-                text=Knowledge.true.value,
+                text="Know " + Knowledge.true.value,
                 callback_data="know"
             ),
             InlineKeyboardButton(
-                text=Knowledge.false.value,
+                text="Forgot " + Knowledge.false.value,
                 callback_data="forgot"
             ),
         ]]
         if translation is not None:
+            keyboard.pop(0)
             keyboard.append([
                 InlineKeyboardButton(
                     text=translation,
