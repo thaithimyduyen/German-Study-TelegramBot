@@ -32,6 +32,7 @@ class Word:
     def get_translation(self) -> str:
         return self._translation
 
+    @property
     def is_noun(self) -> bool:
         return self._article != GermanArticle.no
 

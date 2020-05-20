@@ -21,16 +21,36 @@ logging.basicConfig(
 
 class GenderCard:
     def __init__(self, bot, word, listener):
-        self.view = GenderCardView(bot)
-        self.model = GenderCardModel(
-            view=self.view,
+        self._view = GenderCardView(bot)
+        self._model = GenderCardModel(
+            view=self._view,
             word=word,
             listener=listener,
         )
-        self.controller = GenderCardController(self.model)
+        self._controller = GenderCardController(self._model)
+        self._is_deleted = False
 
     def set_old(self):
-        self.model.is_old = True
+        self._model.is_old = True
+
+    @property
+    def is_old(self):
+        return self._model.is_old
+
+    def set_as_deleted(self, update, context):
+        self._model.set_as_deleted(update, context)
+
+    def is_deleted(self) -> bool:
+        return self._is_deleted
+
+    def get_word(self):
+        return copy.copy(self._model._word)
+
+    def start(self, update, context) -> str:
+        return self._model.start(update, context)
+
+    def button_clicked(self, update, context):
+        self._controller.button_clicked(update, context)
 
 
 class Answers(enum.Enum):
@@ -48,24 +68,9 @@ class GenderCardModel:
         self._listener = listener
         self._articles = {}
         self._message_id = None
-        self._is_deleted = False
         self.is_old = False
 
-    def set_as_deleted(self, update, context):
-        self._view.update_card_as_deleted(
-            update=update,
-            context=context,
-            message_id=self._message_id,
-        )
-        self._is_deleted = True
-
-    def is_deleted(self) -> bool:
-        return self._is_deleted
-
-    def get_word(self):
-        return copy.copy(self._word)
-
-    def start(self, update, context):
+    def start(self, update, context) -> str:
         self._message_id = self._view.send_card(
             update=update,
             word=self._word,
@@ -85,28 +90,35 @@ class GenderCardModel:
             update=update,
             articles=self._articles,
             translation=self._visible_translation,
-            is_noun=self._word.is_noun(),
+            is_noun=self._word.is_noun,
         )
 
-        if self._right_answer:
-            if not self.is_old:
-                self._listener.on_correct_answer_clicked(
-                    update=update,
-                    context=context,
-                )
+        if self._right_answer and not self.is_old:
+            self._listener.on_correct_answer_clicked(
+                update=update,
+                context=context,
+            )
 
     def show_translation(self, update, context):
         if self._visible_translation is not None:
             return
-        if not self._word.is_noun():
+        if not self._word.is_noun:
             self._listener.on_correct_answer_clicked(update, context)
         self._visible_translation = self._word.get_translation()
         self._view.update_card(
             update=update,
             articles=self._articles,
             translation=self._visible_translation,
-            is_noun=self._word.is_noun()
+            is_noun=self._word.is_noun
         )
+
+    def set_as_deleted(self, update, context):
+        self._view.update_card_as_deleted(
+            update=update,
+            context=context,
+            message_id=self._message_id,
+        )
+        self._is_deleted = True
 
 
 class GenderCardController:
@@ -167,7 +179,7 @@ class GenderCardView:
         markup = GenderCardView._get_card_markup(
             articles=articles,
             translation=translation,
-            is_noun=word.is_noun(),
+            is_noun=word.is_noun,
         )
         return self._bot.send_message(
             chat_id=update.effective_message.chat_id,

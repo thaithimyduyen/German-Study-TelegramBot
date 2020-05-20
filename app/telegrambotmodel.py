@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 from app.gendercard import GenderCard
+from app.knowledgecard import KnowledgeCard
 from app.storage import CollectionName
 
 KEY_USER_DATA_CARDS = "cards"
@@ -37,7 +38,7 @@ class TelegramBotModel:
                 "/Start1000 - to study with our lists of word"
             )
         else:
-            self.create_gender_card(
+            self.create_card(
                 update=update,
                 context=context,
                 user_id=update.effective_message.from_user.id
@@ -47,13 +48,14 @@ class TelegramBotModel:
     def start1000(self, update, context):
         self.change_status_card(update, context)
         context.user_data[KEY_USER_DATA_COLLECTION] = CollectionName.top_1000
-        self.create_gender_card(
+
+        self.create_card(
             update=update,
             context=context,
             user_id=update.effective_message.from_user.id,
         )
 
-    def create_gender_card(self, update, context, user_id):
+    def create_card(self, update, context, user_id):
         if context.user_data.get(KEY_USER_DATA_COUNT) == COUNT_REPEAT:
             self._view.send_message(
                 update=update,
@@ -74,17 +76,26 @@ class TelegramBotModel:
                 "/Start1000 to begin with predefined words collection"
             )
             return
-        card = GenderCard(
-            bot=self._bot,
-            word=word,
-            listener=TelegramBotCardEventListener(self),
-        )
+
+        is_noun = word.is_noun
+        if is_noun:
+            card = GenderCard(
+                bot=self._bot,
+                word=word,
+                listener=TelegramBotCardEventListener(self),
+            )
+        else:
+            card = KnowledgeCard(
+                bot=self._bot,
+                word=word,
+                listener=TelegramBotCardEventListener(self),
+            )
 
         if KEY_USER_DATA_COUNT not in context.user_data:
             context.user_data[KEY_USER_DATA_COUNT] = 0
         context.user_data[KEY_USER_DATA_COUNT] += 1
 
-        message_id = card.model.start(update, context)
+        message_id = card.start(update, context)
 
         cards = context.user_data.get(KEY_USER_DATA_CARDS, {})
         cards[message_id] = card
@@ -96,7 +107,7 @@ class TelegramBotModel:
         if message_id not in dict_card:
             return
         card = dict_card[message_id]
-        card.controller.button_clicked(update, context)
+        card.button_clicked(update, context)
 
     def to_storage(self, update, context):
         user_id = str(update.effective_message.from_user.id)
@@ -128,7 +139,7 @@ class TelegramBotModel:
         last_msg_id = max(cards)
         card = cards[last_msg_id]
 
-        if card.model.is_old:
+        if card.is_old:
             self._view.send_message_reply(
                 update=update,
                 context=context,
@@ -136,7 +147,7 @@ class TelegramBotModel:
             )
             return
 
-        if card.model.is_deleted():
+        if card.is_deleted():
             self._view.send_message_reply(
                 update=update,
                 context=context,
@@ -144,12 +155,12 @@ class TelegramBotModel:
             )
             return
 
-        word = card.model.get_word()
+        word = card.get_word()
         user_id = update.effective_message.from_user.id
 
         self._storage.delete_word_from_user_collection(user_id, word)
 
-        card.model.set_as_deleted(update, context)
+        card.set_as_deleted(update, context)
 
         self._view.send_message_reply(
             update=update,
@@ -158,7 +169,7 @@ class TelegramBotModel:
             message_id=last_msg_id,
         )
 
-        self.create_gender_card(
+        self.create_card(
             update=update,
             context=context,
             user_id=update.effective_message.from_user.id,
@@ -170,7 +181,7 @@ class TelegramBotCardEventListener:
         self._model = model
 
     def on_correct_answer_clicked(self, update, context):
-        self._model.create_gender_card(
+        self._model.create_card(
             update=update,
             context=context,
             user_id=update.callback_query.from_user.id,
