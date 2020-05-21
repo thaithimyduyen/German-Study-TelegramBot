@@ -7,6 +7,7 @@ from telegram import (
     InlineKeyboardMarkup,
     ParseMode
 )
+from app.entities import KnowledgeStatus
 import telegram.error
 
 
@@ -72,11 +73,18 @@ class KnowledgeCardModel:
         return self._message_id
 
     def show_translation(self, update, context, knowledge):
+        knowledge_status = KnowledgeStatus.new_word_know
+        if knowledge == Knowledge.false:
+            knowledge_status = KnowledgeStatus.new_word_forgot
         self._view.update_card(
             update=update,
             translation=self._word.get_translation() + " " + knowledge.value,
         )
-        self._listener.on_correct_answer_clicked(update, context)
+        self._listener.on_correct_answer_clicked(
+            update=update,
+            context=context,
+            knowledge_status=knowledge_status,
+        )
 
     def set_as_deleted(self, update, context):
         self._view.update_card_as_deleted(

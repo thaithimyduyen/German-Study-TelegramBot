@@ -37,4 +37,5 @@ class TelegramBotViewer:
             chat_id=update.effective_message.chat_id,
             text=text,
             reply_markup=reply_markup,
+            parse_mode=ParseMode.MARKDOWN,
         )

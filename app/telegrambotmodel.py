@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 from app.gendercard import GenderCard
+from app.entities import KnowledgeStatus
 from app.knowledgecard import KnowledgeCard
 from app.storage import CollectionName
 
@@ -8,7 +9,8 @@ KEY_USER_DATA_CARDS = "cards"
 KEY_USER_DATA_COUNT = "count"
 KEY_USER_DATA_COLLECTION = "collection"
 KEY_USER_DATA_START = "fisrt_start_user"
-COUNT_REPEAT = 20
+KEY_USER_DATA_RESULT = "result_study"
+COUNT = 20
 
 
 class TelegramBotModel:
@@ -41,7 +43,7 @@ class TelegramBotModel:
             self.create_card(
                 update=update,
                 context=context,
-                user_id=update.effective_message.from_user.id
+                user_id=update.effective_message.from_user.id,
             )
             context.user_data[KEY_USER_DATA_COUNT] = 1
         context.user_data[KEY_USER_DATA_START] = True
@@ -60,14 +62,38 @@ class TelegramBotModel:
         context.user_data[KEY_USER_DATA_COUNT] = 1
 
     def create_card(self, update, context, user_id):
-        if context.user_data.get(KEY_USER_DATA_COUNT) == COUNT_REPEAT:
+        if context.user_data.get(KEY_USER_DATA_COUNT) == COUNT:
+            result = context.user_data[KEY_USER_DATA_RESULT]
+            text = (
+                "_*Your result:*_\n\n" +
+                "*Articles*:\n\n" +
+                " - Right in first time: {} word(s)\n" +
+                " - Right in second time: {} word(s)\n" +
+                " - Right in third time: {} word(s)\n\n"
+                "*New words*:\n\n" +
+                " - Know: {} word(s)\n" +
+                " - Forgot: {} word(s)\n"
+            ).format(
+                result[KnowledgeStatus.article_right_first_time.value],
+                result[KnowledgeStatus.article_right_second_time.value],
+                result[KnowledgeStatus.article_right_third_time.value],
+                result[KnowledgeStatus.new_word_know.value],
+                result[KnowledgeStatus.new_word_forgot.value]
+            )
+            self._view.send_message(
+                update=update,
+                context=context,
+                text=text,
+            )
             self._view.send_message(
                 update=update,
                 context=context,
                 text="You complete session 🎉\n" +
                 "/Start or /Start1000 to continue ➡️",
             )
+
             context.user_data[KEY_USER_DATA_COUNT] = 0
+            self._clear_user_result(context)
             return
         name_collection = context.user_data[KEY_USER_DATA_COLLECTION]
         word = self._storage.get_random_word(name_collection, user_id)
@@ -104,6 +130,20 @@ class TelegramBotModel:
         cards = context.user_data.get(KEY_USER_DATA_CARDS, {})
         cards[message_id] = card
         context.user_data[KEY_USER_DATA_CARDS] = cards
+
+    def _clear_user_result(self, context):
+        context.user_data[KEY_USER_DATA_RESULT] = {
+            KnowledgeStatus.article_right_first_time.value: 0,
+            KnowledgeStatus.article_right_second_time.value: 0,
+            KnowledgeStatus.article_right_third_time.value: 0,
+            KnowledgeStatus.new_word_know.value: 0,
+            KnowledgeStatus.new_word_forgot.value: 0
+        }
+
+    def knowledge_result(self, update, context, knowledge_status):
+        if KEY_USER_DATA_RESULT not in context.user_data:
+            self._clear_user_result(context)
+        context.user_data[KEY_USER_DATA_RESULT][knowledge_status.value] += 1
 
     def card_button_clicked(self, update, context):
         dict_card = context.user_data.get(KEY_USER_DATA_CARDS, {})
@@ -184,7 +224,12 @@ class TelegramBotCardEventListener:
     def __init__(self, model):
         self._model = model
 
-    def on_correct_answer_clicked(self, update, context):
+    def on_correct_answer_clicked(self, update, context, knowledge_status):
+        self._model.knowledge_result(
+            update=update,
+            context=context,
+            knowledge_status=knowledge_status
+        )
         self._model.create_card(
             update=update,
             context=context,

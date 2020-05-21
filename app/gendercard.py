@@ -11,7 +11,7 @@ from telegram import (
 )
 import telegram.error
 
-from app.entities import GermanArticle
+from app.entities import GermanArticle, KnowledgeStatus
 
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
@@ -69,6 +69,7 @@ class GenderCardModel:
         self._articles = {}
         self._message_id = None
         self.is_old = False
+        self._knowledge_status_count = 0
 
     def start(self, update, context) -> str:
         self._message_id = self._view.send_card(
@@ -91,11 +92,19 @@ class GenderCardModel:
             articles=self._articles,
             translation=self._visible_translation,
         )
+        self._knowledge_status_count += 1
+        if self._knowledge_status_count == 1:
+            knowledge_status = KnowledgeStatus.article_right_first_time
+        elif self._knowledge_status_count == 2:
+            knowledge_status = KnowledgeStatus.article_right_second_time
+        elif self._knowledge_status_count == 3:
+            knowledge_status = KnowledgeStatus.article_right_third_time
 
         if self._right_answer and not self.is_old:
             self._listener.on_correct_answer_clicked(
                 update=update,
                 context=context,
+                knowledge_status=knowledge_status
             )
 
     def show_translation(self, update, context):
