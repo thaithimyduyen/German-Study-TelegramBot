@@ -99,6 +99,14 @@ class WordsStorage:
                     user_id,
                     CollectionName.user.value,
                 ))
+                if word.get_article() == GermanArticle.no:
+                    words.append((
+                        word.get_article().value,
+                        word.get_translation(),
+                        word.get_word(),
+                        user_id,
+                        CollectionName.user.value,
+                    ))
             except InvalidFormatException:
                 pass
 
