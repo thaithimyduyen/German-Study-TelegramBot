@@ -154,7 +154,7 @@ class TelegramBotModel:
         words = update.effective_message.text.split("\n")
 
         if self._storage.add_words_to_user_collection(user_id, words):
-            self._view.send_message_reply(update, context, "Saved 🔖")
+            self._view.send_message_reply(update, "Saved 🔖")
         else:
             self._view.send_message_reply(
                 update=update,
@@ -217,7 +217,7 @@ class TelegramBotModel:
         self._view.send_message_reply(
             update=update,
             message_id=message_id,
-            text="All words is deleted"
+            text="All words are deleted"
         )
 
 
