@@ -145,6 +145,20 @@ class WordsStorage:
             )
             conn.commit()
 
+    def delete_all_from_user_collection(self, user_id):
+        with self._open_conn() as conn:
+            conn.cursor().execute(
+                """
+                DELETE FROM words WHERE
+                    "user_id" = ? AND
+                    "collection" = ?;
+                """, (
+                    user_id,
+                    CollectionName.user.value,
+                )
+            )
+            conn.commit()
+
     @staticmethod
     def parse_word_translation(word_translation):
         tokens = re.findall(

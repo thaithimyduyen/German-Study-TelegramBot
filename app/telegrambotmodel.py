@@ -34,7 +34,6 @@ class TelegramBotModel:
         if KEY_USER_DATA_START not in context.user_data:
             self._view.send_message(
                 update=update,
-                context=context,
                 text="Welcome to German-Study-Bot\n" +
                 "/Start - to study with your lists of word\n" +
                 "/Start1000 - to study with our lists of word"
@@ -82,12 +81,10 @@ class TelegramBotModel:
             )
             self._view.send_message(
                 update=update,
-                context=context,
                 text=text,
             )
             self._view.send_message(
                 update=update,
-                context=context,
                 text="You complete session 🎉\n" +
                 "/Start or /Start1000 to continue ➡️",
             )
@@ -100,7 +97,6 @@ class TelegramBotModel:
         if word is None:
             self._view.send_message_reply(
                 update=update,
-                context=context,
                 text="No words. Add words in format: `der Mann - Man`" +
                 "\n\n*OR*\n\n" +
                 "/Start1000 to begin with predefined words collection"
@@ -162,7 +158,6 @@ class TelegramBotModel:
         else:
             self._view.send_message_reply(
                 update=update,
-                context=context,
                 text="Invalid format\nCorrect format is `der Mann - Man`"
             )
 
@@ -175,7 +170,6 @@ class TelegramBotModel:
         if len(cards) == 0 or collection != CollectionName.user:
             self._view.send_message_reply(
                 update=update,
-                context=context,
                 text="Can not delete last word"
             )
             return
@@ -186,7 +180,6 @@ class TelegramBotModel:
         if card.is_old:
             self._view.send_message_reply(
                 update=update,
-                context=context,
                 text="Current session has no cards to delete"
             )
             return
@@ -194,7 +187,6 @@ class TelegramBotModel:
         if card.is_deleted():
             self._view.send_message_reply(
                 update=update,
-                context=context,
                 text="Already deleted"
             )
             return
@@ -208,7 +200,6 @@ class TelegramBotModel:
 
         self._view.send_message_reply(
             update=update,
-            context=context,
             text="Deleted",
             message_id=last_msg_id,
         )
@@ -217,6 +208,16 @@ class TelegramBotModel:
             update=update,
             context=context,
             user_id=update.effective_message.from_user.id,
+        )
+
+    def delete_all(self, update, context):
+        user_id = update.effective_message.from_user.id
+        message_id = update.effective_message.message_id
+        self._storage.delete_all_from_user_collection(user_id)
+        self._view.send_message_reply(
+            update=update,
+            message_id=message_id,
+            text="All words is deleted"
         )
 
 

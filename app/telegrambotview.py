@@ -3,7 +3,7 @@
 from telegram import ParseMode, ReplyKeyboardMarkup
 
 CUSTOM_KEYBOARD = [
-    ["/start", "/start1000", "/delete"]
+    ["/start", "/start1000", "/delete", "/delete_all"]
 ]
 
 
@@ -14,7 +14,6 @@ class TelegramBotViewer:
     def send_message_reply(
         self,
         update,
-        context,
         text,
         message_id=None,
     ):
@@ -30,7 +29,7 @@ class TelegramBotViewer:
             reply_markup=reply_markup,
         )
 
-    def send_message(self, update, context, text):
+    def send_message(self, update, text):
         reply_markup = ReplyKeyboardMarkup(
             CUSTOM_KEYBOARD, resize_keyboard=True)
         self._bot.send_message(
