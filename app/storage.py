@@ -69,7 +69,7 @@ class WordsStorage:
             rows = conn.cursor().execute(
                 """
                 SELECT "word", "translation", "article" FROM words
-                WHERE "collection" = ? OR "user_id" = ?
+                WHERE "collection" = ? AND "user_id" = ?
                 ORDER BY RANDOM()
                 LIMIT 1;
                 """,

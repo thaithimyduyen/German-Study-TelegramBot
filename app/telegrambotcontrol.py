@@ -25,6 +25,9 @@ class TelegramBotController:
             CommandHandler('delete_all', self._handle_delete_all)
         )
         updater.dispatcher.add_handler(
+            CommandHandler('delete_all_yes', self._handle_delete_all_yes)
+        )
+        updater.dispatcher.add_handler(
             CallbackQueryHandler(self._handle_button_clicked)
         )
         updater.dispatcher.add_handler(
@@ -50,4 +53,7 @@ class TelegramBotController:
         self._model.delete_word(update, context)
 
     def _handle_delete_all(self, update, context):
+        self._model.accept_delete(update, context)
+
+    def _handle_delete_all_yes(self, update, context):
         self._model.delete_all(update, context)

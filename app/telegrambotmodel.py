@@ -210,6 +210,13 @@ class TelegramBotModel:
             user_id=update.effective_message.from_user.id,
         )
 
+    def accept_delete(self, update, context):
+        self._view.send_message_reply(
+            update=update,
+            message_id=update.effective_message.message_id,
+            text="If you are sure, command /delete\\_all\\_yes"
+        )
+
     def delete_all(self, update, context):
         user_id = update.effective_message.from_user.id
         message_id = update.effective_message.message_id

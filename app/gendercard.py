@@ -12,14 +12,14 @@ from telegram import (
 import telegram.error
 
 from app.entities import GermanArticle, KnowledgeStatus
-
+from app.card import Card
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     level=logging.INFO
 )
 
 
-class GenderCard:
+class GenderCard(Card):
     def __init__(self, bot, word, listener):
         self._view = GenderCardView(bot)
         self._model = GenderCardModel(

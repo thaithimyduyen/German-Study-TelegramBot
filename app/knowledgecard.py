@@ -2,13 +2,15 @@ import logging
 import enum
 import copy
 
+import telegram.error
+
 from telegram import (
     InlineKeyboardButton,
     InlineKeyboardMarkup,
     ParseMode
 )
 from app.entities import KnowledgeStatus
-import telegram.error
+from app.card import Card
 
 
 logging.basicConfig(
@@ -17,7 +19,7 @@ logging.basicConfig(
 )
 
 
-class KnowledgeCard:
+class KnowledgeCard(Card):
     def __init__(self, bot, word, listener):
         self._view = KnowledgeCardView(bot)
         self._model = KnowledgeCardModel(
