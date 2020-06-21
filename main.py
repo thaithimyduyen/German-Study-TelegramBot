@@ -5,7 +5,7 @@ TOKEN_FILE = "./token.txt"
 
 def main():
     with open(TOKEN_FILE, 'r') as f:
-        token = f.read()
+        token = f.readline()
     bot = StudyGermanTelegramBot(token=token)
     bot.run()
 

@@ -140,7 +140,7 @@ class WordsStorage:
     @staticmethod
     def parse_word_translation(word_translation):
         tokens = re.findall(
-            pattern=r'^(der|das|die|)\s*(\w+)\s*-\s*(.+)$',
+            pattern=r'^(der|das|die|)\s*([\w\s]+)\s*-\s*(.+)$',
             string=word_translation,
             flags=re.UNICODE | re.IGNORECASE,
         )
