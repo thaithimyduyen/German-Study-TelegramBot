@@ -8,7 +8,7 @@ After completing 20 cards. You will get the result and score of your process.
 
 ### How to use ?
 
-1. Create token file `make token.txt` and past your bot token here.
+1. Create token file `make token.txt` and paste your bot token here.
 2. Start bot `make`.
 
 ### License
